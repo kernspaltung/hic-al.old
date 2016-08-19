@@ -20,7 +20,7 @@
 
    </section>
 
-   <header id="cabecera" class="container-fluid w-100 h-15-v z1k1" data-spy="affix"  data-offset-top="0">
+   <header id="cabecera" class="container-fluid w-100 h-15-v z1k1 transition-top" data-spy="affix"  data-offset-top="0">
       Cabecera
    </header><!-- /.container -->
 
@@ -31,7 +31,7 @@
       <section class="container h-80-v"></section>
    </main>
 
-   <footer id="pie-pagina" class="container-fluid navbar w-100 color_primario_bg h-5-v">
+   <footer id="pie-pagina" class="container-fluid navbar w-100 color_primario_bg h-5-v transition-top" data-spy="affix" data-offset-top="2000">
        <!-- data-spy="affix" data-offset-top="205"> -->
       <ul id="redes" class="col-md-6 col-lg-4">
          <li class="col-xs-3 text-center">

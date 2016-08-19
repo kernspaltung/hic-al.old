@@ -21,3 +21,14 @@ div,header,footer,section,article {
 .affix {
   top: 0px;
 }
+
+
+footer.affix {
+   top:90vh;
+}
+
+
+
+.transition-top {
+   transition: top 2s ease-in-out;
+}

@@ -4,9 +4,12 @@ $(document).ready(function(){
       offset: {
          top: $('#cabecera').offset().top
       }
-    // offset: {
-      //   top: $('#portada').height()
-      // }
+   });
+
+   $('#pie-pagina').affix({
+      offset: {
+         top: $(window).height() / 2
+      }
    });
 
 });
