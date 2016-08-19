@@ -20,7 +20,7 @@ var config = {
     projectName: 'r4m4z4',
      sassDir: './src/scss',
      bowerDir: './bower_components' ,
-     utils: './recursos/utils' ,
+     utils: './recursos' ,
 }
 
 var paths = {
@@ -51,7 +51,7 @@ var paths = {
 gulp.task('html', function() {
    return gulp.src( paths.html )
    .pipe(gulp.dest('dist/'))
-   .pipe(notify({ message: 'Html copiado' }));
+   // .pipe(notify({ message: 'Html copiado' }));
 
 });
 

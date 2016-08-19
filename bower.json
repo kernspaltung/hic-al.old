@@ -1,0 +1,25 @@
+{
+  "name": "r4m4z4",
+  "description": "Theme de Wordpress para Jorge Ramirez",
+  "main": "index.php",
+  "authors": [
+    "furenku"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/furenku/r4m4z4",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.7",
+    "font-awesome": "fontawesome#^4.6.3",
+    "imgLiquid": "^0.9.944",
+    "jquery": "^3.1.0"
+  }
+}
