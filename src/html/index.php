@@ -2,7 +2,7 @@
 
 <?php for ($i=0; $i < 3; $i++) : ?>
 
-   <section class="container h-80-v"></section>
+   <section class="h-80-v"></section>
 
 <?php endfor; ?>
 

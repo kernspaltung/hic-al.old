@@ -1,8 +1,12 @@
+u=new Utils();
+
+// u.addWindowResizeFunction( u.verticalCenter );
+
 $(document).ready(function(){
 
    $('#cabecera').affix({
       offset: {
-         top: $('#cabecera').offset().top
+         top: $(window).height()/2//$('#portada').offset().top
       }
    });
 
@@ -12,13 +16,7 @@ $(document).ready(function(){
       }
    });
 
-   $('.v-center').each(function(){
-      var parent = $(this);
-      var totalH = 0;
-      parent.children().each(function(){
-         totalH += parseInt($(this).outerHeight(true));
-      });
-      parent.css({paddingTop: ( parent.height() - totalH ) / 2 });
-   });
+   u.verticalCenter();
+
 
 });

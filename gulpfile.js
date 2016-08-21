@@ -37,7 +37,8 @@ var paths = {
    js: [
       config.bowerDir + '/jquery/dist/jquery.js',
       config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.min.js',
-      config.utils + '/js_utils/dist/frontendutils.js',
+      config.bowerDir + '/paper/dist/paper-full.min.js',
+      config.utils + '/js_utils/dist/js_utils.min.js',
       'src/js/*.js'
    ],
    fonts: [
@@ -80,7 +81,7 @@ gulp.task('js', function() {
    // .pipe(jshint('.jshintrc'))
    // .pipe(jshint.reporter('default'))
    .pipe(concat( config.projectName + '.min.js'))
-   .pipe(uglify())
+   // .pipe(uglify())
    .pipe(gulp.dest('dist/assets/js'))
    // .pipe(rename({suffix: '.min'}))
    // .pipe(gulp.dest('dist/assets/js'))
@@ -109,6 +110,7 @@ gulp.task('default', ['clean'], function() {
 
 gulp.task('watch', function() {
 
+  gulp.start( 'default' );
   gulp.watch('src/scss/*', ['sass']);
   gulp.watch('src/js/*', ['js']);
   gulp.watch('src/html/*', ['html']);
