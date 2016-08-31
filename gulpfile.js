@@ -17,7 +17,7 @@ sourcemaps = require('gulp-sourcemaps');
 
 
 var config = {
-    projectName: 'r4m4z4',
+    projectName: 'hic-al',
      sassDir: './src/scss',
      bowerDir: './bower_components' ,
      utils: './recursos' ,
@@ -37,7 +37,7 @@ var paths = {
    js: [
       config.bowerDir + '/jquery/dist/jquery.js',
       config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.min.js',
-      config.bowerDir + '/paper/dist/paper-full.min.js',
+      // config.bowerDir + '/paper/dist/paper-full.min.js',
       config.utils + '/js_utils/dist/js_utils.min.js',
       'src/js/*.js'
    ],
