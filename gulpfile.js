@@ -12,7 +12,8 @@ notify = require('gulp-notify'),
 cache = require('gulp-cache'),
 livereload = require('gulp-livereload'),
 del = require('del'),
-sourcemaps = require('gulp-sourcemaps');
+sourcemaps = require('gulp-sourcemaps'),
+notifier = require('node-notifier');
 
 
 
@@ -27,18 +28,19 @@ var paths = {
    html: [
       'src/html/**/*',
    ],
-   stylesheet: config.sassDir + '/' + config.projectName + '.scss',
+   stylesheet: config.sassDir + '/app.scss',
    sass: [
       config.bowerDir + '/bootstrap-sass/assets/stylesheets/',
       config.bowerDir + '/font-awesome/scss',
       config.utils + '/style_utils/scss',
+      config.utils + '/js_utils/dist/stylesheet/js_utils.scss',
       config.sassDir,
    ],
    js: [
       config.bowerDir + '/jquery/dist/jquery.js',
       config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.min.js',
-      // config.bowerDir + '/paper/dist/paper-full.min.js',
-      config.utils + '/js_utils/dist/js_utils.min.js',
+      config.bowerDir + '/imgLiquid/js/imgLiquid-min.js',
+      config.utils + '/js_utils/dist/js/js_utils.min.js',
       'src/js/*.js'
    ],
    fonts: [
@@ -52,7 +54,7 @@ var paths = {
 gulp.task('html', function() {
    return gulp.src( paths.html )
    .pipe(gulp.dest('dist/'))
-   // .pipe(notify({ message: 'Html copiado' }));
+   .pipe(notify({ message: 'Html copiado', onLast: true }));
 
 });
 
@@ -62,8 +64,9 @@ gulp.task('sass',function(){
   return gulp.src( paths.stylesheet )
     .pipe(sass({ includePaths : paths.sass , style: 'expanded' }))
     .pipe(autoprefixer('last 2 version'))
-    .pipe(concat( config.projectName + '.min.css'))
-    .pipe(minifycss())
+   //  .pipe(concat( config.projectName + '.min.css'))
+    .pipe(concat( 'app.min.css'))
+    .pipe(cssnano())
     .pipe(gulp.dest('dist/assets/css'))
     .pipe(notify({ message: 'sass listo.' }));
 
@@ -80,8 +83,9 @@ gulp.task('js', function() {
    return gulp.src(paths.js)
    // .pipe(jshint('.jshintrc'))
    // .pipe(jshint.reporter('default'))
-   .pipe(concat( config.projectName + '.min.js'))
-   // .pipe(uglify())
+   .pipe(concat( 'app.min.js'))
+   // .pipe(concat( config.projectName + '.min.js'))
+   .pipe(uglify())
    .pipe(gulp.dest('dist/assets/js'))
    // .pipe(rename({suffix: '.min'}))
    // .pipe(gulp.dest('dist/assets/js'))

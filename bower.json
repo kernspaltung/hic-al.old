@@ -1,12 +1,12 @@
 {
-  "name": "r4m4z4",
-  "description": "Theme de Wordpress para Jorge Ramirez",
-  "main": "index.php",
+  "name": "hic-al",
+  "description": "Theme for HIC-AL's website",
+  "main": "dist/index.php",
   "authors": [
     "furenku"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/furenku/r4m4z4",
+  "homepage": "https://github.com/kernspaltung/hic-al",
   "moduleType": [],
   "private": true,
   "ignore": [

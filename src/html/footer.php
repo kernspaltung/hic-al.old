@@ -5,11 +5,7 @@
 </footer>
 
 
-
-
-
-<?php wp_footer(); ?>
-
+<script src="assets/js/app.min.js" type="text/javascript"></script>
 
 </body>
 </html>
