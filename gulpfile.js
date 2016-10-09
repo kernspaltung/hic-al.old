@@ -32,6 +32,9 @@ var paths = {
    sass: [
       config.bowerDir + '/bootstrap-sass/assets/stylesheets/',
       config.bowerDir + '/font-awesome/scss',
+      config.bowerDir + '/slick-carousel/slick/slick.scss',
+      config.bowerDir + '/slick-carousel/slick/slick-theme.scss',
+      config.bowerDir + '/fullpage.js/jquery.fullPage.scss',
       config.utils + '/style_utils/scss',
       config.utils + '/js_utils/dist/stylesheet/js_utils.scss',
       config.sassDir,

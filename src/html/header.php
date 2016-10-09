@@ -16,7 +16,9 @@
 
 <body>
 
+
       <header id="header" class="container-fluid h-15-v">
+
 
          <div id="header-logotipo" class="col-xs-5 col-sm-4 col-md-3 col-lg-2">
             <div class="image imgLiquid imgLiquidNoFill">
@@ -25,15 +27,23 @@
          </div>
 
          <div id="header-menu" class="hidden-xs hidden-sm col-md-9 col-lg-10 v-center">
+
             <div class="h-a">
                Menú
             </div>
+
          </div>
 
          <div id="header-menu-movil-icono" class="hidden-md hidden-lg hidden-xl col-xs-4 col-sm-3 col-xs-offset-3 col-sm-offset-5 text-right v-center">
+
             <span class="fa fa-bars fontXL"></span>
+
          </div>
 
       </header>
 
       <main class="col-md-8 col-lg-9">
+         <h1>Principal</h1>
+         <aside id="menu-lateral-izquierdo" class="col-md-3 col-lg-2">
+
+         </aside>
