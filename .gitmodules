@@ -4,3 +4,12 @@
 [submodule "recursos/js_utils"]
 	path = recursos/js_utils
 	url = https://github.com/kernspaltung/js_utils.git
+[submodule "hic-al-wireframes/style_utils"]
+	path = hic-al-wireframes/style_utils
+	url = https://github.com/kernspaltung/style_utils.git
+[submodule "hic-al-wireframes/recursos/style_utils"]
+	path = hic-al-wireframes/recursos/style_utils
+	url = https://github.com/kernspaltung/style_utils.git
+[submodule "hic-al-wireframes/recursos/js_utils"]
+	path = hic-al-wireframes/recursos/js_utils
+	url = https://github.com/kernspaltung/js_utils.git
