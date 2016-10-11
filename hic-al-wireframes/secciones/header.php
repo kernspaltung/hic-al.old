@@ -14,34 +14,36 @@
 
   <header id="header" class="header columns h-15-v">
 
-    <div id="logo" class="columns p0 imgLiquid imgLiquidNoFill">
+    <div id="logo" class="columns small-6 medium-4 large-2 p0 imgLiquid imgLiquidNoFill">
       <img src="http://fakeimg.pl/300?text=placeholder" alt="">
     </div>
 
-    <div id="imagen-header" class="columns p0 imgLiquid imgLiquidFill">
+    <div id="imagen-header" class="columns small-6 medium-8 large-10 p0 imgLiquid imgLiquidFill">
       <img src="http://fakeimg.pl/300?text=placeholder" alt="">
     </div>
 
 
 
     <!-- menu desktop -->
-    <div id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-20">
+    <div id="menu-desktop" class="columns absUpR text-left h-15">
 
-      <ul id="menu-list" class="columns p-0">
+      <ul id="menu-list" class="columns medium-10 large-8 medium-offset-2 large-offset-4 h-5-v p-0 m-0">
 
         <?php
 
-        for ($i=0; $i < 6 ; $i++):
+
+        for ($i=0; $i < 5 ; $i++):
+          // note: contains 1 "li" less than the reference
+
           ?>
 
-
-          <li id="menu-element" class="columns small-1 text-center">menu</li>
+          <a href="#" class="columns small-2 p-0 text-center h-100 v-center"><li id="menu-element" class="columns  text-center h-a">menu</li></a>
 
           <?php
         endfor;
         ?>
 
-        <li class="columns small-3" id="menu-element">
+        <li class="columns large-2 end " id="menu-element">
           <input type="text" class="columns p-0" placeholder="Search ...">
         </li>
 
