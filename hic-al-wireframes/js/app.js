@@ -3,11 +3,16 @@ u = new Utils();
 
 $(document).ready(function(){
 
-   $(document).foundation();
+  $(document).foundation();
 
-   images();
+  // u.vcenter;
+  // u.shareH;
 
-   setupResize();
+  images();
+
+  slider_latest_news();
+
+  setupResize();
 
 })
 
@@ -22,6 +27,19 @@ function images() {
 
 function setupResize() {
 
-   u.addWindowResizeFunction( u.verticalCenter );
-   $(window).trigger('resize')
+  u.addWindowResizeFunction( u.verticalCenter );
+  // u.addWindowResizeFunction(u.shareH);
+  $(window).trigger('resize');
+}
+
+// slider
+function slider_latest_news() {
+
+  $('.slick').slick({
+    dots:true,
+    arrows:true,
+    speed: 1000,
+    autoplay:true,
+    autoplaySpeed:5000
+  });
 }

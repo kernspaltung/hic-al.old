@@ -5,9 +5,11 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HIC-AL</title>
-  <link rel="stylesheet" href="recursos/style_utils/css/style_utils.css">
+  <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
   <link rel="stylesheet" href="recursos/js_utils/dist/stylesheet/js_utils.min.css">
   <link rel="stylesheet" href="css/app.css">
+  <!-- <link rel="stylesheet" href="recursos/style_utils/css/style_utils.css"> -->
 
 </head>
 <body>
@@ -25,9 +27,9 @@
 
 
     <!-- menu desktop -->
-    <div id="menu-desktop" class="columns absUpR text-left h-15">
+    <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-neutral_oscuro-bg color-primario-hover-bg bottom-left-corner">
 
-      <ul id="menu-list" class="columns medium-10 large-8 medium-offset-2 large-offset-4 h-5-v p-0 m-0">
+      <ul id="menu-list" class="columns h-5-v p-0 m-0">
 
         <?php
 
@@ -43,7 +45,7 @@
         endfor;
         ?>
 
-        <li class="columns large-2 end " id="menu-element">
+        <li id="menu-element" class="columns large-2 end">
           <input type="text" class="columns p-0" placeholder="Search ...">
         </li>
 
@@ -51,7 +53,7 @@
 
 
 
-    </div>
+    </nav>
     <!-- end menu desktop -->
 
 

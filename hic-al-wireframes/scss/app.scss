@@ -50,7 +50,13 @@
 @include motion-ui-animations;
 
 
+@import "../recursos/style_utils/scss/style_utils";
 
 * {
 outline: 1px solid lightblue;
+}
+
+.bottom-left-corner {
+  // border-bottom-left-radius: 50px;
+  border-radius: 0px 0px 0px 25px;
 }
