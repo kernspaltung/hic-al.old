@@ -28,7 +28,7 @@ function images() {
 function setupResize() {
 
   u.addWindowResizeFunction( u.verticalCenter );
-  // u.addWindowResizeFunction(u.shareH);
+  u.addWindowResizeFunction(u.shareH);
   $(window).trigger('resize');
 }
 

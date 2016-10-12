@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,6 @@
   <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
   <link rel="stylesheet" href="recursos/js_utils/dist/stylesheet/js_utils.min.css">
   <link rel="stylesheet" href="css/app.css">
-  <!-- <link rel="stylesheet" href="recursos/style_utils/css/style_utils.css"> -->
 
 </head>
 <body>
@@ -45,8 +45,8 @@
         endfor;
         ?>
 
-        <li id="menu-element" class="columns large-2 end">
-          <input type="text" class="columns p-0" placeholder="Search ...">
+        <li id="menu-element" class="columns large-2 end h-100 v-center">
+          <input type="text" class="columns p-0 h-80" placeholder="Search ...">
         </li>
 
       </ul>
@@ -59,4 +59,4 @@
 
   </header>
 
-  <div id="main" class="columns p-0">
+  <div id="main" class="columns p-0 h-a">

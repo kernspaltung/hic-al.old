@@ -1,8 +1,8 @@
 
 
+
 </div>
 <!-- main -->
-
 
 <footer id="footer" class="header columns h-15-v">
 
@@ -13,7 +13,7 @@
       <img src="http://fakeimg.pl/300?text=placeholder" alt="" />
 
     </div>
-    <div id="footer-widget-txt-1" class="columns font-sm-m font-md-m font-lg-m h-20">
+    <div id="footer-widget-txt-1" class="columns font-sm-m font-md-m font-lg-s h-20">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis.
     </div>
 
@@ -29,7 +29,7 @@
   <!--  -->
   <div id="footer-widget" class="columns small-12 medium-4 large-4 ">
 
-    <div id="footer-widget-txt-1" class="columns text-right h-80 font-sm-s font-md-s font-lg-m p-t-1">
+    <div id="footer-widget-txt-1" class="columns text-right h-80 font-sm-s font-md-s font-lg-s p-t-1">
       Error illo nulla, molestiae suscipit ex totam eum dolorem et molestias. fugit magni quos ea, quae doloremque iste molestiae! Veniam, ipsam, dolorum.
     </div>
 

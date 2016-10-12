@@ -56,7 +56,22 @@
 outline: 1px solid lightblue;
 }
 
+//rounded corners
 .bottom-left-corner {
   // border-bottom-left-radius: 50px;
   border-radius: 0px 0px 0px 25px;
+}
+.bottom-right-corner {
+  border-radius: 0px 0px 25px 0px;
+}
+.top-left-corner {
+  border-radius: 25px 0px 0px 0px;
+}
+.top-right-corner {
+  border-radius: 0px 25px 0px 0px;
+}
+
+// central container top padding
+#central-container {
+   padding-top: 15px;
 }

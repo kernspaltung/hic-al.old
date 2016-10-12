@@ -7,20 +7,20 @@ include_once "secciones/sidebar-1.php";
 ?>
 
 
-<!--  container -->
-<div class="columns medium-6 large-8 p-5 p-t-1">
+<!-- center-->
+<div id="central-container" class="columns medium-6 large-8 p-3">
 
 <?php
 
 include_once "secciones/home/latest-news.php";
 
-// include_once "secciones/home/documents.php";
+include_once "secciones/home/documents.php";
 
-// include_once "secciones/home/activities.php";
+include_once "secciones/home/activities.php";
 
 ?>
 </div>
-<!-- end container -->
+<!-- center end -->
 
 
 <?php
