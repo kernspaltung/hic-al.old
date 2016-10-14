@@ -21,7 +21,7 @@
     </div>
 
     <div id="imagen-header" class="columns small-6 medium-8 large-10 p0 imgLiquid imgLiquidFill">
-      <img src="http://fakeimg.pl/300?text=placeholder" alt="">
+      <img src="http://fakeimg.pl/300?text=landscape" alt="">
     </div>
 
 
