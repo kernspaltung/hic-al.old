@@ -1,4 +1,4 @@
-<section id="sidebar-1" class="columns medium-3 large-2 h-100-v text-center color-neutral_claro-bg p-t-1">
+<section id="sidebar-1" class="columns medium-3 large-2 h-100-v text-center color-neutral_claro-bg p-t-1 p-l-0">
 
   <!-- <h1 id="sidebar-1-widget-title" class="columns text-center h-5 font-sm-s color-primario-bg top-right-corner white font-md-s font-lg-s bold uppercase">Temas</h1> -->
   <div class="columns p-0 h-a">
