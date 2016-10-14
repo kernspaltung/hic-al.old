@@ -1,4 +1,4 @@
-<section id="sidebar-2" class="columns medium-3 large-2 h-100-v text-center color-neutral_claro-bg p-t-1 p-r-0 m-b-1">
+<section id="sidebar-2" class="columns medium-3 large-2 h-100-v text-center p-t-1 p-r-0 m-b-1 color-neutral_claro-bg">
 
 
   <div class="columns p-0 h-a m-b-1">
@@ -16,10 +16,10 @@
 
       ?>
 
-      <div class="columns medium-12 p-0 h-15-v color-black-bg color-white v-center">
+      <div class="columns medium-12 p-0 h-15-v color-neutral_oscuro-bg color-neutral_claro-hover-bg color-black-hover color-white v-center">
 
 
-        <div class="columns h-a p-0 font-sm-s font-md-s font-lg-s">
+        <div class="columns h-a p-0 font-sm-s font-md-s font-lg-l">
 
           Soy un micrositio
 
@@ -60,7 +60,7 @@
         <a class="columns p-0 h-50" href="#">
         <div class="columns h-100 p-0 font-sm-s font-md-s font-lg-s v-center">
 
-            <p class="columns font-sm-s font-md-s font-lg-s">Lorem ipsum oscurum tiniebla dolor sit amet, consectetur.</p>
+            <p class="columns font-sm-s font-md-s font-lg-m">Lorem ipsum oscurum tiniebla dolor sit amet, consectetur.</p>
 
             <hr>
         </div>
@@ -69,9 +69,9 @@
 
         <!--  -->
         <a class="columns p-0 h-50" href="#">
-        <div class="columns h-50 p-0 font-sm-s font-md-s font-lg-s v-center">
+        <div class="columns h-100 p-0 font-sm-s font-md-s font-lg-s v-center">
 
-            <p class="columns font-sm-s font-md-s font-lg-s ">Lorem ipsum dolor sit hack video amet, tiniebla consectetur.</p>
+            <p class="columns font-sm-s font-md-s font-lg-m ">Lorem ipsum dolor sit hack video amet, tiniebla consectetur.</p>
 
             <hr>
         </div>
