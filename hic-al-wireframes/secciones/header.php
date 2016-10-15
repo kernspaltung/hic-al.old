@@ -27,7 +27,7 @@
 
 
     <!-- menu desktop -->
-    <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-neutral_oscuro-bg bottom-left-corner">
+    <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-neutral_oscuro-bg bottom-left-corner" >
 
       <ul id="menu-list" class="columns h-5-v p-0 m-0">
 
@@ -59,4 +59,4 @@
 
   </header>
 
-  <div id="main" class="columns p-0 h-a">
+  <div id="main" class="columns p-0 h-a" >

@@ -1,4 +1,10 @@
-<section id="sidebar-1" class="columns medium-3 large-2 h-100-v text-center color-neutral_claro-bg p-t-1 p-l-0">
+<section id="sidebar-1" class="columns medium-3 large-2 h-100-v text-center p-t-1 p-l-0" data-sticky-container>
+
+<!-- sticky -->
+
+<div class="columns p-0 color-neutral_claro-bg sticky" data-top-anchor="main:top" data-btm-anchor="main:bottom" data-sticky>
+
+
 
   <div class="columns p-0 h-a m-b-1">
 
@@ -88,5 +94,8 @@
   Molestiae aut consequatur unde harum doloribus a nisi delectus, architecto eius, id impedit, asperiores, illo assumenda. Doloribus, nam.
 </div>
 </div> -->
+
+
+</div>
 
 </section>
