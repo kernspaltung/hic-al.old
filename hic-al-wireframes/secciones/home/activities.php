@@ -1,12 +1,13 @@
 <section id="home-activities" class="columns medium-12 large-6 p-0 m-b-1 p-l-1">
 
 
-  <h1 class="columns h-2 text-center font-sm-m bold font-md-m font-lg-m v-center">
+  <h1 class="columns h-2 text-center font-sm-m bold font-md-m font-lg-m p-0-2 color-blanco color-naranja-bg v-center">
     <div href="#" class="columns p-0 h-a">Activities</div>
   </h1>
 
-  <div id="thumb-activities" class="columns p-0 h-30-v">
+  <article id="thumb-activities" class="columns p-0 h-30-v">
 
+    <a href="" class="columns p-0 h-100">
 
       <div class="columns p-0 imgLiquid imgLiquidFill">
 
@@ -14,8 +15,9 @@
 
       </div>
 
-
-  </div>
+    </a>
+    
+  </article>
 
 
   <div class="columns h-40 p-0 m-t-1">
@@ -28,19 +30,23 @@
 
       <article class="columns large-12 h-15-v p-0 m-b-1">
 
-        <div class="columns p-0 medium-4 imgLiquid imgLiquidFill m-b-2">
+        <a href="" class="columns p-0 h-100">
 
-          <img src="http://fakeimg.pl/300?text=news" alt="">
+          <div class="columns p-0 medium-4 imgLiquid imgLiquidFill m-b-2">
 
-        </div>
+            <img src="http://fakeimg.pl/300?text=news" alt="">
 
-        <div class="columns medium-8">
-
-          <div class="columns font-sm-s font-md-s font-lg-s p-1">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis!
           </div>
 
-        </div>
+          <div class="columns medium-8">
+
+            <div class="columns font-sm-s font-md-s font-lg-s p-1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis!
+            </div>
+
+          </div>
+
+        </a>
 
       </article>
 

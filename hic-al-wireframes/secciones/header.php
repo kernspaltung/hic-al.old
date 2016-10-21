@@ -27,7 +27,7 @@
 
 
     <!-- menu desktop -->
-    <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-neutral_oscuro-bg bottom-left-corner" >
+    <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-vino-bg bottom-left-corner" >
 
       <ul id="menu-list" class="columns h-5-v p-0 m-0">
 
@@ -39,13 +39,13 @@
 
           ?>
 
-          <a href="#" class="columns small-2 p-0 text-center h-100 v-center"><li id="menu-element" class="columns  text-center h-a">menu</li></a>
+          <a href="#" class="columns small-2 p-0 text-center color-blanco color-gris-naranja-claro-hover h-100 v-center"><li id="menu-element" class="columns  text-center h-a">menu</li></a>
 
           <?php
         endfor;
         ?>
 
-        <li id="menu-element" class="columns large-2 end h-100 v-center">
+        <li id="menu-element" class="columns large-2 end h-100 p-t-0-2">
           <input type="text" class="columns p-0 h-80" placeholder="Search ...">
         </li>
 

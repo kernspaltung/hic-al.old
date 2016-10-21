@@ -8,8 +8,6 @@ $verde: #176834;
 $amarillo: #FDD12B;
 $gris_naranja_claro: #F8DABA;
 $gris_oscuro: #4D4D4D;
-
-
 //
 
 $lista-colores: (
@@ -21,7 +19,7 @@ naranja $naranja,
 verde $verde,
 amarillo $amarillo,
 gris-naranja-claro $gris_naranja_claro,
-gris-oscuro$gris_oscuro
+gris-oscuro $gris_oscuro
 
 );
 
@@ -71,4 +69,15 @@ gris-oscuro$gris_oscuro
   }
 
 
+}
+
+//
+.fondo-diagonal {
+  background: repeating-linear-gradient(
+  -55deg,
+  #fff,
+  #222 10px,
+  #333 10px,
+  #333 20px
+  );
 }

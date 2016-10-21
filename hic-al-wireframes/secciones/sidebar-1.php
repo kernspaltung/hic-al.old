@@ -2,14 +2,14 @@
 
 <!-- sticky -->
 
-<div class="columns p-0 color-neutral_claro-bg sticky" data-top-anchor="main:top" data-btm-anchor="main:bottom" data-sticky>
+<div class="columns p-0 sticky" data-top-anchor="main:top" data-btm-anchor="main:bottom" data-sticky>
 
 
 
   <div class="columns p-0 h-a m-b-1">
 
     <div class="columns p-0 h-a">
-      <h6 id="sidebar-1-widget-title" class="columns text-center font-sm-s color-primario-bg p-0-2 h-a vcenter top-right-corner white font-md-s font-lg-s bold uppercase">Temas</h6>
+      <h6 id="sidebar-1-widget-title" class="columns text-center font-sm-s color-blanco color-vino-oscuro-bg p-0-2 h-a vcenter top-right-corner white font-md-s font-lg-s bold uppercase">Temas</h6>
     </div>
 
     <ul class="columns p-0 h-30">
@@ -21,8 +21,8 @@
         ?>
 
 
-        <a href="#" class="color-black-bd shareH font-sm-s font-md-s font-lg-s">
-          <li class="columns h-a p-0-1">sidebar menu</li>
+        <a href="#" class="shareH font-sm-s font-md-s font-lg-s">
+          <li class="columns h-a p-0-1 color-blanco color-vino-bg">sidebar menu</li>
         </a>
 
 
@@ -38,10 +38,10 @@
 
 
   <!--  -->
-  <div class="columns p-0 h-40">
+  <div class="columns p-0 h-60">
 
     <div class="columns p-0 h-a">
-      <h6 id="sidebar-1-widget-title" class="columns text-center font-sm-s color-primario-bg p-0-2 h-a vcenter top-right-corner white font-md-s font-lg-s bold uppercase">Medios</h6>
+      <h6 id="sidebar-1-widget-title" class="columns text-center font-sm-s color-blanco color-gris-oscuro-bg p-0-2 h-a vcenter top-right-corner white font-md-s font-lg-s bold uppercase">Medios</h6>
     </div>
 
     <div class="font-sm-s font-md-s font-lg-s p-0">

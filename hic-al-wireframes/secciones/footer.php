@@ -1,10 +1,10 @@
 
 
- 
+
 </div>
 <!-- main -->
 
-<footer id="footer" class="header columns h-15-v">
+<footer id="footer" class="header columns h-15-v color-gris-naranja-claro color-naranja-bg p-1">
 
   <!--  -->
   <div id="footer-widget" class="columns small-12 medium-4 large-4 ">
@@ -36,11 +36,11 @@
     <div id="footer-widget-txt-2" class="columns text-right h-20 v-center">
       <ul id="menu-footer" class="columns">
 
-        <a href="#" class="columns medium-6 p-0 font-sm-s font-md-s font-lg-m">
+        <a href="#" class="columns medium-6 p-0 font-sm-s font-md-s font-lg-m color-gris-naranja-claro-hover color-gris-oscuro">
           <li class="columns vcenter p-0">Aviso legal </li>
         </a>
 
-        <a href="#" class="columns medium-6 p-0 font-sm-s font-md-s font-lg-m">
+        <a href="#" class="columns medium-6 p-0 font-sm-s font-md-s font-lg-m color-gris-naranja-claro-hover color-gris-oscuro">
           <li class="columns vcenter p-0">Legal disclaimer</li>
         </a>
 

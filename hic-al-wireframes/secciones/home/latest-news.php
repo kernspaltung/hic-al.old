@@ -1,6 +1,6 @@
 <section id="home-latest-news" class="columns p-0 m-b-3">
 
-  <h1 class="columns h-2 text-center font-sm-m bold font-md-m font-lg-m v-center">
+  <h1 class="columns h-a p-0-2 text-center font-sm-m bold font-md-m font-lg-m color-blanco color-naranja-bg v-center">
     <div href="#" class="columns p-0 h-a">Latest News</div>
   </h1>
 
@@ -69,7 +69,7 @@
 
   <div class="columns text-center h-5 font-sm-m font-md-m font-lg-m v-center">
 
-    <div class="h-a">
+    <div class="h-a fondo-diagonal color-gris-oscuro bold font-xs-m font-sm-m font-md-l font-lg-l">
       + More news
     </div>
 

@@ -3,13 +3,13 @@
 
   <!-- sticky -->
 
-  <div class="columns p-0 color-neutral_claro-bg sticky" data-top-anchor="main:top" data-btm-anchor="main:bottom" data-sticky>
+  <div class="columns p-0 sticky" data-top-anchor="main:top" data-btm-anchor="main:bottom" data-sticky>
 
 
     <div class="columns p-0 h-a m-b-1">
 
       <div class="columns p-0 h-a">
-        <h6 id="sidebar-1-widget-title" class="columns text-center font-sm-s color-primario-bg p-0-2 h-a vcenter top-left-corner white font-md-s font-lg-s bold uppercase">Micrositios</h6>
+        <h6 id="sidebar-1-widget-title" class="columns text-center font-sm-s color-blanco color-negro-bg p-0-2 h-a vcenter top-left-corner white font-md-s font-lg-s bold uppercase">Micrositios</h6>
       </div>
 
       <div class="columns font-sm-s font-md-s font-lg-s p-0">
@@ -21,7 +21,7 @@
 
         ?>
 
-        <div class="columns medium-12 p-0 h-15-v color-neutral_oscuro-bg color-neutral_claro-hover-bg color-black-hover color-white v-center">
+        <div class="columns medium-12 p-0 h-15-v color-gris-oscuro-bg color-neutral_claro-hover-bg color-black-hover color-white v-center">
 
 
           <div class="columns h-a p-0 font-sm-s font-md-s font-lg-l">
@@ -47,7 +47,7 @@
     <div class="columns p-0 h-40">
 
       <div class="columns p-0 h-a">
-        <h6 id="sidebar-1-widget-title" class="columns text-center font-sm-s color-primario-bg p-0-2 h-a vcenter top-left-corner white font-md-s font-lg-s bold uppercase">EMPORTUGUÊS</h6>
+        <h6 id="sidebar-1-widget-title" class="columns text-center font-sm-s color-blanco color-verde-bg p-0-2 h-a vcenter top-left-corner white font-md-s font-lg-s bold uppercase">EMPORTUGUÊS</h6>
       </div>
 
       <div class="columns p-0 h-90 font-sm-s font-md-s font-lg-s p-0 slick">
@@ -59,16 +59,16 @@
 
         ?>
 
-        <div class="columns medium-12 p-0 h-100 ">
+        <div class="columns medium-12 p-0 h-100 color-amarillo-bg">
 
 
-          <a class="columns p-0 h-50" href="#">
-            <div class="columns h-100 p-0 font-sm-s font-md-s font-lg-s v-center">
+          <a class="columns p-0 h-50 m-0" href="#">
+            <article class="columns h-100 p-0 font-sm-s font-md-s font-lg-s v-center">
 
-              <p class="columns font-sm-s font-md-s font-lg-m">Lorem ipsum oscurum tiniebla dolor sit amet, consectetur.</p>
+              <p class="columns font-sm-s font-md-s font-lg-m  color-negro">Lorem ipsum oscurum tiniebla dolor sit amet, consectetur.</p>
 
-              <hr>
-            </div>
+            </article>
+            <hr class="color-gris-oscuro">
           </a>
 
 
@@ -76,7 +76,7 @@
           <a class="columns p-0 h-50" href="#">
             <div class="columns h-100 p-0 font-sm-s font-md-s font-lg-s v-center">
 
-              <p class="columns font-sm-s font-md-s font-lg-m ">Lorem ipsum dolor sit hack video amet, tiniebla consectetur.</p>
+              <p class="columns font-sm-s font-md-s font-lg-m  color-negro">Lorem ipsum dolor sit hack video amet, tiniebla consectetur.</p>
 
               <hr>
             </div>
