@@ -1,0 +1,74 @@
+//
+$blanco: #fff;
+$negro: #000;
+$vino: #983333;
+$vino_oscuro: #712522;
+$naranja: #E78419;
+$verde: #176834;
+$amarillo: #FDD12B;
+$gris_naranja_claro: #F8DABA;
+$gris_oscuro: #4D4D4D;
+
+
+//
+
+$lista-colores: (
+blanco   $blanco,
+negro   $negro,
+vino $vino,
+vino-oscuro $vino_oscuro,
+naranja $naranja,
+verde $verde,
+amarillo $amarillo,
+gris-naranja-claro $gris_naranja_claro,
+gris-oscuro$gris_oscuro
+
+);
+
+
+@each $value in $lista-colores {
+
+  .color-#{nth($value, 1)} {
+    & {
+      color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-bg {
+    & {
+      background-color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-bd {
+    & {
+      border: 1px solid white;
+      border-color: nth($value, 2) !important;
+    }
+  }
+
+  .color-#{nth($value, 1)}-hover:hover {
+    & {
+      color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-hover-bg:hover {
+    & {
+      background-color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-hover-bd:hover {
+    & {
+      border: 1px solid white;
+      border-color: nth($value, 2) !important;
+    }
+  }
+
+  //cortinilla transparente
+  .color-#{nth($value, 1)}-opacidad-bg {
+    & {
+      opacity: 0.5;
+      background-color: nth($value, 2) !important;
+    }
+  }
+
+
+}

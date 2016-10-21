@@ -51,10 +51,15 @@
 
 
 @import "../recursos/style_utils/scss/style_utils";
+@import "colores-hic-al";
 
 * {
-outline: 1px solid lightblue;
+// outline: 1px solid lightblue;
 }
+
+// body {
+//   overflow-y: none;
+// }
 
 hr {
   margin: 0;

@@ -9,16 +9,21 @@
     <?php
     for ($i=0; $i < 4; $i++):
 
-      ?>
+    ?>
 
-      <div class="columns p-0 imgLiquid imgLiquidFill">
+    <article class="columns p-0 rel imgLiquid imgLiquidFill">
 
-        <img src="http://fakeimg.pl/300?text=placeholder"/>
+      <img src="http://fakeimg.pl/300?text=placeholder"/>
 
+      <div class="columns h-a p-1 p-l-2 p-r-2 font-xs-s font-sm-m font-md-l font-lg-xl bold text-center abs bottom color-blanco color-negro-opacidad-bg">
+        Lorem ipsum dolor sit: amet, consectetur adipisicing elit. Quae!
       </div>
 
 
-      <?php
+    </article>
+
+
+    <?php
     endfor;
 
     ?>
@@ -32,9 +37,10 @@
 
     for ($i=0; $i < 6 ; $i++):
 
-      ?>
+    ?>
 
-      <article class="columns medium-6 h-15-v p-0 m-b-1">
+    <article class="columns medium-6 h-15-v p-0 m-b-1">
+      <a href="" class="columns p-0 h-100">
 
         <div class="columns p-0 medium-4 imgLiquid imgLiquidFill">
 
@@ -50,9 +56,10 @@
 
         </div>
 
-      </article>
+      </a>
+    </article>
 
-      <?php
+    <?php
 
     endfor;
 
