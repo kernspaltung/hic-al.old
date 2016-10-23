@@ -12,6 +12,12 @@ $(document).ready(function(){
 
   slider_latest_news();
 
+
+  // portforlio
+  portfolio_preview();
+
+  slider_portfolio_preview();
+  //
   setupResize();
 
 })
@@ -42,4 +48,45 @@ function slider_latest_news() {
     autoplay:true,
     autoplaySpeed:5000
   });
+}
+
+
+//funciones portfolio
+function slider_portfolio_preview() {
+
+  $('.slick-portfolio-preview-thumbs').slick({
+    dots:true,
+    arrows:false,
+    speed: 1000,
+    autoplay:true,
+    autoplaySpeed:5000,
+    slidesToShow:3
+    // slidesToScroll: 3
+  });
+}
+
+function portfolio_preview() {
+
+  var preview = $('#portafolio-preview-canvas').detach();
+
+  $('.portfolio-item').each(function(index) {
+
+
+    $(this).on('click', function() {
+
+
+        $(this).append(preview);
+
+        setTimeout(function() {
+          console.log("foto #" + index + preview);
+
+          $('#portafolio-preview-canvas').slideDown('fast');
+
+        },500);
+
+
+    });
+
+  });
+
 }

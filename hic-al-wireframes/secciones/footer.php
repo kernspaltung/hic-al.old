@@ -4,16 +4,16 @@
 </div>
 <!-- main -->
 
-<footer id="footer" class="header columns h-15-v color-gris-naranja-claro color-naranja-bg p-1">
+<footer id="footer" class="header columns h-25-v color-gris-naranja-claro color-naranja-bg p-1">
 
   <!--  -->
   <div id="footer-widget" class="columns small-12 medium-4 large-4 ">
 
     <div id="footer-img-1" class="columns text-center imgLiquid imgLiquidNoFill h-80">
-      <img src="http://fakeimg.pl/300?text=placeholder" alt="" />
+      <img src="http://fakeimg.pl/300?text=logo" alt="" />
 
     </div>
-    <div id="footer-widget-txt-1" class="columns font-sm-m font-md-m font-lg-s h-20">
+    <div id="footer-widget-txt-1" class="columns text-center font-sm-m font-md-m font-lg-m h-20">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis.
     </div>
 
@@ -22,14 +22,14 @@
   <!--  -->
   <div id="footer-widget" class="columns small-12 medium-4 large-4  text-center imgLiquid imgLiquidNoFill">
 
-    <img src="http://fakeimg.pl/300?text=placeholder" alt="" />
+    <img src="http://fakeimg.pl/300?text=mapa" alt="" />
 
   </div>
 
   <!--  -->
   <div id="footer-widget" class="columns small-12 medium-4 large-4 ">
 
-    <div id="footer-widget-txt-1" class="columns text-right h-80 font-sm-s font-md-s font-lg-s p-t-1">
+    <div id="footer-widget-txt-1" class="columns text-right h-80 font-sm-s font-md-m font-lg-m p-t-1">
       Error illo nulla, molestiae suscipit ex totam eum dolorem et molestias. fugit magni quos ea, quae doloremque iste molestiae! Veniam, ipsam, dolorum.
     </div>
 

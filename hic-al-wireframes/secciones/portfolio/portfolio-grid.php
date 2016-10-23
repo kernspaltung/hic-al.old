@@ -10,17 +10,20 @@
   <?php
 
   for ($i=0; $i < 16 ; $i++):
-  ?>
+    ?>
 
 
-  <div id="canvas-item-portfolio" class="columns small-12 medium-6 large-4 p-1 m-b-1 pointer end h-40-v imgLiquid imgLiquidNoFill">
+    <div id="canvas-item-portfolio-<?php echo $i;?>" class="columns small-12 medium-6 large-4 p-1 m-b-0-1 pointer end h-40-v imgLiquid imgLiquidNoFill portfolio-item">
 
-    <img src="http://fakeimg.pl/400?text=Item" alt="">
+      <img src="http://fakeimg.pl/400?text=Item" alt="">
 
-  </div>
+    </div>
 
 
-  <?php
+    <?php
+
+    // include_once "secciones/portfolio/portfolio-preview.php";
+
   endfor;
   ?>
 

@@ -14,9 +14,7 @@ include_once "secciones/sidebar-1.php";
 
 include_once "secciones/portfolio/portfolio-grid.php";
 
-// include_once "secciones/portfolio/";
-
-// include_once "secciones/portfolio/";
+include_once "secciones/portfolio/portfolio-preview.php";
 
 ?>
 </div>
