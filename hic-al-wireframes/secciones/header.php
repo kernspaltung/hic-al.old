@@ -14,13 +14,13 @@
 </head>
 <body>
 
-  <header id="header" class="header columns h-20-v">
+  <header id="header" class="header columns h-25-v">
 
-    <div id="logo" class="columns small-6 medium-4 large-2 p0 imgLiquid imgLiquidNoFill">
+    <div id="logo" class="columns small-6 medium-4 large-2 p-0 imgLiquid imgLiquidNoFill">
       <img src="http://fakeimg.pl/300?text=placeholder" alt="">
     </div>
 
-    <div id="imagen-header" class="columns small-6 medium-8 large-10 p0 imgLiquid imgLiquidFill">
+    <div id="imagen-header" class="columns small-6 medium-8 large-10 p-0 imgLiquid imgLiquidFill">
       <img src="http://fakeimg.pl/300?text=landscape" alt="">
     </div>
 
