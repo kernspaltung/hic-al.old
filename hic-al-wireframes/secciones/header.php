@@ -29,48 +29,50 @@
     <!-- menu desktop -->
     <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-vino-bg bottom-left-corner" >
 
-      <ul id="menu-list" class="columns h-menu-hical p-0 m-0">
 
-        <?php
+      <div id="menu-list-container" class="columns h-menu-hical p-0">
 
-        $menu = array('Inicio', 'Mundo', 'Membresía','Calendario','Suscripción','Enlaces');
-
-
-        for ($i=0; $i < 6 ; $i++):
-          // note: contains 1 "li" less than the reference
-
-          // checa el tamano de la palabra y asigna tamano de columna para elemento del menu
-       if ( strlen($menu[$i]) > 6 ) {
-         $col = 2;
-       } else {
-         $col = 1;
-       }
-
-
-          ?>
-
-          <a href="#" class="columns large-<?php echo $col; ?> p-0 text-center color-blanco color-gris-naranja-claro-hover h-100 v-center">
-
-            <li id="menu-element" class="columns  text-center h-a">
-
-              <?php
-              echo $menu[$i];
-              ?>
-
-            </li>
-
-          </a>
+        <ul id="menu-list" class="columns medium-9 large-9 h-100 p-0 m-0">
 
           <?php
-        endfor;
-        ?>
 
-        <li id="menu-element" class="columns large-2 end h-100 p-t-0-2">
+          $menu = array('Inicio', 'Mundo', 'Membresía','Calendario','Suscripción','Enlaces');
+
+
+          for ($i=0; $i < 6 ; $i++):
+
+            ?>
+
+
+            <a href="#" class="shareW p-0 text-center color-blanco color-gris-naranja-claro-hover h-100 ">
+
+              <div class="columns p-0 h-100 v-center">
+
+                <li id="menu-element" class="columns  text-center h-a">
+
+                  <?php
+                  echo $menu[$i];
+                  ?>
+
+                </li>
+
+              </div>
+
+            </a>
+
+
+            <?php
+          endfor;
+          ?>
+
+
+        </ul>
+
+        <div id="menu-element" class="columns medium-3 large-3 h-100 p-t-0-2">
           <input type="text" class="columns p-0 h-80" placeholder="Search ...">
-        </li>
+        </div>
 
-      </ul>
-
+      </div>
 
 
     </nav>

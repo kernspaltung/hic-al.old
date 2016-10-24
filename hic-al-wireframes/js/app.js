@@ -36,6 +36,7 @@ function setupResize() {
 
   u.addWindowResizeFunction( u.verticalCenter );
   u.addWindowResizeFunction(u.shareH);
+  u.addWindowResizeFunction(u.shareW);
   $(window).trigger('resize');
 }
 
@@ -179,7 +180,8 @@ function menu_scroll() {
 
   } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
-    $('#menu-list').detach().appendTo('#menu-scroll');
+    $('#menu-list-container').detach().appendTo('#menu-scroll');
+    $('#menu-list a div li:nth(0)').html('<i class="fa fa-home"></i>');//cambia a logo icono
     setTimeout(function() {
 
       $('#menu-scroll').addClass('posicion-con-scroll');
@@ -192,18 +194,22 @@ function menu_scroll() {
 
     if ($(window).scrollTop() <= distancia) {
       console.log('soy menor');
-      $('#menu-list').detach().appendTo('#menu-desktop');
+      $('#menu-list-container').detach().appendTo('#menu-desktop');
+
+      $('#menu-list a div li:nth(0)').html('Inicio');//regresa el texto cuando esta  scrollTop 0
+
       setTimeout(function() {
 
         $('#menu-scroll').removeClass('posicion-con-scroll').addClass('posicion-inicial');
-        // $('#menu-scroll').addClass('posicion-con-scroll');
 
       },100);
 
 
     } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
-      $('#menu-list').detach().appendTo('#menu-scroll');
+      $('#menu-list-container').detach().appendTo('#menu-scroll');
+      $('#menu-list a div li:nth(0)').html('<i class="fa fa-home"></i>');//cambia a logo
+
       setTimeout(function() {
 
         // $('#menu-scroll').addClass('posicion-con-scroll');
