@@ -59,7 +59,7 @@
 $font-family-base: 'Raleway', sans-serif;
 
 * {
-// outline: 1px solid lightblue;
+  // outline: 1px solid lightblue;
 }
 
 body {
@@ -81,6 +81,9 @@ hr {
 .bottom-right-corner {
   border-radius: 0px 0px 25px 0px;
 }
+.bottom-left-right-corner {
+  border-radius: 0px 0px 25px 25px;
+}
 .top-left-corner {
   border-radius: 25px 0px 0px 0px;
 }
@@ -93,10 +96,29 @@ hr {
 }
 // central container top padding
 #central-container {
-   padding-top: 15px;
+  padding-top: 15px;
 }
 
 //
 #sidebar-1 ul a li  {
   margin-bottom: 6px;
+}
+
+// menu scroll
+.posicion-inicial {
+  moz-transform: translateY(-6vh);
+  webkit-transform: translateY(-6vh);
+  ms-transform: translateY(-6vh);
+  transform: translateY(-6vh);
+  transition: 0.25s;
+
+}
+
+.posicion-con-scroll {
+
+  moz-transform: translateY(0);
+  webkit-transform: translateY(0);
+  ms-transform: translateY(0);
+  transform: translateY(0);
+  transition: 0.25s;
 }

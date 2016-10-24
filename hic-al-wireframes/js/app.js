@@ -10,6 +10,8 @@ $(document).ready(function(){
 
   images();
 
+  menu_scroll();
+
   slider_latest_news();
 
   slider_portfolio_preview();
@@ -160,5 +162,38 @@ function cierra_preview(pvc) {
 
   });
   //
+
+}
+
+
+// menu en scroll
+function menu_scroll() {
+
+  var distancia = $('#main').offset().top;
+
+  // despliegue al hacer loading
+  if ($(window).scrollTop() <= distancia) {
+
+    $('#menu-scroll').addClass('posicion-inicial');
+
+  } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
+
+    $('#menu-scroll').addClass('posicion-con-scroll');
+
+  }
+  // Al hacer scroll
+  $(window).scroll(function() {
+
+    if ($(window).scrollTop() <= distancia) {
+      console.log('soy menor');
+      $('#menu-scroll').removeClass('posicion-con-scroll').addClass('posicion-inicial');
+
+    } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
+
+      console.log('soy mayor');
+      $('#menu-scroll').removeClass('posicion-inicial').addClass('posicion-con-scroll');
+
+    }
+  });
 
 }

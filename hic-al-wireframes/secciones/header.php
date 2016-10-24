@@ -20,7 +20,7 @@
       <img src="http://fakeimg.pl/300?text=placeholder" alt="">
     </div>
 
-    <div id="imagen-header" class="columns small-6 medium-8 large-10 p-0 imgLiquid imgLiquidFill">
+    <div id="imagen-header" class="columns small-6 medium-8 large-10 fixed top right h-25-v z-1 p-0 imgLiquid imgLiquidFill">
       <img src="http://fakeimg.pl/300?text=landscape" alt="">
     </div>
 
@@ -59,4 +59,6 @@
 
   </header>
 
-  <div id="main" class="columns p-0 h-a" >
+  <?php include_once "secciones/menu-scroll.php"; ?>
+
+  <div id="main" class="columns p-0 h-a color-blanco-bg" >

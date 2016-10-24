@@ -1,4 +1,4 @@
-<section id="portafolio-preview-canvas" class="columns h-60-v color-gris-oscuro-bg color-blanco" style="display: none;">
+<section id="portafolio-preview-canvas" class="columns h-60-v m-b-2 color-gris-oscuro-bg color-blanco" style="display: none;">
 
   <div id="close-portfolio-preview" class="columns p2 text-right h-10 pointer">
 
