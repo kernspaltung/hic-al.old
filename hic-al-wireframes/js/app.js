@@ -176,9 +176,15 @@ function menu_scroll() {
 
     $('#menu-scroll').addClass('posicion-inicial');
 
+
   } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
-    $('#menu-scroll').addClass('posicion-con-scroll');
+    $('#menu-list').detach().appendTo('#menu-scroll');
+    setTimeout(function() {
+
+      $('#menu-scroll').addClass('posicion-con-scroll');
+
+    },100);
 
   }
   // Al hacer scroll
@@ -186,12 +192,24 @@ function menu_scroll() {
 
     if ($(window).scrollTop() <= distancia) {
       console.log('soy menor');
-      $('#menu-scroll').removeClass('posicion-con-scroll').addClass('posicion-inicial');
+      $('#menu-list').detach().appendTo('#menu-desktop');
+      setTimeout(function() {
+
+        $('#menu-scroll').removeClass('posicion-con-scroll').addClass('posicion-inicial');
+        // $('#menu-scroll').addClass('posicion-con-scroll');
+
+      },100);
+
 
     } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
-      console.log('soy mayor');
-      $('#menu-scroll').removeClass('posicion-inicial').addClass('posicion-con-scroll');
+      $('#menu-list').detach().appendTo('#menu-scroll');
+      setTimeout(function() {
+
+        // $('#menu-scroll').addClass('posicion-con-scroll');
+        $('#menu-scroll').removeClass('posicion-inicial').addClass('posicion-con-scroll');
+
+      },100);
 
     }
   });

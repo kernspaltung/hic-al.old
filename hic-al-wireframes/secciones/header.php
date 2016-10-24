@@ -33,13 +33,33 @@
 
         <?php
 
+        $menu = array('Inicio', 'Mundo', 'Membresía','Calendario','Suscripción','Enlaces');
 
-        for ($i=0; $i < 5 ; $i++):
+
+        for ($i=0; $i < 6 ; $i++):
           // note: contains 1 "li" less than the reference
+
+          // checa el tamano de la palabra y asigna tamano de columna para elemento del menu
+       if ( strlen($menu[$i]) > 6 ) {
+         $col = 2;
+       } else {
+         $col = 1;
+       }
+
 
           ?>
 
-          <a href="#" class="columns small-2 p-0 text-center color-blanco color-gris-naranja-claro-hover h-100 v-center"><li id="menu-element" class="columns  text-center h-a">menu</li></a>
+          <a href="#" class="columns large-<?php echo $col; ?> p-0 text-center color-blanco color-gris-naranja-claro-hover h-100 v-center">
+
+            <li id="menu-element" class="columns  text-center h-a">
+
+              <?php
+              echo $menu[$i];
+              ?>
+
+            </li>
+
+          </a>
 
           <?php
         endfor;
