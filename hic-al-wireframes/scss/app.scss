@@ -90,9 +90,35 @@ hr {
 .top-right-corner {
   border-radius: 0px 25px 0px 0px;
 }
+//
+.triangulo-arriba {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
 
+  border-bottom: 20px solid #4D4D4D;
+
+  transition: 0.25s;
+}
+.hidden {
+  transition: 0.25s;
+}
+//
+.fondo-diagonal {
+  background: repeating-linear-gradient(
+  -60deg,
+  #fff,
+  #fff 9px,
+  #555 0px,
+  #555 10px
+  );
+}
 .h-menu-hical {
   height: 6vh;
+}
+.borde-derecho {
+  border-right: 1px solid #fff;
 }
 // central container top padding
 #central-container {
@@ -110,7 +136,7 @@ hr {
   webkit-transform: translateY(-6vh);
   ms-transform: translateY(-6vh);
   transform: translateY(-6vh);
-  transition: 0.15s;
+  transition: 0.25s;
 
 }
 

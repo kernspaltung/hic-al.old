@@ -45,7 +45,7 @@ function slider_latest_news() {
 
   $('.slick').slick({
     dots:true,
-    arrows:false,
+    arrows:true,
     speed: 1000,
     autoplay:true,
     autoplaySpeed:5000
@@ -66,9 +66,30 @@ function slider_portfolio_preview() {
     slidesToScroll:3
   });
 }
+//
+//preview media
+function posiciona_preview(donde,pv) {
+  // de momento pega el preview despues del elemento clickeado
+  setTimeout(function() {
+
+    donde.after(pv);
+  },251);
+  //
+}
+
+function cierra_preview(pvc) {
+  // boton cerrar perview
+  $('#close-portfolio-preview').on('click', function() {
+
+    $(pvc).slideUp(250);
+    $('#canvas-item-pointer-' + index).addClass('hidden');
 
 
+  });
+  //
 
+}
+//funcion principal preview
 function portfolio_preview() {
 
   var previewcanvas = $('#portafolio-preview-canvas');
@@ -78,7 +99,6 @@ function portfolio_preview() {
   //
   $('.portfolio-item').each(function(index) {
 
-
     $(this).on('click', function(e) {
 
       var id = this.id;
@@ -86,43 +106,41 @@ function portfolio_preview() {
       // checa si esta abierto el preview
       if ( $(previewcanvas).is(':visible') ) {
 
-
-
-        // si son iguales las ids anteriores solo cierra
+        // si se clickeo el mismo contenedor, cierra y ya
         if (id === antesid) {
 
-          // debug
-          console.log('ids iguales' + ' ' + id + ' ' + antesid);
-          $(previewcanvas).slideUp('fast');
+          $(previewcanvas).slideUp(250);
+          //borra triangulo
+          $('#canvas-item-pointer-' + index).addClass('hidden');
 
-        } else {
+        } else {//si se clickeo un div diferente
 
-          // debug
-          console.log('ids desiguales' + ' ' + id + ' ' + antesid);
+          // borra triangulo
+          $('.canvas-item-pointer').addClass('hidden');
 
           antesid = id;
 
           $(previewcanvas).slideUp(250);
-          // incrusta preview
+
+          //retraso incrusta preview
           posiciona_preview($(this),preview);
 
           // retrasa el desplegado del perview en la nueva posicion
           setTimeout(function() {
-            $(previewcanvas).slideDown('fast');
+
+            $(previewcanvas).slideDown(250);
+            //muestra triangulo
+            $('#canvas-item-pointer-' + index).removeClass('hidden');
 
             cierra_preview(previewcanvas);
 
           },300);
           //
         }
-        // endif desiguales
 
-      } else {
+      } else {//si esta cerrado el preview
 
         antesid = id;
-
-        // debug
-        console.log('no es visible' + ' ' + id + ' ' + antesid);
 
         // incrusta preview
         posiciona_preview($(this),preview);
@@ -130,11 +148,13 @@ function portfolio_preview() {
         // retrasa el desplegado del perview
         setTimeout(function() {
 
-          $(previewcanvas).slideDown('fast');
+          $(previewcanvas).slideDown(250);
+          //muestra triangulo
+          $('#canvas-item-pointer-' + index).removeClass('hidden');
 
           cierra_preview(previewcanvas);
 
-        },500);
+        },250);
         //
 
 
@@ -146,24 +166,6 @@ function portfolio_preview() {
   });
   //
 
-
-}
-
-function posiciona_preview(donde,pv) {
-  // de momento pega el preview despues del elemento clickeado
-  donde.after(pv);
-  //
-}
-
-function cierra_preview(pvc) {
-  // boton cerrar perview
-  $('#close-portfolio-preview').on('click', function() {
-
-    $(pvc).slideUp('fast');
-
-  });
-  //
-
 }
 
 
@@ -171,9 +173,12 @@ function cierra_preview(pvc) {
 function menu_scroll() {
 
   var distancia = $('#main').offset().top;
-
+  var logo = $('#menu-list a div li:nth(0)');//.html('<i class="fa fa-home"></i>');
+  // var sinlogo = $('#menu-list a div li:nth(0)').html('Inicio');
   // despliegue al hacer loading
   if ($(window).scrollTop() <= distancia) {
+
+    logo.html('Inicio');
 
     $('#menu-scroll').addClass('posicion-inicial');
 
@@ -181,7 +186,9 @@ function menu_scroll() {
   } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
     $('#menu-list-container').detach().appendTo('#menu-scroll');
-    $('#menu-list a div li:nth(0)').html('<i class="fa fa-home"></i>');//cambia a logo icono
+
+    logo.html('<i class="fa fa-home"></i>');//cambia a logo icono
+
     setTimeout(function() {
 
       $('#menu-scroll').addClass('posicion-con-scroll');
@@ -196,7 +203,7 @@ function menu_scroll() {
       console.log('soy menor');
       $('#menu-list-container').detach().appendTo('#menu-desktop');
 
-      $('#menu-list a div li:nth(0)').html('Inicio');//regresa el texto cuando esta  scrollTop 0
+      logo.html('inicio');//regresa el texto cuando esta  scrollTop 0
 
       setTimeout(function() {
 
@@ -208,7 +215,8 @@ function menu_scroll() {
     } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
       $('#menu-list-container').detach().appendTo('#menu-scroll');
-      $('#menu-list a div li:nth(0)').html('<i class="fa fa-home"></i>');//cambia a logo
+
+      logo.html('<i class="fa fa-home"></i>');//cambia a logo
 
       setTimeout(function() {
 

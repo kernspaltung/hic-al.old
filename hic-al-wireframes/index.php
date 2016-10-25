@@ -12,11 +12,11 @@ include_once "secciones/sidebar-1.php";
 
 <?php
 
-include_once "secciones/home/latest-news.php";
+include_once "secciones/home/ultimas-noticias.php";
 
-include_once "secciones/home/documents.php";
+include_once "secciones/home/documentos.php";
 
-include_once "secciones/home/activities.php";
+include_once "secciones/home/actividades.php";
 
 ?>
 </section>

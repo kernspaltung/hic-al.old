@@ -2,7 +2,7 @@
 
 
   <h1 class="columns h-2 text-center font-sm-m bold font-md-m font-lg-m p-0-2 color-blanco color-naranja-bg v-center">
-    <div href="#" class="columns p-0 h-a">Activities</div>
+    <div href="#" class="columns p-0 h-a">Actividades</div>
   </h1>
 
   <article id="thumb-activities" class="columns p-0 h-30-v">
@@ -16,7 +16,7 @@
       </div>
 
     </a>
-    
+
   </article>
 
 
@@ -60,8 +60,8 @@
 
   <div class="columns text-center h-5 font-sm-m font-md-m font-lg-m v-center">
 
-    <div class="h-a">
-      + More Activities
+    <div class="h-a fondo-diagonal color-gris-oscuro bold font-xs-m font-sm-m font-md-l font-lg-l uppercase">
+      + Ver mas actividades
     </div>
 
   </div>

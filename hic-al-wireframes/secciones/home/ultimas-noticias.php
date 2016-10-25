@@ -1,7 +1,7 @@
 <section id="home-latest-news" class="columns p-0 m-b-3">
 
   <h1 class="columns h-a p-0-2 text-center font-sm-m bold font-md-m font-lg-m color-blanco color-naranja-bg v-center">
-    <div href="#" class="columns p-0 h-a">Latest News</div>
+    <div href="#" class="columns p-0 h-a">Ultimas Noticias</div>
   </h1>
 
   <div id="slider-latest-news" class="columns p-0 h-35-v slick">
@@ -15,8 +15,13 @@
 
       <img src="http://fakeimg.pl/300?text=placeholder"/>
 
-      <div class="columns h-a p-1 p-l-2 p-r-2 font-xs-s font-sm-m font-md-l font-lg-xl bold text-center abs bottom color-blanco color-negro-opacidad-bg">
-        Lorem ipsum dolor sit: amet, consectetur adipisicing elit. Quae!
+
+      <div class="columns h-a p-l-4 p-r-4 abs bottom ">
+
+        <div class="columns h-a p-1 p-l-2 p-r-2 font-xs-s font-sm-m font-md-l font-lg-xl bold text-center color-blanco color-negro-opacidad-bg">
+          Lorem ipsum dolor sit: amet, consectetur adipisicing elit. Quae!
+        </div>
+
       </div>
 
 

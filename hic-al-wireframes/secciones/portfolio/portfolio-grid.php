@@ -13,11 +13,22 @@
     ?>
 
 
-    <div id="canvas-item-portfolio-<?php echo $i;?>" class="columns small-12 medium-6 large-4 p-1 m-b-0-1 pointer end h-40-v imgLiquid imgLiquidNoFill portfolio-item">
+    <div id="canvas-item-portfolio-<?php echo $i;?>" class="columns small-12 medium-6 large-4 rel p-1 m-b-0-1 pointer end h-40-v imgLiquid imgLiquidNoFill portfolio-item">
 
       <img src="http://fakeimg.pl/400?text=Item" alt="">
 
+
+      <div id="canvas-item-pointer-<?php echo $i;?>" class="columns absDownL left h-5 canvas-item-pointer hidden ">
+
+        <div class="small-offset-5 triangulo-arriba">
+
+        </div>
+
+      </div>
+
+
     </div>
+
 
 
     <?php

@@ -48,7 +48,7 @@
 
               <div class="columns p-0 h-100 v-center">
 
-                <li id="menu-element" class="columns  text-center h-a">
+                <li id="menu-element" class="columns  text-center h-a borde-derecho">
 
                   <?php
                   echo $menu[$i];
