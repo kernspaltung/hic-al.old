@@ -101,6 +101,21 @@ hr {
 
   transition: 0.25s;
 }
+
+.menu-activo {
+  top: 5vh;  
+}
+
+.menu-activo-triangulo {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  border-bottom: 10px solid #501310;
+
+  transition: 0.25s;
+}
 .hidden {
   transition: 0.25s;
 }
@@ -132,10 +147,10 @@ hr {
 
 // menu scroll
 .posicion-inicial {
-  moz-transform: translateY(-6vh);
-  webkit-transform: translateY(-6vh);
-  ms-transform: translateY(-6vh);
-  transform: translateY(-6vh);
+  moz-transform: translateY(-8vh);
+  webkit-transform: translateY(-8vh);
+  ms-transform: translateY(-8vh);
+  transform: translateY(-8vh);
   transition: 0.25s;
 
 }

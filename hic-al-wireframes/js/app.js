@@ -1,4 +1,3 @@
-
 u = new Utils();
 
 $(document).ready(function(){
@@ -10,18 +9,40 @@ $(document).ready(function(){
 
   images();
 
-  menu_scroll();
 
   slider_latest_news();
 
   slider_portfolio_preview();
   portfolio_preview();
 
+  responsivo_large();
 
   //
+
   setupResize();
 
-})
+});
+
+
+function responsivo_large() {
+
+  //
+  $(window).resize(function() {
+
+    if ($(document).width() > 1024) {
+
+      menu_scroll();
+
+    } else {
+
+      menu_movil();
+
+    }
+
+  });
+
+}
+
 
 function images() {
 
@@ -174,7 +195,7 @@ function menu_scroll() {
 
   var distancia = $('#main').offset().top;
   var logo = $('#menu-list a div li:nth(0)');//.html('<i class="fa fa-home"></i>');
-  // var sinlogo = $('#menu-list a div li:nth(0)').html('Inicio');
+
   // despliegue al hacer loading
   if ($(window).scrollTop() <= distancia) {
 
@@ -185,7 +206,7 @@ function menu_scroll() {
 
   } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
-    $('#menu-list-container').detach().appendTo('#menu-scroll');
+    $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
 
     logo.html('<i class="fa fa-home"></i>');//cambia a logo icono
 
@@ -200,32 +221,40 @@ function menu_scroll() {
   $(window).scroll(function() {
 
     if ($(window).scrollTop() <= distancia) {
-      console.log('soy menor');
-      $('#menu-list-container').detach().appendTo('#menu-desktop');
 
-      logo.html('inicio');//regresa el texto cuando esta  scrollTop 0
 
       setTimeout(function() {
 
         $('#menu-scroll').removeClass('posicion-con-scroll').addClass('posicion-inicial');
 
-      },100);
+        $('#menu-list-container').detach().appendTo('#menu-desktop');
+
+        logo.html('inicio');//regresa el texto cuando esta  scrollTop 0
+
+      },200);
 
 
     } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
-      $('#menu-list-container').detach().appendTo('#menu-scroll');
 
       logo.html('<i class="fa fa-home"></i>');//cambia a logo
 
       setTimeout(function() {
 
-        // $('#menu-scroll').addClass('posicion-con-scroll');
         $('#menu-scroll').removeClass('posicion-inicial').addClass('posicion-con-scroll');
 
-      },100);
+        $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
+      },150);
 
     }
   });
+
+}
+
+function menu_movil() {
+
+  $('#menu-scroll').addClass('posicion-con-scroll');
+
+  $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
 
 }

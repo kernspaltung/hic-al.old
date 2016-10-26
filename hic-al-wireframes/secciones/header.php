@@ -44,7 +44,7 @@
             ?>
 
 
-            <a href="#" class="shareW p-0 text-center color-blanco color-gris-naranja-claro-hover h-100 ">
+            <a href="#" class="shareW p-0 text-center color-blanco color-gris-naranja-claro-hover rel h-100 ">
 
               <div class="columns p-0 h-100 v-center">
 
@@ -58,8 +58,33 @@
 
               </div>
 
-            </a>
+              <?php
 
+              if ($i == 0):
+
+                ?>
+                <!-- senalador menu activo -->
+                <div id="active-pointer-<?php echo $i;?>" class="columns absDownL left h-5 menu-activo">
+
+                  <div class="small-offset-5 menu-activo-triangulo">
+
+                  </div>
+
+                </div>
+
+
+
+
+
+                <?php
+              endif;
+
+              ?>
+
+
+
+
+            </a>
 
             <?php
           endfor;
@@ -68,8 +93,10 @@
 
         </ul>
 
-        <div id="menu-element" class="columns medium-3 large-3 h-100 p-t-0-2">
+        <div id="menu-element" class="columns medium-3 large-3 h-100 p-t-0-2 p-r-0">
+
           <input type="text" class="columns p-0 h-80" placeholder="Search ...">
+
         </div>
 
       </div>
