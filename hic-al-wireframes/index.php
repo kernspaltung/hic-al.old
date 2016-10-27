@@ -8,7 +8,7 @@ include_once "secciones/sidebar-1.php";
 
 
 <!-- center-->
-<section id="central-container" class="columns medium-6 large-8 p-4">
+<section id="central-container" class="columns medium-12 large-8 p-4">
 
 <?php
 

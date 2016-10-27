@@ -3,7 +3,7 @@
 
   <!-- sticky -->
 
-  <div class="columns p-0 sticky" data-top-anchor="main:top" data-btm-anchor="main:bottom" data-sticky>
+  <div class="columns p-0 sticky" data-top-anchor="main:top" data-btm-anchor="main:bottom" data-sticky-on="large" data-sticky>
 
 
     <div class="columns p-0 h-a m-b-1">
