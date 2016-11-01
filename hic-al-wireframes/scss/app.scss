@@ -103,7 +103,7 @@ hr {
 }
 
 .menu-activo {
-  top: 5vh;  
+  top: 5vh;
 }
 
 .menu-activo-triangulo {
@@ -162,4 +162,21 @@ hr {
   ms-transform: translateY(0);
   transform: translateY(0);
   transition: 0.25s;
+}
+
+.rotate{
+  width:auto !important;
+  -ms-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+.down{
+  -ms-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
+}
+.top-contenido-movil {
+  margin-top: 10vh;
 }

@@ -4,7 +4,7 @@
 
   <div id="menu-scroll-sitio" class="columns large-12 p-0">
 
-    <!-- aqui se incrusta el menu principal del sitio -->
+    <!-- aqui se incrusta el menu principal del sitio en escritorio-->
 
   </div>
 

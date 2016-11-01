@@ -12,6 +12,7 @@ $(document).ready(function(){
   slider_portfolio_preview();
   portfolio_preview();
 
+
   responsivo_large();
 
   //
@@ -26,15 +27,30 @@ function responsivo_large() {
   //
   $(window).resize(function() {
 
-    if ($(document).width() > 1024) {
+    if ($(document).width() >= 1024) {
 
+      // menu fixed de escritorio
       menu_scroll();
+      //muestra menu scroll
+      $('#menu-scroll').removeClass('hidden');
+
+      //en desktop quita el alto del header fixed
+      $('#main').removeClass('.top-contenido-movil');
+
       // acomoda sidebar 1 en primer hijo
       // $('#sidebar-1').detach().prependTo('#main');
 
     } else {
 
+      // menu en medium y small
       menu_movil();
+      //esconde menu scroll
+      $('#menu-scroll').addClass('hidden');
+
+      //en movil agrega el alto del header fixed
+      $('#main').addClass('.top-contenido-movil');
+
+
       // reacomoda sidebar 1 en segundo hijo
       // $('#sidebar-1').detach().after('#central-container');
 
@@ -197,15 +213,16 @@ function menu_scroll() {
   var distancia = $('#main').offset().top;
   var logo = $('#menu-list a div li:nth(0)');//.html('<i class="fa fa-home"></i>');
 
-  // despliegue al hacer loading
-  if ($(window).scrollTop() <= distancia) {
+
+  //Defaults como se despliega al hacer loading
+  if ($(window).scrollTop() < distancia) {
 
     logo.html('Inicio');
 
     $('#menu-scroll').addClass('posicion-inicial');
 
 
-  } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
+  } else if ( $(window).scrollTop() > distancia ) {// si #main cruza el borde superior
 
     $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
 
@@ -218,7 +235,9 @@ function menu_scroll() {
     },100);
 
   }
-  // Al hacer scroll
+  // termina defaults menu scroll
+
+  // Accion al hacer scroll
   $(window).scroll(function() {
 
     if ($(window).scrollTop() <= distancia) {
@@ -240,53 +259,75 @@ function menu_scroll() {
 
       logo.html('<i class="fa fa-home"></i>');//cambia a logo
 
+      // si ya existe el contenido no lo vuelva a quitar
+      if (! $('#menu-scroll-sitio:nth(0)') === $('#menu-list-container') ) {
+        console.log('sisi ya esta atacheado');
+        $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
+      }
+
       setTimeout(function() {
 
         $('#menu-scroll').removeClass('posicion-inicial').addClass('posicion-con-scroll');
 
-        $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
+
+        // limpia el contenido de el div y agregale el menu de nuevo
+        // $('#menu-scroll-sitio').html('');
+
       },150);
 
     }
   });
+
+
 
 }
 
 //
 function menu_movil() {
 
+  console.log('menu movil');
+
+
+
+
+
+  setTimeout(function() {
+    $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
+    $('#menu-mobile').css('transition','0.5s').addClass('hidden');
+  },250);
+
+
+
   // si va a mayor de medium
   $(window).resize(function() {
 
     if ($(window).width() > 820 ) {
 
-      if (! $('#button-menu-mobile i').hasClass('hidden')) {
-        $('#button-menu-mobile i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
+      //reset
+      if (! $('#boton-menu-movil i').hasClass('hidden')) {
+        $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
         $('#menu-mobile').css('transition','0.5s').addClass('hidden');
       };
     };
   });
-  //
-  $('#menu-scroll').addClass('posicion-con-scroll');
 
-  $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
-  // s
-  $('#button-menu-mobile').on('click', function() {
+  // click boton menu movil
+  $('#boton-menu-movil').on('click', function() {
 
-    $('#turning-bars').toggleClass('down');
+    $('#barras').toggleClass('down');
 
     // change menu button icon + shows menu
-    if ($('#button-menu-mobile i').hasClass('fa-bars')) {
+    if ($('#boton-menu-movil i').hasClass('fa-bars')) {
 
       setTimeout(function() {
-        $('#button-menu-mobile i').removeClass('fa-bars').addClass('fa-remove').css('transition','0.25s')
+        $('#boton-menu-movil i').removeClass('fa-bars').addClass('fa-remove').css('transition','0.25s')
         $('#menu-mobile').css('transition','0.5s').removeClass('hidden');
       },250);
 
-    } else if ($('#button-menu-mobile i').hasClass('fa-remove')) {
+    } else if ($('#boton-menu-movil i').hasClass('fa-remove')) {
 
       setTimeout(function() {
-        $('#button-menu-mobile i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
+        $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
         $('#menu-mobile').css('transition','0.5s').addClass('hidden');
       },250);
 
