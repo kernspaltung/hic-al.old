@@ -250,11 +250,12 @@ function menu_scroll() {
 
         $('#menu-scroll').removeClass('posicion-con-scroll').addClass('posicion-inicial');
 
-        $('#menu-list-container').detach().appendTo('#menu-desktop');
 
         logo.html('inicio');//regresa el texto cuando esta  scrollTop 0
 
-      },200);
+      },20);
+
+      $('#menu-list-container').detach().appendTo('#menu-desktop');
 
 
     } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
@@ -262,12 +263,7 @@ function menu_scroll() {
 
       logo.html('<i class="fa fa-home"></i>');//cambia a logo
 
-      // si ya existe el contenido no lo vuelva a quitar
-      if (! $('#menu-scroll-sitio:nth(0)') === $('#menu-list-container') ) {
-        console.log('sisi ya esta atacheado');
-        $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
-      }
-
+      $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
       setTimeout(function() {
 
         $('#menu-scroll').removeClass('posicion-inicial').addClass('posicion-con-scroll');

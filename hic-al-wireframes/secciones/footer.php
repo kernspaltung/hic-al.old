@@ -4,10 +4,10 @@
 </div>
 <!-- main -->
 
-<footer id="footer" class="header columns h-25-v color-gris-naranja-claro color-naranja-bg p-1">
+<footer id="footer" class="header columns h-a color-gris-naranja-claro color-naranja-bg p-1">
 
   <!--  -->
-  <div id="footer-widget" class="columns small-12 medium-4 large-4 ">
+  <div id="footer-widget" class="columns h-25-v small-12 medium-4 large-4 ">
 
     <div id="footer-img-1" class="columns text-center imgLiquid imgLiquidNoFill h-80">
       <img src="http://fakeimg.pl/300?text=logo" alt="" />
@@ -20,14 +20,14 @@
   </div>
 
   <!--  -->
-  <div id="footer-widget" class="columns small-12 medium-4 large-4  text-center imgLiquid imgLiquidNoFill">
+  <div id="footer-widget" class="columns small-12 medium-4 large-4 h-25-v text-center imgLiquid imgLiquidNoFill">
 
     <img src="http://fakeimg.pl/300?text=mapa" alt="" />
 
   </div>
 
   <!--  -->
-  <div id="footer-widget" class="columns small-12 medium-4 large-4 ">
+  <div id="footer-widget" class="columns small-12 medium-4 large-4 h-25-v">
 
     <div id="footer-widget-txt-1" class="columns text-right h-80 font-sm-s font-md-m font-lg-m p-t-1">
       Error illo nulla, molestiae suscipit ex totam eum dolorem et molestias. fugit magni quos ea, quae doloremque iste molestiae! Veniam, ipsam, dolorum.

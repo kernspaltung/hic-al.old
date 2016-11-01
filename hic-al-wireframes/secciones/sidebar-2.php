@@ -16,7 +16,6 @@
 
 
         <?php
-        // 7 numero en la referencia
         for ($i=0; $i < 3 ; $i++):
 
         ?>

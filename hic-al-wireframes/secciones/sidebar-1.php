@@ -38,17 +38,17 @@
 
 
   <!--  -->
-  <div class="columns p-0 h-60">
+  <div class="columns p-0">
 
     <div class="columns p-0 h-a">
       <h6 id="sidebar-1-widget-title" class="columns text-center font-sm-s color-blanco color-gris-oscuro-bg p-0-2 h-a vcenter top-right-corner white font-md-s font-lg-s bold uppercase">Medios</h6>
     </div>
 
-    <div class="font-sm-s font-md-s font-lg-s p-0">
+    <div class="font-sm-s font-md-s font-lg-s p-0 h-50">
 
       <?php
       // 7 numero en la referencia
-      for ($i=0; $i < 5 ; $i++):
+      for ($i=0; $i < 4 ; $i++):
 
         ?>
 
