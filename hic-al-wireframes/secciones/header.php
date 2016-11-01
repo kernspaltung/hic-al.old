@@ -27,7 +27,7 @@
 
 
     <!-- menu desktop -->
-    <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-vino-bg bottom-left-corner" >
+    <nav id="menu-desktop" class="columns medium-10 large-8 show-for-large absUpR text-left h-a color-vino-bg bottom-left-corner" >
 
 
       <div id="menu-list-container" class="columns h-menu-hical p-0">
