@@ -41,7 +41,14 @@ function responsivo_large() {
       $('#menu-movil').addClass('hidden');
 
       // acomoda sidebar 1 en primer hijo
-      $('#sidebar-1').detach().prependTo('#main');
+      // $('#sidebar-1').detach().prependTo('#main');
+
+      //reset de menu movil si va a escritorio
+      if (! $('#boton-menu-movil i').hasClass('hidden')) {
+        $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
+        $('#menu-movil').addClass('hidden');
+        $('#barras').toggleClass('down');
+      };
 
     } else {
 
@@ -55,7 +62,8 @@ function responsivo_large() {
 
 
       // reacomoda sidebar 1 en segundo hijo
-      $('#sidebar-1').detach().after('#central-container');
+      // $('#sidebar-1').detach().after('#central-container');
+
 
     }
 
@@ -291,19 +299,19 @@ function menu_movil() {
 
 
 
-  // si va a mayor de medium
-  $(window).resize(function() {
-
-    if ($(window).width() > 820 ) {
-
-      //reset
-      if (! $('#boton-menu-movil i').hasClass('hidden')) {
-        $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
-        $('#menu-movil').addClass('hidden');
-        $('#barras').toggleClass('down');
-      };
-    };
-  });
+  // // si va a mayor de medium
+  // $(window).resize(function() {
+  //
+  //   if ($(window).width() > 1024 ) {
+  //
+  //   //   //reset
+  //   //   if (! $('#boton-menu-movil i').hasClass('hidden')) {
+  //   //     $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
+  //   //     $('#menu-movil').addClass('hidden');
+  //   //     $('#barras').toggleClass('down');
+  //   //   };
+  //   // };
+  // });
 
   // click boton menu movil
   $('#boton-menu-movil').on('click', function() {

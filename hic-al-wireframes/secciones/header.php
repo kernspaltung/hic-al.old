@@ -17,7 +17,7 @@
 
 
 
-<!-- header escritorio -->
+  <!-- header escritorio -->
   <header id="header" class="header columns h-25-v show-for-large">
 
     <div id="logo" class="columns small-6 medium-4 large-2 p-0 imgLiquid imgLiquidNoFill">
@@ -35,6 +35,7 @@
     <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-vino-bg bottom-left-corner" >
 
 
+      <!-- este se remueve con jquery -->
       <div id="menu-list-container" class="columns h-menu-hical p-0">
 
         <ul id="menu-list" class="columns medium-9 large-9 h-100 p-0 m-0">
@@ -53,7 +54,7 @@
 
               <div class="columns p-0 h-100 v-center">
 
-                <li id="menu-element" class="columns  text-center h-a borde-derecho">
+                <li id="menu-element" class="columns p-0 text-center h-a borde-derecho font-md-s font-lg-m">
 
                   <?php
                   echo $menu[$i];
@@ -115,7 +116,7 @@
   <!-- termina header escritorio -->
 
 
-<!-- header movil -->
+  <!-- header movil -->
   <header id="header-movil" class=" columns h-25-v shadow header hide-for-large color-white-bg fixed top z1k1 left show-for-small p-0 show-form-medium">
 
     <div id="logo-movil" class="columns small-3 medium-3 large-2 p-0 imgLiquid imgLiquidNoFill">
