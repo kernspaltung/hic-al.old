@@ -35,10 +35,13 @@ function responsivo_large() {
       $('#menu-scroll').removeClass('hidden');
 
       //en desktop quita el alto del header fixed
-      $('#main').removeClass('.top-contenido-movil');
+      $('#main').removeClass('top-contenido-movil');
+
+      //desaparece menu movil si es visible
+      $('#menu-movil').addClass('hidden');
 
       // acomoda sidebar 1 en primer hijo
-      // $('#sidebar-1').detach().prependTo('#main');
+      $('#sidebar-1').detach().prependTo('#main');
 
     } else {
 
@@ -48,11 +51,11 @@ function responsivo_large() {
       $('#menu-scroll').addClass('hidden');
 
       //en movil agrega el alto del header fixed
-      $('#main').addClass('.top-contenido-movil');
+      $('#main').addClass('top-contenido-movil');
 
 
       // reacomoda sidebar 1 en segundo hijo
-      // $('#sidebar-1').detach().after('#central-container');
+      $('#sidebar-1').detach().after('#central-container');
 
     }
 
@@ -285,15 +288,9 @@ function menu_scroll() {
 //
 function menu_movil() {
 
-  console.log('menu movil');
-
-
-
-
-
   setTimeout(function() {
     $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
-    $('#menu-mobile').css('transition','0.5s').addClass('hidden');
+    $('#menu-movil').css('transition','0.5s').addClass('hidden');
   },250);
 
 
@@ -306,7 +303,8 @@ function menu_movil() {
       //reset
       if (! $('#boton-menu-movil i').hasClass('hidden')) {
         $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
-        $('#menu-mobile').css('transition','0.5s').addClass('hidden');
+        $('#menu-movil').addClass('hidden');
+        $('#barras').toggleClass('down');
       };
     };
   });
@@ -321,14 +319,14 @@ function menu_movil() {
 
       setTimeout(function() {
         $('#boton-menu-movil i').removeClass('fa-bars').addClass('fa-remove').css('transition','0.25s')
-        $('#menu-mobile').css('transition','0.5s').removeClass('hidden');
+        $('#menu-movil').removeClass('hidden');
       },250);
 
     } else if ($('#boton-menu-movil i').hasClass('fa-remove')) {
 
       setTimeout(function() {
         $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
-        $('#menu-mobile').css('transition','0.5s').addClass('hidden');
+        $('#menu-movil').addClass('hidden');
       },250);
 
     }

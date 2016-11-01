@@ -116,32 +116,32 @@
 
 
 <!-- header movil -->
-  <header id="header-movil" class="header columns h-25-v hide-for-large fixed top z1k1 left show-for-small show-form-medium">
+  <header id="header-movil" class=" columns h-25-v shadow header hide-for-large color-white-bg fixed top z1k1 left show-for-small p-0 show-form-medium">
 
     <div id="logo-movil" class="columns small-3 medium-3 large-2 p-0 imgLiquid imgLiquidNoFill">
       <img src="http://fakeimg.pl/300?text=placeholder" alt="">
     </div>
 
-    <div id="imagen-header-movil" class="columns small-9 medium-9 large-10 fixed top right h-25-v z-1 p-0 imgLiquid imgLiquidFill">
+    <div id="imagen-header-movil" class="columns small-9 medium-9 large-10  h-25-v z-1 p-0 imgLiquid imgLiquidFill">
       <img src="http://fakeimg.pl/300?text=landscape" alt="">
     </div>
 
 
     <div id="boton-menu-movil" class="columns small-2 medium-1 pointer fixed top right h-25-v v-center">
 
-      <i id="barras" class="fa fa-bars font-xs-l font-sm-l font-md-xl bold color-negro"></i>
+      <i id="barras" class="fa fa-bars font-xs-l font-sm-xl font-md-xxl bold color-negro"></i>
 
     </div>
 
 
 
     <!-- menu movil -->
-    <nav id="menu-movil" class="hidden columns medium-10 large-8 absUpR text-left h-a color-vino-bg bottom-left-corner" >
+    <nav id="menu-movil" class="hidden columns medium-12 fixed top left top-menu-movil text-left h-75-v color-vino-bg" >
 
 
-      <div id="menu-list-container" class="columns h-menu-hical p-0">
+      <div id="menu-list-container-movil" class="columns h-100 p-0">
 
-        <ul id="menu-list" class="columns medium-9 large-9 h-100 p-0 m-0">
+        <ul id="menu-list" class="columns medium-12 h-80 p-0 m-0">
 
           <?php
 
@@ -153,11 +153,11 @@
             ?>
 
 
-            <a href="#" class="shareW p-0 text-center color-blanco color-gris-naranja-claro-hover rel h-100 ">
+            <a href="#" class="columns p-0 text-center color-blanco borde-abajo color-gris-naranja-claro-hover h-15">
 
-              <div class="columns p-0 h-100 v-center">
+              <div class="columns p-0 p-t-1">
 
-                <li id="menu-element" class="columns  text-center h-a borde-derecho">
+                <li id="menu-element" class="columns vcenter text-center h-a">
 
                   <?php
                   echo $menu[$i];
@@ -172,15 +172,6 @@
               if ($i == 0):
 
                 ?>
-                <!-- senalador menu activo -->
-                <div id="active-pointer-<?php echo $i;?>" class="columns absDownL left h-5 menu-activo">
-
-                  <div class="small-offset-5 menu-activo-triangulo">
-
-                  </div>
-
-                </div>
-
 
 
 
@@ -195,6 +186,7 @@
 
             </a>
 
+
             <?php
           endfor;
           ?>
@@ -202,9 +194,11 @@
 
         </ul>
 
-        <div id="menu-element" class="columns medium-3 large-3 h-100 p-t-0-2 p-r-0">
 
-          <input type="text" class="columns p-0 h-80" placeholder="Search ...">
+
+        <div id="menu-element" class="columns medium-12 h-20 p-t-0-2 p-r-0 p-l-0">
+
+          <input type="text" class="columns p-0 h-80" placeholder="Buscar ...">
 
         </div>
 

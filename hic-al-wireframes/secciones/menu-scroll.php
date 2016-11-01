@@ -19,7 +19,7 @@
       $menu = array('Sub 1', 'Sub 2', 'Sub 3','Sub 4','Sub 5','Sub 6');
 
 
-      for ($i=0; $i < 6 ; $i++):
+      for ($i=0; $i < 5 ; $i++):
 
       ?>
 
