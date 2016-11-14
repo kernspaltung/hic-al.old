@@ -2,8 +2,8 @@
 
 <?php for ($i=0; $i < 3; $i++) : ?>
 
-   <section class="h-80-v">
-      
+   <section class="scroll-block h-100">
+
    </section>
 
 <?php endfor; ?>

@@ -1,4 +1,4 @@
-<section id="sidebar-1" class="columns small-12 medium-6 large-2 h-100-v text-center p-t-1 p-l-0" data-sticky-container>
+<section id="sidebar-1" class="columns medium-6 large-2 h-100-v text-center p-t-1 p-l-0" data-sticky-container>
 
 <!-- sticky -->
 

@@ -6,33 +6,48 @@ $(document).ready(function(){
 
   images();
 
-
   slider_latest_news();
 
   slider_portfolio_preview();
+
   portfolio_preview();
 
+   $('#menu-scroll').addClass('hidden')
 
-  responsivo_large();
-
-  //
-
-  setupResize();
+setupResize();
 
 });
 
 
+
+
+
+
+function setupResize() {
+
+  u.addWindowResizeFunction( responsivo_large );
+  u.addWindowResizeFunction( u.verticalCenter );
+  u.addWindowResizeFunction( u.shareH );
+  u.addWindowResizeFunction( u.shareW );
+
+  $(window).trigger('resize');
+
+}
+
+
+
+
+
+
 function responsivo_large() {
 
-  //
-  $(window).resize(function() {
-
-    if ($(document).width() >= 1024) {
+   if ( $(document).width() >= 1024 && $('#menu-scroll').hasClass('hidden') ) {
 
       // menu fixed de escritorio
       menu_scroll();
       //muestra menu scroll
       $('#menu-scroll').removeClass('hidden');
+
 
       //en desktop quita el alto del header fixed
       $('#main').removeClass('top-contenido-movil');
@@ -41,7 +56,7 @@ function responsivo_large() {
       $('#menu-movil').addClass('hidden');
 
       // acomoda sidebar 1 en primer hijo
-      // $('#sidebar-1').detach().prependTo('#main');
+      $('#sidebar-1').detach().insertBefore('#main');
 
       //reset de menu movil si va a escritorio
       if (! $('#boton-menu-movil i').hasClass('hidden')) {
@@ -50,7 +65,7 @@ function responsivo_large() {
         $('#barras').toggleClass('down');
       };
 
-    } else {
+   } else {
 
       // menu en medium y small
       menu_movil();
@@ -62,12 +77,10 @@ function responsivo_large() {
 
 
       // reacomoda sidebar 1 en segundo hijo
-      // $('#sidebar-1').detach().after('#central-container');
+      $('#sidebar-1').detach().insertAfter('#main');
 
 
-    }
-
-  });
+   }
 
 }
 
@@ -80,14 +93,6 @@ function images() {
 
 }
 
-
-function setupResize() {
-
-  u.addWindowResizeFunction( u.verticalCenter );
-  u.addWindowResizeFunction(u.shareH);
-  u.addWindowResizeFunction(u.shareW);
-  $(window).trigger('resize');
-}
 
 // slider
 function slider_latest_news() {
