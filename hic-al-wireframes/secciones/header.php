@@ -16,18 +16,20 @@
 
 
 
+    <section id="hero" class="columns h-80-v rel">
+      <div id="logo" class="columns small-6 medium-4 large-2 m-l-4 p-0 imgLiquid imgLiquidNoFill">
+        <img src="img/logo-300.png" alt="">
+      </div>
+
+      <div id="imagen-header" class="columns h-100 fixed top right z-1 p-0 imgLiquid imgLiquidFill">
+        <img src="http://www.hic-al.org/images/DelainaHaslam-ElPais.png" alt="">
+
+      </div>
+    </section>
 
   <!-- header escritorio -->
-  <header id="header" class="header columns h-25-v show-for-large">
+  <header id="header" class="header columns h-a show-for-large">
 
-    <div id="logo" class="columns small-6 medium-4 large-2 p-0 imgLiquid imgLiquidNoFill">
-      <img src="http://fakeimg.pl/300?text=placeholder" alt="">
-    </div>
-
-    <div id="imagen-header" class="columns small-6 medium-8 large-10 fixed top right h-25-v z-1 p-0 imgLiquid imgLiquidFill">
-      <img src="http://fakeimg.pl/300?text=landscape" alt="">
-
-    </div>
 
 
 
@@ -213,6 +215,18 @@
   </header>
   <!-- termina header movil -->
 
-  <?php include_once "secciones/menu-scroll.php"; ?>
+  <?php
+include_once "secciones/menu-scroll.php";
 
-  <div id="main" class="columns p-0 h-a color-blanco-bg" >
+
+?>
+
+<div id="main-container" class="columns w-100-v h-a m-0 p-0 color-white-bg">
+
+
+<?php
+
+include_once "secciones/sidebar-1.php";
+?>
+
+  <main id="main" class="columns large-8 p-0 h-a">

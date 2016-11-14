@@ -21,9 +21,13 @@
 
 
          <div id="header-logotipo" class="col-xs-5 col-sm-4 col-md-3 col-lg-2">
+
             <div class="image imgLiquid imgLiquidNoFill">
+
                <img src="http://fakeimg.pl/300x200" alt="" />
+
             </div>
+
          </div>
 
          <div id="header-menu" class="hidden-xs hidden-sm col-md-9 col-lg-10 v-center">
@@ -42,8 +46,11 @@
 
       </header>
 
+
       <main class="col-md-8 col-lg-9">
+
          <h1>Principal</h1>
+
          <aside id="menu-lateral-izquierdo" class="col-md-3 col-lg-2">
 
          </aside>

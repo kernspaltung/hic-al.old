@@ -1,8 +1,15 @@
 
 
 
-</div>
+</main>
 <!-- main -->
+
+<?php include_once "secciones/sidebar-2.php"; ?>
+
+</div>
+<!-- .main-container -->
+
+
 
 <footer id="footer" class="header columns h-a color-gris-naranja-claro color-naranja-bg p-1">
 
