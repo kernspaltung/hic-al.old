@@ -16,7 +16,7 @@
 
 
   <!-- header escritorio -->
-  <header id="header-escritorio-micrositio" class="header columns h-20-v color-blanco-bg show-for-large">
+  <header id="header-escritorio-micrositio" class="header columns h-20-v color-blanco-bg show-for-large shadow">
 
     <div id="logo" class="columns small-6 medium-4 large-2 m-l-4 p-0 imgLiquid imgLiquidNoFill">
       <img src="img/logo-300.png" alt="">
@@ -25,7 +25,7 @@
 
 
     <!-- menu desktop -->
-    <!-- <nav id="menu-desktop-micrositio" class="columns medium-10 large-8 absUpR text-left h-a color-vino-bg bottom-left-corner" > -->
+    <nav id="menu-desktop-micrositio" class="columns medium-10 large-8 text-left h-a color-gris-bg bottom-left-corner" >
 
 
     <!-- este se remueve con jquery -->
@@ -73,10 +73,10 @@
 
 </div>
 
-</div>
+</div> -->
 
 
-</nav> -->
+</nav>
 <!-- end menu desktop -->
 
 
@@ -94,7 +94,7 @@
     <img src="img/logo-50-2x.png" alt="">
   </div>
 
-  <div id="imagen-header-movil-micrositio" class="columns small-9 medium-9 large-10 h-25-v z-1 p-0 imgLiquid imgLiquidFill">
+  <div id="placeholder-header-movil-micrositio" class="columns small-9 medium-9 large-10 h'a z-1 p-0 imgLiquid imgLiquidFill">
     <!-- <img src="http://fakeimg.pl/300?text=landscape" alt=""> -->
   </div>
 
@@ -197,4 +197,4 @@
   // include_once "secciones/sidebar-1.php";
   ?>
 
-  <main id="main" class="columns large-8 p-0 h-a">
+  <main id="main-micrositio" class="columns large-8 p-0 h-a">

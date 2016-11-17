@@ -319,7 +319,7 @@ function menu_movil() {
   // });
 
   // click boton menu movil
-  $('#boton-menu-movil').on('click', function() {
+  $('#boton-menu-movil #boton-menu-movil-micrositio  ').on('click', function() {
 
     $('#barras').toggleClass('down');
 
