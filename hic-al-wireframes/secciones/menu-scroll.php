@@ -1,3 +1,10 @@
+<?php
+
+global $menu;
+$menu = array('Últimas Noticias', 'Documentos', 'Actividades');
+
+?>
+
 <!-- menu en scroll -->
 <nav id="menu-scroll" class="columns medium-12 large-8 large-offset-2 fixed top z1k1 text-left h-a color-vino-bg bottom-left-right-corner posicion-inicial p-b-0-2" >
 
@@ -16,10 +23,10 @@
 
       <?php
 
-      $menu = array('Subsección 1', 'Subsección 2', 'Subsección 3','Subsección 4','Subsección 5','Subsección 6');
 
 
-      for ($i=0; $i < 5 ; $i++):
+
+      for ($i=0; $i < count( $menu ) ; $i++):
 
       ?>
 
