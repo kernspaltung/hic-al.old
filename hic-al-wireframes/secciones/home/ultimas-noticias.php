@@ -13,7 +13,7 @@
 
     <article class="columns p-0 rel imgLiquid imgLiquidFill">
 
-      <img src="http://fakeimg.pl/300?text=placeholder"/>
+      <img src="http://www.hic-al.org/images/DelainaHaslam-ElPais.png"/>
 
 
       <div class="columns h-a p-l-4 p-r-4 abs bottom ">

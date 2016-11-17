@@ -8,6 +8,7 @@
   <title>HIC-AL</title>
   <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
+  <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css">
   <link rel="stylesheet" href="recursos/js_utils/dist/stylesheet/js_utils.min.css">
   <link rel="stylesheet" href="css/app.css">
 
@@ -119,18 +120,14 @@
 
 
   <!-- header movil -->
-  <header id="header-movil" class=" columns h-25-v shadow header hide-for-large color-white-bg fixed top z1k1 left show-for-small p-0 show-form-medium">
+  <header id="header-movil" class="columns h-10-v shadow header hide-for-large fixed top z1k1 left show-for-small p-0-2 show-form-medium color-white-bg">
 
     <div id="logo-movil" class="columns small-3 medium-3 large-2 p-0 imgLiquid imgLiquidNoFill">
-      <img src="http://fakeimg.pl/300?text=placeholder" alt="">
-    </div>
-
-    <div id="imagen-header-movil" class="columns small-9 medium-9 large-10  h-25-v z-1 p-0 imgLiquid imgLiquidFill">
-      <img src="http://fakeimg.pl/300?text=landscape" alt="">
+      <img src="img/logo-50.png" alt="">
     </div>
 
 
-    <div id="boton-menu-movil" class="columns small-2 medium-1 pointer fixed top right h-25-v v-center">
+    <div id="boton-menu-movil" class="columns small-2 medium-1 pointer fixed top right h-10-v v-center">
 
       <i id="barras" class="fa fa-bars font-xs-l font-sm-xl font-md-xxl bold color-negro"></i>
 

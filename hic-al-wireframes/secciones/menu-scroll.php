@@ -16,7 +16,7 @@
 
       <?php
 
-      $menu = array('Sub 1', 'Sub 2', 'Sub 3','Sub 4','Sub 5','Sub 6');
+      $menu = array('Subsección 1', 'Subsección 2', 'Subsección 3','Subsección 4','Subsección 5','Subsección 6');
 
 
       for ($i=0; $i < 5 ; $i++):
@@ -28,7 +28,7 @@
 
         <div class="columns p-0 h-100 v-center">
 
-          <li id="menu-element" class="columns  text-center h-a ">
+          <li id="menu-element" class="columns  text-center h-a font-xs">
 
             <?php
             echo $menu[$i];
