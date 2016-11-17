@@ -72,7 +72,7 @@
 
     <p class="columns p-0 h-a font-xs-m font-sm-m font-md-l font-lg-l">
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpa corporis excepturi accusamus dolore, perspiciatis at aut, officiis odio accusantium repellendus. Beatae nam veniam, suscipit deleniti, et debitis consequatur delectus.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpa corporis excepturi accusamus dolore, perspiciatis at aut, officiis odio accusantium repellendus.
 
     </p>
 
