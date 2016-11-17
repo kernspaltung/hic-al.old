@@ -13,7 +13,7 @@
 
          <article class="columns p-0 rel imgLiquid imgLiquidFill">
 
-            <img src="http://www.hic-al.org/images/DelainaHaslam-ElPais.png"/>
+            <img src="http://www.hic-al.org/images/2015-06-29_18-35-10.jpg"/>
 
 
             <div class="columns h-a p-l-4 p-r-4 abs bottom ">
@@ -36,10 +36,10 @@
    </div>
 
 
-   <div id="home-latest-news-posts" class="columns h-60-v">
+   <div id="home-latest-news-posts-map" class="columns">
 
 
-      <div class="columns medium-6 p-0">
+      <div class="columns medium-6 h-60-v p-0">
 
          <?php
 
@@ -47,29 +47,31 @@
 
             ?>
 
-            <article class="columns h-15-v p-0 m-b-1">
+            <article class="columns h-15-v p-0 m-b-1 card">
+
                <a href="" class="columns p-0 h-100">
 
                   <div class="columns p-0 small-4 imgLiquid imgLiquidFill">
 
-                     <img src="http://fakeimg.pl/300?text=news" alt="">
+                     <img src="http://www.hic-al.org/images/2015-06-29_18-35-10.jpg" alt="">
 
                   </div>
 
-                  <div class="columns small-8 p-1 p-t-0">
+                  <div class="columns small-8 p-0-2">
 
-                     <div class="columns font-xs-s font-md-xs font-lg-m text-left">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aliquam iusto rem!
+                     <div class="columns h-70 font-xs text-left">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                      </div>
 
-                     <div class="columns font-xxs p-1 p-t-0 color-neutral">
+                     <div class="columns h-30 font-xxs color-neutral">
 
-                        17/12/16
+                        17 de diciembre, 2016
 
                      </div>
                   </div>
 
                </a>
+
             </article>
 
             <?php
@@ -90,8 +92,8 @@
 
       </div>
 
+      <div id="home-mapa" class="columns small-8 medium-6 small-offset-2 medium-offset-0 h-60-v end m-t-xs-1"></div>
 
-      <div id="home-mapa" class="columns medium-6 hide-for-small-only"></div>
 
 
    </div>
