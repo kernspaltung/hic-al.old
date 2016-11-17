@@ -1,32 +1,40 @@
 <!-- solo en escritorio -->
-<section id="tema-noticias" class="columns small-12 medium-12 large-4 h-75-v show-for-large">
+<section id="tema-noticias" class="columns small-12 medium-12 large-4 h-100-v show-for-large">
 
+<a href="#" class="columns p-0 color-negro">
 
+  <div id="tema-noticias-titulo" class="columns h-10 p-1-3 font-xl v-center">
+
+    Noticias
+
+  </div>
+
+</a>
   <?php
 
-  for ($i=0; $i < ; $i++):
+  for ($i=0; $i < 2; $i++):
 
     ?>
 
-    <a href="#" class="columns h-a">
+    <a href="#" class="columns h-50">
 
-      <article id="tema-noticias-articulo" class="columns p-1 h-75-v">
+      <article id="tema-noticias-articulo" class="columns p-1 h-100">
 
-        <div class="columns p-0 h-40 imgLiquid imgLiquidFill">
+        <div class="columns p-0 h-60 imgLiquid imgLiquidFill">
 
           <img src="http://fakeimg.pl/250?text=thumb" alt="">
 
         </div>
 
 
-    
-        <div class="columns h-30">
+
+        <div class="columns h-40 p-0">
 
 
           <!-- titulo -->
-          <div id="tema-noticias-titulo" class="columns p-0 h-30 v-center">
+          <div id="tema-noticias-titulo" class="columns p-0 p-t-0-3 h-50 v-center">
 
-            <h1 class="columns h-1 p-0 text-left font-xs-xxl font-sm-xxl font-md-xxl font-lg-xxl">
+            <h1 class="columns h-1 p-0 text-left font-xs-l font-sm-l font-md-l font-lg-l">
 
               Título completo de la entrada
 
@@ -66,6 +74,7 @@
 
 
 </section>
+<!-- termina seccion escritorio -->
 
 
 <!-- solo en movil -->
@@ -91,3 +100,4 @@
 
 
 </section>
+<!-- fin seccion movil -->
