@@ -1,3 +1,4 @@
+<!-- DESTACADOS -->
 <section id="micrositio-modulo1" class="columns h-a">
 
   <!-- menu modulo 1 -->
@@ -37,7 +38,7 @@
 
 
 
-    <div id="micrositio-modulo1-entrada" class="columns p-1 h-75-v">
+    <article id="micrositio-modulo1-entrada" class="columns p-1 h-75-v">
 
       <div class="columns p-0 h-50 imgLiquid imgLiquidFill">
 
@@ -75,7 +76,7 @@
 
       </div>
 
-    </div>
+    </article>
     <!-- termina elemento -->
 
 
