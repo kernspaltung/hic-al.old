@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
   <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css">
-  
+
   <link rel="stylesheet" href="recursos/js_utils/dist/stylesheet/js_utils.min.css">
   <link rel="stylesheet" href="css/app.css">
 
@@ -18,13 +18,13 @@
 
 
 
-    <section id="hero" class="columns h-80-v rel">
+    <section id="hero" class="columns h-70-sm-v h-md-80-v rel m-t-xs-3 m-t-md-0">
       <div id="logo" class="columns small-6 medium-4 large-2 m-l-4 p-0 imgLiquid imgLiquidNoFill">
         <img src="img/logo-300.png" alt="">
       </div>
 
       <div id="imagen-header" class="columns h-100 fixed top right z-1 p-0 imgLiquid imgLiquidFill">
-        <img src="http://www.hic-al.org/images/DelainaHaslam-ElPais.png" alt="">
+        <img src="http://www.hic-al.org/images/2015-06-29_18-35-10.jpg" alt="">
 
       </div>
     </section>

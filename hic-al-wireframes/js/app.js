@@ -23,16 +23,25 @@ $(document).ready(function(){
 
 function setupMapa() {
 
-   var mymap = L.map('home-mapa').setView([-15, -80], 3);
+   var mymap = L.map('home-mapa', {zoomControl: false}).setView([-15, -80], 3);
+   var zoom=2;
+
+   // if($(window).width() < 768) {
+   //    zoom = 2;
+   // }
+   // else {
+   //    zoom = 3;
+   // }
 
    L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZnVyZW5rdSIsImEiOiJjaW16eHVpd3owNjJ2dXBra3FldTVrYzVtIn0.kJH-xAuuKWnYk8htVvGF2Q', {
-      //  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-       maxZoom: 3,
-       minZoom: 3,
+      attribution: false,
+      maxZoom: zoom,
+      // minZoom: zoom,
       //  id: 'your.mapbox.project.id',
       //  accessToken: 'pk.eyJ1IjoiZnVyZW5rdSIsImEiOiJjaXZsczVoYXYwM3Y0Mm9udnh1dmV4cTMxIn0.Ajhxu45JrPr0eZQick8DCg'
    }).addTo(mymap);
 
+   $(".leaflet-control-attribution").hide()
 }
 
 
@@ -65,7 +74,7 @@ function responsivo_large() {
 
 
       //en desktop quita el alto del header fixed
-      $('#main').removeClass('top-contenido-movil');
+      // $('#main').removeClass('top-contenido-movil');
 
       //desaparece menu movil si es visible
       $('#menu-movil').addClass('hidden');
@@ -88,7 +97,7 @@ function responsivo_large() {
       $('#menu-scroll').addClass('hidden');
 
       //en movil agrega el alto del header fixed
-      $('#main').addClass('top-contenido-movil');
+      // $('#main').addClass('top-contenido-movil');
 
 
       // reacomoda sidebar 1 en segundo hijo
@@ -333,8 +342,8 @@ function menu_movil() {
    //   // };
    // });
 
-  // click boton menu movil
-  $('#boton-menu-movil #boton-menu-movil-micrositio  ').on('click', function() {
+   // click boton menu movil
+   $('#boton-menu-movil,  #boton-menu-movil-micrositio  ').on('click', function() {
 
       $('#barras').toggleClass('down');
 
