@@ -28,25 +28,30 @@
 
       ?>
 
-      <article class="columns large-12 h-15-v p-0 m-b-1">
+      <article class="columns h-15-v p-0 m-b-1 card">
 
-        <a href="" class="columns p-0 h-100">
+         <a href="" class="columns p-0 h-100">
 
-          <div class="columns p-0 medium-4 imgLiquid imgLiquidFill m-b-2">
+            <div class="columns p-0 small-4 imgLiquid imgLiquidFill">
 
-            <img src="http://fakeimg.pl/300?text=news" alt="">
+               <img src="http://www.hic-al.org/images/2015-06-29_18-35-10.jpg" alt="">
 
-          </div>
-
-          <div class="columns medium-8">
-
-            <div class="columns font-sm-s font-md-s font-lg-s p-1">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis!
             </div>
 
-          </div>
+            <div class="columns small-8 p-0-2">
 
-        </a>
+               <div class="columns h-70 font-xs text-left">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               </div>
+
+               <div class="columns h-30 font-xxs color-neutral">
+
+                  17 de diciembre, 2016
+
+               </div>
+            </div>
+
+         </a>
 
       </article>
 
