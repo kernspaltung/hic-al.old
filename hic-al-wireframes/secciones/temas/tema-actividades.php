@@ -1,17 +1,45 @@
-<section id="tema-actividades" class="columns small-12 medium-12 large-4 h-100-v show-for-large">
+<section id="tema-actividades" class="columns small-12 medium-12 large-4 h-a m-b-1 show-for-large">
 
 
-  actividades
+<!--  -->
+
+
+<a href="#" class="columns p-0 h-10-v color-blanco color-naranja-bg v-center">
+
+  <div id="tema-documentos-titulo" class="columns font-xl h-a">
+
+    Actividades
+
+  </div>
+
+</a>
+
+<!-- contenido de actividades escritorio -->
+<div class="columns p-0 m-0 h-100-v">
 
 
 
+
+
+</div>
+
+<!--  -->
+
+<div id="tema-documentos-vermas" class="columns h-5-v v-center p-0 color-naranja-bg">
+
+  <a class="columns p-0 h-a text-center font-xs-m font-md-m color-blanco color-gris-naranja-claro-hover">
+
+    Ver más <i class="fa fa-plus"></i>
+  </a>
+
+</div>
 
 
 </section>
 
 
 <!-- seccion movil  -->
-<section id="tema-actividades" class="columns h-60-v p-1 hide-for-large">
+<section id="tema-actividades-movil" class="columns h-60-v p-1 hide-for-large">
 
 
   <!-- header seccion -->
