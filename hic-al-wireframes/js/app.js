@@ -1,4 +1,5 @@
 u = new Utils();
+setupMapa();
 
 $(document).ready(function(){
 
@@ -16,10 +17,9 @@ $(document).ready(function(){
 
    $('#menu-scroll').addClass('hidden')
 
+
+
    setupResize();
-
-   setupMapa();
-
 
    console.log("Hic-Al ready");
 });
@@ -58,41 +58,47 @@ function setupResize() {
    u.addWindowResizeFunction( u.shareW );
    u.addWindowResizeFunction( u.verticalCenter );
 
-   $(window).trigger('resize');
+   setTimeout(function(){
+
+      $(window).trigger('resize');
+
+   },100)
 
 }
 
 
+
+// function setupLoading() {}
 
 
 
 
 function responsivo_large() {
 
-   if ( $(document).width() >= 1024 && $('#menu-scroll').hasClass('hidden') ) {
+   if ( $(document).width() >= 1024 ) {
+      if(  $('#menu-scroll').hasClass('hidden') ) {
+         // menu fixed de escritorio
+         menu_scroll();
+         //muestra menu scroll
+         $('#menu-scroll').removeClass('hidden');
 
-      // menu fixed de escritorio
-      menu_scroll();
-      //muestra menu scroll
-      $('#menu-scroll').removeClass('hidden');
 
+         //en desktop quita el alto del header fixed
+         // $('#main').removeClass('top-contenido-movil');
 
-      //en desktop quita el alto del header fixed
-      // $('#main').removeClass('top-contenido-movil');
-
-      //desaparece menu movil si es visible
-      $('#menu-movil').addClass('hidden');
-
-      // acomoda sidebar 1 en primer hijo
-      $('#sidebar-1').detach().insertBefore('#main');
-
-      //reset de menu movil si va a escritorio
-      if (! $('#boton-menu-movil i').hasClass('hidden')) {
-         $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
+         //desaparece menu movil si es visible
          $('#menu-movil').addClass('hidden');
-         $('#barras').toggleClass('down');
-      };
 
+         // acomoda sidebar 1 en primer hijo
+         $('#sidebar-1').detach().insertBefore('#main');
+
+         //reset de menu movil si va a escritorio
+         if (! $('#boton-menu-movil i').hasClass('hidden')) {
+            $('#boton-menu-movil i').removeClass('fa-remove').addClass('fa-bars').css('transition','0.25s')
+            $('#menu-movil').addClass('hidden');
+            $('#barras').toggleClass('down');
+         };
+      }
    } else {
 
       // menu en medium y small
