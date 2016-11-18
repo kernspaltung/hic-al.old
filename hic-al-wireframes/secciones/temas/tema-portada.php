@@ -1,4 +1,4 @@
-<section id="tema-portada" class="columns h-a">
+<section id="tema-portada" class="columns h-a m-b-0-3">
 
   <!-- wrapper de la portada -->
   <div class="columns p-0">
