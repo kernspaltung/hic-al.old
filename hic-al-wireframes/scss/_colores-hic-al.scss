@@ -2,24 +2,42 @@
 $blanco: #fff;
 $negro: #000;
 $vino: #983333;
-$vino_oscuro: #712522;
-$vino_claro: #501310;
+$vino_oscuro: #501310;
+$vino_medio: #985343;
+$vino_claro: #B6403A;
+$vino_intenso: #B6402A;
 $naranja: #E78419;
 $verde: #176834;
+$verde_claro: #189718;
+$verde_claro_intenso: #3ABB03;
 $amarillo: #FDD12B;
 $gris_naranja_claro: #F8DABA;
 $gris_oscuro: #4D4D4D;
 $gris_claro: #eDeDeD;
+
+
+
+$terciario1: #FFA400;
+$terciario2: #1490DA;
+$terciario3: #00BB00;
+
 //
 
 $lista-colores: (
 blanco   $blanco,
 negro   $negro,
 vino $vino,
-vino-oscuro $vino_oscuro,
+terciario1 $terciario1,
+terciario2 $terciario2,
+terciario3 $terciario3,
 vino-claro $vino_claro,
+vino-medio $vino_medio,
+vino-oscuro $vino_oscuro,
+vino-intenso $vino_intenso,
 naranja $naranja,
 verde $verde,
+verde-claro $verde_claro,
+verde-claro-intenso $verde_claro_intenso,
 amarillo $amarillo,
 gris-naranja-claro $gris_naranja_claro,
 gris-oscuro $gris_oscuro,
