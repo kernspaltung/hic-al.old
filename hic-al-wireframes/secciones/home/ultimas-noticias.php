@@ -4,7 +4,7 @@
       <div href="#" class="columns p-0 h-a">Ultimas Noticias</div>
    </h1>
 
-   <div id="slider-latest-news" class="columns p-0 h-35-v slick">
+   <div id="slider-latest-news" class="columns small-10 small-offset-1 end p-0 h-35-v slick m-t-xs-1 m-b-xs-1">
 
       <?php
       for ($i=0; $i < 4; $i++):
@@ -13,7 +13,7 @@
 
          <article class="columns p-0 rel imgLiquid imgLiquidFill">
 
-            <img src="http://www.hic-al.org/images/2015-06-29_18-35-10.jpg"/>
+            <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060"/>
 
 
             <div class="columns h-a p-l-4 p-r-4 abs bottom ">
@@ -39,7 +39,7 @@
    <div id="home-latest-news-posts-map" class="columns">
 
 
-      <div class="columns medium-6 h-60-v p-0">
+      <div class="columns medium-6 h-60-v p-0 hide-for-small-only">
 
          <?php
 
@@ -53,7 +53,7 @@
 
                   <div class="columns p-0 small-4 imgLiquid imgLiquidFill">
 
-                     <img src="http://www.hic-al.org/images/2015-06-29_18-35-10.jpg" alt="">
+                     <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt="">
 
                   </div>
 
@@ -92,7 +92,7 @@
 
       </div>
 
-      <div id="home-mapa" class="columns small-8 medium-6 small-offset-2 medium-offset-0 h-60-v end m-t-xs-1"></div>
+      <div id="home-mapa" class="columns medium-6 h-60-v"></div>
 
 
 
