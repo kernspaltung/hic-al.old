@@ -1,26 +1,31 @@
 <!-- solo en escritorio -->
-<section id="tema-noticias" class="columns large-4 h-100-v show-for-large">
+<section id="tema-noticias" class="columns large-4 h-a m-b-1 show-for-large">
 
-  <a href="#" class="columns p-0 color-negro">
+  <a href="#" class="columns p-0 h-10-v color-blanco color-naranja-bg v-center">
 
-    <div id="tema-noticias-titulo" class="columns h-10 p-1-3 font-xl v-center">
+    <div id="tema-noticias-titulo" class="columns font-xl h-a">
 
       Noticias
 
     </div>
 
   </a>
+
+
+<!-- altura total al contenedor de los articulos -->
+  <div class="columns p-0 m-0 h-100-v">
+
   <?php
 
   for ($i=0; $i < 2; $i++):
 
     ?>
 
-    <a href="#" class="columns h-50">
+    <a href="#" class="columns h-45 p-0 m-b-0-3 m-t-0-3 card">
 
       <article id="tema-noticias-articulo" class="columns p-1 h-100">
 
-        <div class="columns p-0 h-60 imgLiquid imgLiquidFill">
+        <div class="columns p-0 h-40 imgLiquid imgLiquidFill">
 
           <img src="http://fakeimg.pl/250?text=thumb" alt="">
 
@@ -28,13 +33,13 @@
 
 
 
-        <div class="columns h-40 p-0">
+        <div class="columns h-60 p-0">
 
 
           <!-- titulo -->
-          <div id="tema-noticias-titulo" class="columns p-0 p-t-0-3 h-50 v-center">
+          <div id="tema-noticias-titulo" class="columns p-0 p-t-0-3 h-a">
 
-            <h1 class="columns h-1 p-0 text-left font-xs-l font-sm-l font-md-l font-lg-l">
+            <h1 class="columns h-1 p-0 text-left font-xs-l font-sm-l font-md-l font-lg-l color-negro">
 
               Título completo de la entrada
 
@@ -45,15 +50,28 @@
 
 
           <!-- fecha -->
-          <div class="columns p-0 h-30 v-center">
+          <div class="columns p-0 h-a v-center">
 
-            <div class="columns p-0 h-a text-right font-xs-xs font-sm-s font-md-s font-lg-m">
+            <div class="columns p-0-2 h-a text-right font-xs-xs font-sm-s font-md-s font-lg-m color-negro">
 
               16/11/2016
 
             </div>
 
           </div>
+
+
+
+          <div id="tema-noticias-texto" class="columns large-12 p-0 p-t-0-3 h-50 v-center">
+
+            <div class="columns h-a text-left font-m color-negro">
+
+              Lorem ipsum dolor sit amet ewer, consectetur adipisicing elit...<small>ver más.</small>
+
+            </div>
+
+          </div>
+
 
 
         </div>
@@ -71,7 +89,16 @@
   endfor;
 
   ?>
+</div>
 
+  <div id="tema-noticias-vermas" class="columns h-5-v v-center p-0 color-naranja-bg">
+
+    <a class="columns p-0 h-a text-center font-xs-m font-md-m color-blanco color-gris-naranja-claro-hover">
+
+      Ver más <i class="fa fa-plus"></i>
+    </a>
+
+  </div>
 
 </section>
 <!-- termina seccion escritorio -->
@@ -82,12 +109,12 @@
 
   <!-- header seccion -->
 
-  <div class="columns p-0 h-20">
+  <div class="columns p-0 h-20 color-naranja-bg">
 
 
     <div id="tema-noticias-titulo" class="columns small-6 v-center">
 
-      <div class="columns p-0 h-a text-left font-xs-m font-md-m">
+      <div class="columns p-0 h-a text-left font-xs-m font-md-m color-blanco">
 
         Noticias
 
@@ -100,7 +127,7 @@
 
       <div id="tema-noticias-vermas" class="columns h-100 v-center p-0">
 
-        <div class="columns p-0 h-a text-right font-xs-m font-md-m">
+        <div class="columns p-0 h-a text-right font-xs-m font-md-m color-blanco color-gris-naranja-claro-hover">
 
           Ver más <i class="fa fa-plus"></i>
         </div>
@@ -114,7 +141,7 @@
 
 
   <!-- slider posts -->
-  <div id="tema-noticias-slider-small" class="columns p-0  h-80 slider-temas">
+  <div id="tema-noticias-slider-small" class="columns p-0 p-t-0-3 h-80 slider-temas">
 
     <?php
 
@@ -135,42 +162,46 @@
           ?>
 
 
-          <div class="columns small-6">
 
-            <!-- imagen -->
-            <div class="columns p-0 h-40 imgLiquid imgLiquidFill">
+            <div class="columns small-6 card">
 
-              <img src="http://fakeimg.pl/320?text=thumb" alt="" />
+              <a href="#" class="columns h-100 p-0 m-0 color-negro">
 
+              <!-- imagen -->
+              <div class="columns p-0 h-40 imgLiquid imgLiquidFill">
 
-            </div>
+                <img src="http://fakeimg.pl/320?text=thumb" alt="" />
 
-            <!-- titulo -->
-            <div class="columns p-0 h-40 v-center">
-
-              <div id="tema-portada-titulo" class="columns h-a font-xs-m font-sm-l font-md-xxl">
-
-                Título largo de algúna noticia
 
               </div>
 
-            </div>
+              <!-- titulo -->
+              <div class="columns p-0 h-40 v-center">
 
+                <div id="tema-noticias-titulo" class="columns h-a font-xs-m font-sm-l font-md-xxl">
 
+                  Título largo de algúna noticia
 
-            <!-- fecha -->
-            <div class="columns p-0 h-20 v-center">
-
-              <div class="columns p-0 h-a text-center font-xs-s font-sm-m font-md-xl">
-
-                16/11/2016
+                </div>
 
               </div>
 
+
+
+              <!-- fecha -->
+              <div class="columns p-0 h-20 v-center">
+
+                <div class="columns p-0 h-a text-center font-xs-s font-sm-m font-md-xl">
+
+                  16/11/2016
+
+                </div>
+
+              </div>
+
+            </a>
+
             </div>
-
-
-          </div>
 
 
 
