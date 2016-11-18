@@ -1,4 +1,4 @@
-<section id="home-documents" class="columns h-80-sm-v medium-12 large-6 p-0 m-b-1 p-r-1">
+<section id="home-documents" class="columns h-80-sm-v medium-12 large-6 p-0 m-b-1 ">
 
 
   <h1 class="columns h-2 text-center font-sm-m bold font-md-m font-lg-m p-0-2 color-blanco color-naranja-bg v-center">
@@ -12,7 +12,7 @@
 
       <div class="columns p-0 imgLiquid imgLiquidFill">
 
-        <img src="http://www.hic-al.org/images/2015-06-29_18-35-10.jpg"/>
+        <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060"/>
 
       </div>
 
@@ -21,11 +21,11 @@
   </article>
 
 
-  <div class="columns h-40 p-0 m-t-1">
+  <div class="columns h-a p-0 m-t-1">
 
     <?php
 
-    for ($i=0; $i < 4 ; $i++):
+    for ($i=0; $i < 3 ; $i++):
 
       ?>
 
@@ -35,7 +35,7 @@
 
             <div class="columns p-0 small-4 imgLiquid imgLiquidFill">
 
-               <img src="http://www.hic-al.org/images/2015-06-29_18-35-10.jpg" alt="">
+               <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt="">
 
             </div>
 

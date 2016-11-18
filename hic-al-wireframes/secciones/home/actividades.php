@@ -1,4 +1,4 @@
-<section id="home-activities" class="columns medium-12 large-6 p-0 m-b-1 p-l-1">
+<section id="home-activities" class="columns medium-12 large-6 p-0 m-b-1">
 
 
   <h1 class="columns h-2 text-center font-sm-m bold font-md-m font-lg-m p-0-2 color-blanco color-naranja-bg v-center">
@@ -20,11 +20,11 @@
   </article>
 
 
-  <div class="columns h-40 p-0 m-t-1">
+  <div class="columns h-a p-0 m-t-1">
 
     <?php
 
-    for ($i=0; $i < 4 ; $i++):
+    for ($i=0; $i < 3 ; $i++):
 
       ?>
 
@@ -32,25 +32,32 @@
 
          <a href="" class="columns p-0 h-100">
 
-            <div class="columns p-0 small-4 imgLiquid imgLiquidFill">
+            <div class="columns p-0 small-3 imgLiquid imgLiquidFill">
 
-               <img src="http://www.hic-al.org/images/2015-06-29_18-35-10.jpg" alt="">
+               <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt="">
 
             </div>
 
-            <div class="columns small-8 p-0-2">
+            <div class="columns small-6 p-0-2">
 
                <div class="columns h-70 font-xs text-left">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                </div>
 
-               <div class="columns h-30 font-xxs color-neutral">
 
-                  17 de diciembre, 2016
-
-               </div>
             </div>
 
+
+            <div class="columns p-0 small-3 text-center v-center color-naranja-bg color-white bold">
+
+               <div class="actividad-dia columns h-a p-0 font-xxl">
+                  17
+               </div>
+               <div class="actividad-mes columns h-a p-0 font-s">
+                  octubre
+               </div>
+
+            </div>
          </a>
 
       </article>
