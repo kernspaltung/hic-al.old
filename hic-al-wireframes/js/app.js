@@ -20,6 +20,8 @@ $(document).ready(function(){
 
    setupMapa();
 
+
+   console.log("Hic-Al ready");
 });
 
 
