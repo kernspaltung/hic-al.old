@@ -1,6 +1,6 @@
 u = new Utils();
-setupMapa();
 
+   
 $(document).ready(function(){
 
    $(document).foundation();
@@ -18,6 +18,7 @@ $(document).ready(function(){
    $('#menu-scroll').addClass('hidden')
 
 
+   if( $("#home-mapa").length > 0 ) setupMapa();
 
    setupResize();
 

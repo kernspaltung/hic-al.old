@@ -215,10 +215,16 @@
   </header>
   <!-- termina header movil -->
 
-  <?php
-  include_once "secciones/menu-scroll.php";
+
+     <?php
+     include_once "secciones/menu-scroll.php";
 
 
-  ?>
+     ?>
 
-  <main id="main" class="columns p-0 h-a color-blanco-bg">
+     <div id="main-container" class="columns w-100-v h-a m-0 p-0 color-white-bg">
+
+
+
+
+        <main id="main" class="columns p-0 h-a">

@@ -6,17 +6,15 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HIC-AL - Micrositio</title>
-  <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
-  <link rel="stylesheet" href="recursos/js_utils/dist/stylesheet/js_utils.min.css">
-  <link rel="stylesheet" href="css/app.css">
+
+<?php include_once 'dependencies/styles.php'; ?>
 
 </head>
 <body>
 
 
   <!-- header escritorio -->
-  <header id="header-escritorio-micrositio" class="header columns h-20-v color-blanco-bg show-for-large shadow">
+  <header id="header-escritorio" class="header columns h-20-v color-blanco-bg show-for-large shadow">
 
     <div id="logo" class="columns small-6 medium-4 large-2 m-l-4 p-0 imgLiquid imgLiquidNoFill">
       <img src="img/logo-300.png" alt="">
@@ -25,7 +23,7 @@
 
 
     <!-- menu desktop -->
-    <nav id="menu-desktop-micrositio" class="columns medium-10 large-8 text-left h-a color-gris-bg bottom-left-corner" >
+    <nav id="menu-desktop" class="columns medium-10 large-8 text-left h-a color-gris-bg bottom-left-corner" >
 
 
     <!-- este se remueve con jquery -->
@@ -87,14 +85,14 @@
 
 
 <!-- header movil -->
-<header id="header-movil-micrositio" class=" columns h-10-v shadow header hide-for-large color-white-bg p-t-0-2 p-b-0-2 fixed top z1k1 left show-for-small p-0 show-form-medium">
+<header id="header-movil" class=" columns h-10-v shadow header hide-for-large color-white-bg p-t-0-2 p-b-0-2 fixed top z1k1 left show-for-small p-0 show-form-medium">
 
 
-  <div id="logo-movil-micrositio" class="columns small-3 medium-3 large-2 imgLiquid imgLiquidNoFill">
+  <div id="logo-movil" class="columns small-3 medium-3 large-2 imgLiquid imgLiquidNoFill">
     <img src="img/logo-50-2x.png" alt="">
   </div>
 
-  <div id="placeholder-header-movil-micrositio" class="columns small-9 medium-9 large-10 h'a z-1 p-0 imgLiquid imgLiquidFill">
+  <div id="placeholder-header-movil" class="columns small-9 medium-9 large-10 h'a z-1 p-0 imgLiquid imgLiquidFill">
     <!-- <img src="http://fakeimg.pl/300?text=landscape" alt=""> -->
   </div>
 
@@ -108,12 +106,12 @@
 
 
   <!-- menu movil -->
-  <nav id="menu-movil-micrositio" class="hidden columns medium-12 fixed top left top-menu-movil text-left h-75-v color-vino-bg" >
+  <nav id="menu-movil" class="hidden columns medium-12 fixed top left top-menu-movil text-left h-75-v color-vino-bg" >
 
 
     <div id="menu-list-container-movil-micrositio" class="columns h-100 p-0">
 
-      <ul id="menu-list-micrositio" class="columns medium-12 h-80 p-0 m-0">
+      <ul id="menu-list" class="columns medium-12 h-80 p-0 m-0">
 
         <?php
 
@@ -167,7 +165,7 @@
 
 
 
-      <div id="menu-element-micrositio" class="columns medium-12 h-20 p-t-0-2 p-r-0 p-l-0">
+      <div id="menu-element" class="columns medium-12 h-20 p-t-0-2 p-r-0 p-l-0">
 
         <input type="text" class="columns p-0 h-80" placeholder="Buscar ...">
 
@@ -189,7 +187,7 @@
 
 ?>
 
-<div id="main-container-micrositio" class="columns w-100-v h-a m-0 p-0 color-white-bg">
+<div id="main-container" class="columns w-100-v h-a m-0 p-0 color-white-bg">
 
 
   <?php
@@ -197,4 +195,4 @@
   // include_once "secciones/sidebar-1.php";
   ?>
 
-  <main id="main-micrositio" class="columns large-8 p-0 h-a">
+  <main id="main" class="main-micrositio columns p-0 h-a">

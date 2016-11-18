@@ -11,7 +11,7 @@
 
 
 
-    <article id="micrositio-modulo3-entrada" class="columns p-1 h-100-v">
+    <article id="micrositio-modulo3-entrada" class="columns medium-6 large-4 p-1 h-100-v card">
 
       <div class="columns p-0 h-30 imgLiquid imgLiquidFill">
 
