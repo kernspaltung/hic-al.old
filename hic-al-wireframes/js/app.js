@@ -10,6 +10,8 @@ $(document).ready(function(){
 
    slider_portfolio_preview();
 
+   slider_temas();
+
    portfolio_preview();
 
    $('#menu-scroll').addClass('hidden')
@@ -122,6 +124,18 @@ function images() {
 function slider_latest_news() {
 
    $('.slick').slick({
+      dots:true,
+      arrows:true,
+      speed: 1000,
+      autoplay:true,
+      autoplaySpeed:5000
+   });
+}
+
+// slider
+function slider_temas() {
+
+   $('.slider-temas').slick({
       dots:true,
       arrows:true,
       speed: 1000,

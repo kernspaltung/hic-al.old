@@ -99,11 +99,11 @@
   </div>
 
 
-  <div id="boton-menu-movil-micrositio" class="columns small-2 medium-1 pointer fixed top right h-10-v v-center">
+  <!-- <div id="boton-menu-movil-micrositio" class="columns small-2 medium-1 pointer fixed top right h-10-v v-center">
 
     <i id="barras-micrositio" class="fa fa-bars font-xs-l font-sm-xl font-md-xxl bold color-negro"></i>
 
-  </div>
+  </div> -->
 
 
 
