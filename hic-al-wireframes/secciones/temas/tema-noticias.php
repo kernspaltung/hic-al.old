@@ -1,15 +1,15 @@
 <!-- solo en escritorio -->
-<section id="tema-noticias" class="columns small-12 medium-12 large-4 h-100-v show-for-large">
+<section id="tema-noticias" class="columns large-4 h-100-v show-for-large">
 
-<a href="#" class="columns p-0 color-negro">
+  <a href="#" class="columns p-0 color-negro">
 
-  <div id="tema-noticias-titulo" class="columns h-10 p-1-3 font-xl v-center">
+    <div id="tema-noticias-titulo" class="columns h-10 p-1-3 font-xl v-center">
 
-    Noticias
+      Noticias
 
-  </div>
+    </div>
 
-</a>
+  </a>
   <?php
 
   for ($i=0; $i < 2; $i++):
@@ -63,7 +63,7 @@
       </article>
 
     </a>
-    <!-- termina elemento -->
+    <!--  -->
 
 
     <?php
@@ -78,24 +78,119 @@
 
 
 <!-- solo en movil -->
-<section id="tema-noticias" class="columns small-12 medium-12 large-4 h-50-v hide-for-large">
+<section id="tema-noticias-movil" class="columns h-60-v p-1 hide-for-large">
 
-  <div id="tema-noticias-titulo" class="columns small-6 h-20 p-1-3 font-xs-m font-sm-m font-md-m v-center">
+  <!-- header seccion -->
 
-    Noticias
+  <div class="columns p-0 h-20">
 
-  </div>
 
-  <a href="#" class="columns small-6 h-20">
+    <div id="tema-noticias-titulo" class="columns small-6 v-center">
 
-    <div id="tema-noticias-vermas" class="columns h-100 text-right p-1-3 font-xs-m font-md-m v-center">
+      <div class="columns p-0 h-a text-left font-xs-m font-md-m">
 
-      Ver más <i class="fa fa-plus"></i>
+        Noticias
+
+      </div>
 
     </div>
 
-  </a>
 
+    <a href="#" class="columns small-6 h-100">
+
+      <div id="tema-noticias-vermas" class="columns h-100 v-center p-0">
+
+        <div class="columns p-0 h-a text-right font-xs-m font-md-m">
+
+          Ver más <i class="fa fa-plus"></i>
+        </div>
+
+      </div>
+
+    </a>
+
+  </div>
+  <!-- termina header seccion -->
+
+
+  <!-- slider posts -->
+  <div id="tema-noticias-slider-small" class="columns p-0  h-80 slider-temas">
+
+    <?php
+
+    for ($x=0; $x < 8 ; $x++):
+
+
+      ?>
+
+
+
+      <article class="columns p-0">
+
+        <?php
+
+        for ($i=0; $i < 2 ; $i++):
+
+
+          ?>
+
+
+          <div class="columns small-6">
+
+            <!-- imagen -->
+            <div class="columns p-0 h-40 imgLiquid imgLiquidFill">
+
+              <img src="http://fakeimg.pl/320?text=thumb" alt="" />
+
+
+            </div>
+
+            <!-- titulo -->
+            <div class="columns p-0 h-40 v-center">
+
+              <div id="tema-portada-titulo" class="columns h-a font-xs-m font-sm-l font-md-xxl">
+
+                Título largo de algúna noticia
+
+              </div>
+
+            </div>
+
+
+
+            <!-- fecha -->
+            <div class="columns p-0 h-20 v-center">
+
+              <div class="columns p-0 h-a text-center font-xs-s font-sm-m font-md-xl">
+
+                16/11/2016
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+
+          <?php
+
+        endfor;
+
+        ?>
+
+
+      </article>
+
+      <?php
+
+    endfor;
+
+    ?>
+
+
+  </div>
 
 
 
