@@ -1,6 +1,6 @@
 u = new Utils();
 
-   
+
 $(document).ready(function(){
 
    $(document).foundation();

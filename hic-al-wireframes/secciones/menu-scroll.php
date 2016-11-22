@@ -3,10 +3,15 @@
 global $menu;
 $menu = array('Últimas Noticias', 'Documentos', 'Actividades');
 
+global $hide_sidebars;
+
+
+$large_classes = ! $hide_sidebars ? " large-8 large-offset-2 " : "";
+
 ?>
 
 <!-- menu en scroll -->
-<nav id="menu-scroll" class="columns medium-12 large-8 large-offset-2 fixed top z1k1 text-left h-a color-vino-bg bottom-left-right-corner posicion-inicial p-b-0-2" >
+<nav id="menu-scroll" class="columns medium-12 <?php echo $large_classes; ?> fixed top z1k1 text-left h-a color-vino-bg bottom-left-right-corner posicion-inicial p-b-0-2" >
 
 
   <div id="menu-scroll-sitio" class="columns large-12 p-0">

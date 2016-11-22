@@ -217,6 +217,9 @@
 
 
      <?php
+
+      global $hide_sidebars;
+      $hide_sidebars = true;
      include_once "secciones/menu-scroll.php";
 
 

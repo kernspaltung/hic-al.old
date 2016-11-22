@@ -48,17 +48,17 @@
       <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-vino-bg bottom-left-corner" >
 
 
-         <!-- este se remueve con jquery -->
+         <!-- este se mueve de sitio con jquery -->
          <div id="menu-list-container" class="columns h-menu-hical p-0">
 
             <ul id="menu-list" class="columns medium-9 large-9 h-100 p-0 m-0">
 
                <?php
 
-               $menu = array('Inicio', 'Mundo', 'Membresía','Calendario','Suscripción','Enlaces');
+               $menu = array('HIC en el Mundo', 'Membresía', 'Calendario', 'Suscripción', 'Enlaces' );
 
 
-               for ($i=0; $i < 6 ; $i++):
+               for ($i=0; $i < count($menu); $i++):
 
                   ?>
 
