@@ -146,7 +146,7 @@
 
 
       <!-- menu movil -->
-      <nav id="menu-movil" class="hidden columns medium-12 fixed top left top-menu-movil text-left h-75-v color-vino-bg" >
+      <nav id="menu-movil" class="hidden columns medium-12 fixed top left top-menu-movil text-left h-90-v color-vino-bg" >
 
 
          <div id="menu-list-container-movil" class="columns h-100 p-0">
