@@ -20,16 +20,23 @@ $large_classes = ! $hide_sidebars ? " large-8 large-offset-2 " : "";
 
   </div>
 
-
+  <!--  -->
 
   <div id="menu-scroll-secciones" class="columns large-12 color-vino-claro-bg h-menu-hical bottom-left-right-corner">
+    <!--  -->
+    <a href="index.php" class="h-100 w-100">
 
-    <ul id="menu-list" class="columns large-12 h-100 p-0 m-0">
+      <div id="logo-scroll" class="columns large-2 h-90 p-0 m-t-0-1 imgLiquid imgLiquidNoFill">
+
+        <img src="img/logo-50-2x-blanco.png" alt="">
+
+      </div>
+
+    </a>
+
+    <ul id="menu-list" class="columns large-10 h-100 p-0 m-0">
 
       <?php
-
-
-
 
       for ($i=0; $i < count( $menu ) ; $i++):
 

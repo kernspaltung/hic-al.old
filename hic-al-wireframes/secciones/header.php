@@ -83,13 +83,13 @@
 
                         ?>
                         <!-- senalador menu activo -->
-                        <div id="active-pointer-<?php echo $i;?>" class="columns absDownL left h-5 menu-activo">
+                        <!-- <div id="active-pointer-<?php echo $i;?>" class="columns absDownL left h-5 menu-activo">
 
                            <div class="small-offset-5 menu-activo-triangulo">
 
                            </div>
 
-                        </div>
+                        </div> -->
 
 
 

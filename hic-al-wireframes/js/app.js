@@ -280,7 +280,7 @@ function menu_scroll() {
    //Defaults como se despliega al hacer loading
    if ($(window).scrollTop() < distancia) {
 
-      logo.html('Inicio');
+      // logo.html('HIC en el Mundo');
 
       $('#menu-scroll').addClass('posicion-inicial');
 
@@ -289,7 +289,7 @@ function menu_scroll() {
 
       $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
 
-      logo.html('<i class="fa fa-home"></i>');//cambia a logo icono
+      // logo.html('<div id="logo-scroll" class="columns h-100 p-0 imgLiquid imgLiquidNoFill"><img src="img/logo-50-2x-blanco.png" alt=""></div>');//cambia a logo
 
       setTimeout(function() {
 
@@ -311,7 +311,7 @@ function menu_scroll() {
             $('#menu-scroll').removeClass('posicion-con-scroll').addClass('posicion-inicial');
 
 
-            logo.html('inicio');//regresa el texto cuando esta  scrollTop 0
+            // logo.html('HIC en el Mundo');//regresa el texto cuando esta  scrollTop 0
 
          },20);
 
@@ -321,7 +321,7 @@ function menu_scroll() {
       } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
 
-         logo.html('<i class="fa fa-home"></i>');//cambia a logo
+        //  logo.html('<div id="logo-scroll" class="columns h-100 p-0 imgLiquid imgLiquidNoFill"><img src="img/logo-50-2x-blanco.png" alt=""></div>');//cambia a logo
 
          $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
          setTimeout(function() {
