@@ -51,7 +51,8 @@
       <!-- este se mueve de sitio con jquery -->
       <div id="menu-list-container" class="columns h-menu-hical p-0">
 
-        <ul id="menu-list" class="columns medium-11 large-11 h-100 p-0 m-0">
+
+        <ul id="menu-list" class="columns medium-11 large-11 h-100 p-0 m-0 rel">
 
           <?php
 
@@ -114,24 +115,15 @@
     </ul>
 
 
-    <div class="columns medium-1 large-1 p-0 h-100 v-center">
+    <div id="boton-buscar" class="columns medium-1 large-1 p-0 h-100 v-center">
 
-      <a href="#" class="shareW p-0 text-center color-blanco color-gris-naranja-claro-hover h-a  ">
-        <li class="columns font-md-s font-lg-m h-100">
+      <a href="#" class="shareW p-0 m-0 text-center color-blanco color-gris-naranja-claro-hover h-a  ">
 
-          <i class="fa fa-search">
+          <i class="fa fa-search"></i>
 
-          </i>
-        </li>
       </a>
 
     </div>
-
-    <!-- <div id="menu-element" class="columns medium-3 large-3 h-100 p-t-0-2 p-r-0">
-
-    <input type="text" class="columns p-0 h-80" placeholder="Search ...">
-
-  </div> -->
 
 </div>
 

@@ -268,3 +268,14 @@ h1,h2,h3,h4,h5,h6, .font-2 {
 .font-fecha-grande {
   font-size: 4em;
 }
+
+
+//
+.ancho-inicial {
+  moz-transform: translateY(-15vh);
+  webkit-transform: translateY(-15vh);
+  ms-transform: translateY(-15vh);
+  transform: translateY(-15vh);
+  transition: 0.25s;
+
+}
