@@ -52,7 +52,7 @@
       <div id="menu-list-container" class="columns h-menu-hical p-0">
 
 
-        <ul id="menu-list" class="columns medium-11 large-11 h-100 p-0 m-0 rel">
+        <ul id="menu-list" class="columns medium-11 large-11 h-100 p-0 m-0">
 
           <?php
 
@@ -111,21 +111,29 @@
       ?>
 
 
-
     </ul>
 
+    <!-- buscador -->
+
+    <div id="menu-search" class="columns h-100 absUpL p-t-0-2 p-r-0 z1k input-inicial hidden">
+
+      <input type="text" class="p-0 h-100 color-vino-claro-bg color-vino bold font-l" placeholder="Busca ...">
+
+    </div>
+
+    <!--  -->
 
     <div id="boton-buscar" class="columns medium-1 large-1 p-0 h-100 v-center">
 
       <a href="#" class="shareW p-0 m-0 text-center color-blanco color-gris-naranja-claro-hover h-a  ">
 
-          <i class="fa fa-search"></i>
+        <i class="fa fa-search"></i>
 
       </a>
 
     </div>
 
-</div>
+  </div>
 
 
 </nav>
@@ -209,21 +217,31 @@
         ?>
 
 
+        <!-- buscador -->
+
+        <div id="menu-search" class="columns h-100 absUpL p-t-0-2 p-r-0 z1k ancho-inicial hidden">
+
+          <input type="text" class="columns p-0 h-80 color-vino-claro-bg color-vino bold" placeholder="Search ...">
+
+        </div>
+
+        <!--  -->
+
       </ul>
 
 
 
-      <div id="menu-element" class="columns medium-12 h-20 p-t-0-2 p-r-0 p-l-0">
+      <!-- <div id="menu-element" class="columns medium-12 h-20 p-t-0-2 p-r-0 p-l-0">
 
-        <input type="text" class="columns p-0 h-80" placeholder="Buscar ...">
-
-      </div>
+      <input type="text" class="columns p-0 h-80" placeholder="Buscar ...">
 
     </div>
 
+  </div> -->
 
-  </nav>
-  <!-- end menu movil -->
+
+</nav>
+<!-- end menu movil -->
 
 
 </header>

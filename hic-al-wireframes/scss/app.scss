@@ -197,9 +197,9 @@ hr {
 /* slick */
 
 .slick-prev, .slick-next {
-&:before {
-@extend .color-gris-naranja-claro;
-}
+  &:before {
+    @extend .color-gris-naranja-claro;
+  }
 }
 
 
@@ -237,23 +237,23 @@ h1,h2,h3,h4,h5,h6, .font-2 {
 
 
 .transparency {
-   opacity: 0.2;
+  opacity: 0.2;
 }
 
 
 
 .h-eight {
-   height: 12.5%;
+  height: 12.5%;
 }
 .w-eight {
-   width: 12.5%;
+  width: 12.5%;
 }
 
 .h-third {
-   height: 33.33333%;
+  height: 33.33333%;
 }
 .w-third {
-   width: 33.33333%;
+  width: 33.33333%;
 }
 
 
@@ -271,11 +271,11 @@ h1,h2,h3,h4,h5,h6, .font-2 {
 
 
 //
-.ancho-inicial {
-  moz-transform: translateY(-15vh);
-  webkit-transform: translateY(-15vh);
-  ms-transform: translateY(-15vh);
-  transform: translateY(-15vh);
+.input-inicial {
+  width: 0%;
   transition: 0.25s;
-
+}
+.input-abierto {
+  width: 100%;
+  transition: 0.25s;
 }
