@@ -16,11 +16,15 @@
   <!--  -->
   <div id="footer-widget" class="columns h-25-v small-12 medium-12 large-4 ">
 
-    <div id="footer-img-1" class="columns text-center imgLiquid imgLiquidNoFill h-70">
-      <img src="http://fakeimg.pl/300?text=logo" alt="" />
-
+    <div id="footer-img-1" class="columns text-center h-sm-50 h-md-70">
+      <div class="logo columns small-7 h-100 imgLiquid imgLiquidNoFillLeft ">
+         <img src="img/logo-50-2x-blanco.png" alt="" />
+      </div>
+      <div class="logo-text columns small-5 color-blanco">
+         <h6 class="font-s bold">Habitat International Coalition</h6>
+      </div>
     </div>
-    <div id="footer-widget-txt-1" class="columns text-center font-xs-xs font-sm-m font-md-m font-lg-m h-20">
+    <div id="footer-widget-txt-1" class="columns h-sm-50 h-md-30 m-t-1 text-center font-xs-xs font-sm-m font-md-m font-lg-m h-20">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis.
     </div>
 
@@ -41,13 +45,13 @@
     </div>
 
     <div id="footer-widget-txt-2" class="columns text-right h-20 v-center">
-      <ul id="menu-footer" class="columns h-100">
+      <ul id="menu-footer" class="columns h-100 p-0-2">
 
-        <a href="#" class="columns medium-6 p-0 font-xs-xs font-sm-s font-md-s font-lg-m color-gris-naranja-claro-hover color-gris-oscuro">
+        <a href="#" class="columns small-6 p-0 font-s color-gris-naranja-claro-hover color-gris-oscuro">
           <li class="columns vcenter p-0 text-center">Aviso legal </li>
         </a>
 
-        <a href="#" class="columns medium-6 p-0 font-xs-xs font-sm-s font-md-s font-lg-m color-gris-naranja-claro-hover color-gris-oscuro">
+        <a href="#" class="columns small-6 p-0 font-s color-gris-naranja-claro-hover color-gris-oscuro">
           <li class="columns vcenter p-0 text-center">Legal disclaimer</li>
         </a>
 

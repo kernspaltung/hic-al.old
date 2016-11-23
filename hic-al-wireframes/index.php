@@ -12,6 +12,7 @@ include_once "secciones/home/documentos.php";
 
 include_once "secciones/home/actividades.php";
 
+include_once "secciones/home/slider-medios.php";
 
 
 include_once "secciones/footer.php";

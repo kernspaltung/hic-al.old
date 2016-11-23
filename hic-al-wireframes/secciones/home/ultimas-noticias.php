@@ -92,7 +92,7 @@
 
       </div>
 
-      <div id="home-mapa" class="columns medium-6 h-60-v"></div>
+      <div id="home-mapa" class="columns small-10 small-offset-1 medium-4 end  h-60-v"></div>
 
 
 

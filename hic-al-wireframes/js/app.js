@@ -32,10 +32,10 @@ function setupMapa() {
    var zoom=2;
 
    if($(window).width() < 768) {
-      zoom = 2;
+      zoom = 1;
    }
    else {
-      zoom = 3;
+      zoom = 2;
    }
 
    L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZnVyZW5rdSIsImEiOiJjaW16eHVpd3owNjJ2dXBra3FldTVrYzVtIn0.kJH-xAuuKWnYk8htVvGF2Q', {
@@ -126,6 +126,11 @@ function images() {
 
    $('.imgLiquid.imgLiquidNoFill').imgLiquid({fill:false});
 
+   $('.imgLiquid.imgLiquidNoFillLeft').imgLiquid({
+      fill:false,
+      horizontalAlign:"left",
+   });
+
 }
 
 
@@ -135,6 +140,13 @@ function slider_latest_news() {
    $('.slick').slick({
       dots:true,
       arrows:true,
+      speed: 1000,
+      autoplay:true,
+      autoplaySpeed:5000
+   });
+   $('.slickNoArrows').slick({
+      dots:true,
+      arrows:false,
       speed: 1000,
       autoplay:true,
       autoplaySpeed:5000
@@ -321,7 +333,7 @@ function menu_scroll() {
       } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
 
 
-        //  logo.html('<div id="logo-scroll" class="columns h-100 p-0 imgLiquid imgLiquidNoFill"><img src="img/logo-50-2x-blanco.png" alt=""></div>');//cambia a logo
+         //  logo.html('<div id="logo-scroll" class="columns h-100 p-0 imgLiquid imgLiquidNoFill"><img src="img/logo-50-2x-blanco.png" alt=""></div>');//cambia a logo
 
          $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
          setTimeout(function() {

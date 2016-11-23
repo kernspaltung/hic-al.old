@@ -198,7 +198,7 @@ hr {
 
 .slick-prev, .slick-next {
 &:before {
-@extend .color-vino-claro;
+@extend .color-gris-naranja-claro;
 }
 }
 
@@ -242,8 +242,18 @@ h1,h2,h3,h4,h5,h6, .font-2 {
 
 
 
+.h-eight {
+   height: 12.5%;
+}
+.w-eight {
+   width: 12.5%;
+}
+
 .h-third {
    height: 33.33333%;
+}
+.w-third {
+   width: 33.33333%;
 }
 
 
