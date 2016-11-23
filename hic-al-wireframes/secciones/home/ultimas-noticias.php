@@ -4,7 +4,7 @@
       <div href="#" class="columns p-0 h-a">Ultimas Noticias</div>
    </h1>
 
-   <div id="slider-latest-news" class="columns small-10 small-offset-1 end p-0 h-35-v slick m-t-xs-1 m-b-xs-1">
+   <div id="slider-latest-news" class="columns small-10 small-offset-1 end p-0 h-40-v slick m-t-xs-1 m-b-xs-1">
 
       <?php
       for ($i=0; $i < 4; $i++):
@@ -18,7 +18,7 @@
 
             <div class="columns h-a p-l-4 p-r-4 abs bottom ">
 
-               <div class="columns h-a p-1 p-l-2 p-r-2 font-xs-s font-sm-m font-md-l font-lg-xl bold text-center color-blanco color-negro-opacidad-bg">
+               <div class="columns h-a p-0-2 p-l-2 p-r-2 font-xs-s font-sm-m font-md-l  bold text-center color-blanco color-negro-opacidad-bg">
                   Lorem ipsum dolor sit: amet, consectetur adipisicing elit. Quae!
                </div>
 
@@ -49,7 +49,7 @@
 
             <article class="columns h-15-v p-0 m-b-1 card">
 
-               <a href="" class="columns p-0 h-100">
+               <a href="" class="columns p-0 h-100 color-naranja">
 
                   <div class="columns p-0 small-4 imgLiquid imgLiquidFill">
 

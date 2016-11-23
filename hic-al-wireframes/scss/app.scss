@@ -116,15 +116,14 @@ hr {
   transition: 0.25s;
 }
 //
+%pattern {
+   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAD0lEQVQImWNgwATGtBAAADM2AQCsBUIOAAAAAElFTkSuQmCC) repeat;}
+
+
 .fondo-diagonal {
-  background: repeating-linear-gradient(
-  -60deg,
-  #fff,
-  #fff 9px,
-  #555 0px,
-  #555 10px
-  );
+  @extend %pattern;
 }
+
 .h-menu-hical {
   height: 6vh;
 }
@@ -267,4 +266,13 @@ h1,h2,h3,h4,h5,h6, .font-2 {
 // CUSTOM
 .font-fecha-grande {
   font-size: 4em;
+}
+
+
+
+#menu-scroll {
+   @extend .shadow;
+   .borde-derecho {
+      border-color: $gris_naranja_medio;
+   }
 }
