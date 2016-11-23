@@ -55,7 +55,7 @@
 
           <?php
 
-          $menu = array('HIC en el Mundo', 'Membresía', 'Calendario', 'Suscripción', 'Enlaces' );
+          $menu = array('Red global', 'Membresía', 'Calendario', 'Suscripción', 'Enlaces' );
 
 
           for ($i=0; $i < count($menu); $i++):
@@ -67,7 +67,7 @@
 
             <div class="columns p-0 h-100 v-center">
 
-              <li id="menu-element" class="columns p-0 text-center h-a borde-derecho font-md-s font-lg-m-s">
+              <li id="menu-element" class="columns p-0 text-center h-a borde-derecho bold font-md-xs font-lg-m-s">
 
                 <?php
                 echo $menu[$i];
@@ -79,7 +79,7 @@
 
             <?php
 
-            if ($i == 0):
+            //if ($i == 0):
 
             ?>
             <!-- senalador menu activo -->
@@ -96,7 +96,7 @@
 
 
         <?php
-        endif;
+        //endif;
 
         ?>
 

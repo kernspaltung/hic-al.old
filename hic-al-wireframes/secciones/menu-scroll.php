@@ -11,13 +11,13 @@ $large_classes = ! $hide_sidebars ? " large-8 large-offset-2 " : "";
 ?>
 
 <!-- menu en scroll -->
-<nav id="menu-scroll" class="columns medium-12 <?php echo $large_classes; ?> fixed top z1k1 text-left h-a color-vino-bg bottom-left-right-corner posicion-inicial p-b-0-2" >
+<nav id="menu-scroll" class="columns medium-12 <?php echo $large_classes; ?> fixed top z1k1 text-left h-15-v color-vino-bg bottom-left-right-corner posicion-inicial p-0-2" >
 
   <!--  -->
 
-  <div id="logo-scroll" class="columns large-2 h-10-v p-0 m-t-0-2 imgLiquid imgLiquidNoFill">
+  <div id="logo-scroll" class="columns large-2 h-100 p-0 imgLiquid imgLiquidNoFill">
 
-    <a href="index.php" class="h-100 w-100">
+    <a href="index.php" class="h-100 w-100 p-0-2">
 
       <img src="img/logo-50-2x-blanco.png" alt="">
 
@@ -30,7 +30,7 @@ $large_classes = ! $hide_sidebars ? " large-8 large-offset-2 " : "";
 
 
 
-  <div id="menu-scroll-sitio" class="columns large-10 p-0">
+  <div id="menu-scroll-sitio" class="columns h-50 large-10 p-0">
 
     <!-- aqui se incrusta el menu principal del sitio en escritorio-->
 
@@ -38,7 +38,7 @@ $large_classes = ! $hide_sidebars ? " large-8 large-offset-2 " : "";
 
   <!--  -->
 
-  <div id="menu-scroll-secciones" class="columns large-10 color-vino-claro-bg h-menu-hical bottom-right-corner">
+  <div id="menu-scroll-secciones" class="columns large-10 color-vino-claro-bg h-50 bottom-right-corner">
 
     <ul id="menu-scroll-list" class="columns large-10 h-100 p-0 m-0">
 

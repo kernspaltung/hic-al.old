@@ -316,6 +316,7 @@ function menu_scroll() {
          },20);
 
          $('#menu-list-container').detach().appendTo('#menu-desktop');
+         u.shareW();
 
 
       } else if ( $(window).scrollTop() >= distancia ) {// si #main cruza el borde superior
@@ -324,6 +325,8 @@ function menu_scroll() {
         //  logo.html('<div id="logo-scroll" class="columns h-100 p-0 imgLiquid imgLiquidNoFill"><img src="img/logo-50-2x-blanco.png" alt=""></div>');//cambia a logo
 
          $('#menu-list-container').detach().appendTo('#menu-scroll-sitio');
+         u.shareW();
+        //  
          setTimeout(function() {
 
             $('#menu-scroll').removeClass('posicion-inicial').addClass('posicion-con-scroll');
