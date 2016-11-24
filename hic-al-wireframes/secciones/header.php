@@ -217,19 +217,19 @@
         ?>
 
 
-        <!-- buscador -->
 
-        <div id="menu-search" class="columns h-100 absUpL p-t-0-2 p-r-0 z1k ancho-inicial hidden">
-
-          <input type="text" class="columns p-0 h-80 color-vino-claro-bg color-vino bold" placeholder="Search ...">
-
-        </div>
-
-        <!--  -->
 
       </ul>
 
+      <!-- buscador menu movil-->
 
+      <div id="menu-search" class="columns h-15 z1k">
+
+        <input type="text" class="columns p-l-1 h-80 color-vino-claro-bg color-gris-claro bold" placeholder="Buscar ...">
+
+      </div>
+
+      <!--  -->
 
       <!-- <div id="menu-element" class="columns medium-12 h-20 p-t-0-2 p-r-0 p-l-0">
 
