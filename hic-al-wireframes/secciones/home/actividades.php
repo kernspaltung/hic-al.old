@@ -1,19 +1,45 @@
-<section id="home-activities" class="columns medium-12 large-6 p-0 m-b-1">
+<section id="home-activities" class="columns medium-12 large-6 p-0-1 m-b-1">
 
 
   <h1 class="columns h-2 text-center font-sm-m bold font-md-m font-lg-m p-0-2 color-blanco color-naranja-bg v-center">
     <div href="#" class="columns p-0 h-a">Actividades</div>
   </h1>
 
-  <article id="thumb-activities" class="columns p-0 h-30-v">
+  <article id="thumb-activities" class="columns p-0 h-45-v card">
 
-    <a href="" class="columns p-0 h-100">
+    <a href="" class="columns p-0 h-100 color-naranja rel">
 
-      <div class="columns p-0 imgLiquid imgLiquidFill">
+      <div class="columns h-70  z0 p-0 imgLiquid imgLiquidFill">
 
-        <img src="http://fakeimg.pl/300?text=placeholder"/>
+        <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060"/>
 
       </div>
+
+<div class="columns h-30 p-0 font-s">
+
+   <div class="columns small-9 p-1 v-center">
+
+      <div class="columns h-a font-xs text-left">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </div>
+
+
+   </div>
+
+
+   <div class="columns p-0 small-3 text-center v-center color-naranja-bg color-white bold">
+
+      <div class="actividad-dia columns h-a p-0 font-xxl">
+         17
+      </div>
+      <div class="actividad-mes columns h-a p-0 font-s">
+         octubre
+      </div>
+
+   </div>
+</div>
+
+
 
     </a>
 
@@ -30,7 +56,7 @@
 
       <article class="columns h-15-v p-0 m-b-1 card">
 
-         <a href="" class="columns p-0 h-100">
+         <a href="" class="columns p-0 h-100 color-naranja">
 
             <div class="columns p-0 small-3 imgLiquid imgLiquidFill">
 

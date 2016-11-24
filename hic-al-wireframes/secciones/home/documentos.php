@@ -1,24 +1,41 @@
-<section id="home-documents" class="columns h-80-sm-v medium-12 large-6 p-0 m-b-1 ">
+<section id="home-documents" class="columns h-80-sm-v medium-12 large-6 p-0-1 m-b-1 ">
 
 
   <h1 class="columns h-2 text-center font-sm-m bold font-md-m font-lg-m p-0-2 color-blanco color-naranja-bg v-center">
     <div href="#" class="columns p-0 h-a">Documentos</div>
   </h1>
 
-  <article id="thumb-documents" class="columns p-0 h-30-v">
+
+    <article id="thumb-activities" class="columns p-0 h-45-v card">
+
+      <a href="" class="columns p-0 h-100 color-naranja rel">
+
+        <div class="columns h-70  z0 p-0 imgLiquid imgLiquidFill">
+
+          <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060"/>
+
+        </div>
+
+  <div class="columns h-30 p-0 font-s">
+
+     <div class="columns p-1 v-center">
+
+        <div class="columns h-a font-xs text-left">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </div>
 
 
-    <a href="" class="columns p-0 h-100">
+     </div>
 
-      <div class="columns p-0 imgLiquid imgLiquidFill">
 
-        <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060"/>
+  </div>
 
-      </div>
 
-    </a>
 
-  </article>
+      </a>
+
+    </article>
+
 
 
   <div class="columns h-a p-0 m-t-1">
@@ -31,7 +48,7 @@
 
       <article class="columns h-15-v p-0 m-b-1 card">
 
-         <a href="" class="columns p-0 h-100">
+         <a href="" class="columns p-0 h-100 color-naranja">
 
             <div class="columns p-0 small-4 imgLiquid imgLiquidFill">
 
