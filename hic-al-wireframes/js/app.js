@@ -36,9 +36,9 @@ function setupMapa() {
    }
 
    var mymap = L.map('home-mapa', {
-zoomControl: false,
-scrollWheelZoom: false
-}).setView([-15, -80], zoom);
+      zoomControl: false,
+      scrollWheelZoom: false
+   }).setView([-15, -80], zoom);
 
    L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZnVyZW5rdSIsImEiOiJjaW16eHVpd3owNjJ2dXBra3FldTVrYzVtIn0.kJH-xAuuKWnYk8htVvGF2Q', {
       attribution: false,
