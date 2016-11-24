@@ -27,10 +27,7 @@ $(document).ready(function(){
 
 
 function setupMapa() {
-
-   var mymap = L.map('home-mapa', {zoomControl: false, scrollWheelZoom: false }).setView([-15, -80], 3);
    var zoom=2;
-
    if($(window).width() < 768) {
       zoom = 1;
    }
@@ -38,13 +35,19 @@ function setupMapa() {
       zoom = 2;
    }
 
+   var mymap = L.map('home-mapa', {
+zoomControl: false,
+scrollWheelZoom: false
+}).setView([-15, -80], zoom);
+
    L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZnVyZW5rdSIsImEiOiJjaW16eHVpd3owNjJ2dXBra3FldTVrYzVtIn0.kJH-xAuuKWnYk8htVvGF2Q', {
       attribution: false,
       maxZoom: zoom,
-      minZoom: zoom,
+      minZoom: zoom  ,
       //  id: 'your.mapbox.project.id',
       //  accessToken: 'pk.eyJ1IjoiZnVyZW5rdSIsImEiOiJjaXZsczVoYXYwM3Y0Mm9udnh1dmV4cTMxIn0.Ajhxu45JrPr0eZQick8DCg'
    }).addTo(mymap);
+   mymap.invalidateSize()
 
    $(".leaflet-control-attribution").hide()
 }
