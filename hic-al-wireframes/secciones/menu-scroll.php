@@ -40,7 +40,7 @@ $large_classes = ! $hide_sidebars ? " large-8 large-offset-2 " : "";
 
   <div id="menu-scroll-secciones" class="columns large-10 color-gris-naranja-medio-bg h-50 bottom-right-corner">
 
-    <ul id="menu-scroll-list" class="columns large-10 h-100 p-0 m-0 rel">
+    <ul id="menu-scroll-list" class="columns large-10 h-100 p-0 m-0 ">
 
       <?php
 
@@ -49,11 +49,11 @@ $large_classes = ! $hide_sidebars ? " large-8 large-offset-2 " : "";
       ?>
 
 
-      <a href="#" class="shareW p-0 text-center color-vino-intenso color-gris-naranja-claro-hover h-100 ">
+      <a href="#" class="shareW p-0 text-center color-vino-intenso color-gris-naranja-claro-hover h-100">
 
-        <div class="columns p-0 h-100 v-center">
+        <div class="columns p-0 m-0 v-center">
 
-          <li class="menu-element columns  text-center h-a font-xs">
+          <li class="menu-element columns text-center h-a font-xs">
 
             <?php
             echo $menu[$i];

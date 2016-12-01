@@ -426,30 +426,28 @@ function menu_movil() {
   });
 
 
-  if( $(window).width() < 768 ) {
+  if( $(window).width() <= 1024 ) {
 
 
     if ( ! $('#menu-scroll-secciones').hasClass("movil") ) {
 
-      $('#menu-scroll-secciones').detach().insertAfter( "#header-movil" )
-      .css({marginTop:$("#header-movil").height() * 1.3, padding: 0, zIndex: 999})
+      $('#menu-scroll-secciones').detach().insertAfter( "#header-movil" ).css({marginTop:0, padding: 0, zIndex: 999});
 
 
-         $('#menu-scroll-secciones').removeClass( "bottom-left-right-corner color-vino-claro-bg" )
-         $('#menu-scroll-secciones').addClass( "movil fixed h-5-v p-0-1 color-white-bg" )
-         $('#menu-scroll-secciones li').addClass( "color-white-bg font-xxs color-black p-0-2" )
+         $('#menu-scroll-secciones').removeClass( "color-vino-claro-bg h-50 bottom-right-corner");
+         $('#menu-scroll-secciones').addClass( "movil fixed h-10-v p-0-1 color-white-bg" );
+         $('#menu-scroll-secciones li').addClass( "color-white-bg font-xxs color-black p-0-2" );
 
 
 
     } else {
 
 
-      $('#menu-scroll-secciones').detach().appendTo('#menu-scroll')
-      .css({marginTop:0, padding: 0 })
+      $('#menu-scroll-secciones').detach().appendTo('#menu-scroll').css({marginTop:0, padding: 0 });
 
-      $('#menu-scroll-secciones').removeClass( "movil fixed h-5-v p-0-1 color-white-bg" )
-      $('#menu-scroll-secciones li').removeClass( "color-white-bg font-xxs color-black p-0-2" )
-      $('#menu-scroll-secciones').addClass( "bottom-left-right-corner color-vino-claro-bg" )
+      $('#menu-scroll-secciones').removeClass( "movil fixed h-10-v p-0-1 color-white-bg" );
+      $('#menu-scroll-secciones li').removeClass( "color-white-bg font-xxs color-black p-0-2" );
+      $('#menu-scroll-secciones').addClass( "color-vino-claro-bg h-50 bottom-right-corner" );
 
     }
 
