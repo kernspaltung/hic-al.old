@@ -8,13 +8,13 @@ include_once "secciones/header-micrositio.php";
 ?>
 
 
-<div id="caja" class="w-50 h-50-v p-2 text-center card color-naranja-bg color-vino v-center cursor-pointer uppercase txsh">
+<!-- <div id="caja" class="w-50 h-50-v p-2 text-center card color-naranja-bg color-vino v-center cursor-pointer uppercase txsh">
 
    Contenido
 
 </div>
 
-
+ -->
 
 <?php
 

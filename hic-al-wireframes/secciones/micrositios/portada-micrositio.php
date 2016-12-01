@@ -1,5 +1,5 @@
 <section id="micrositio-portada" class="columns h-a">
-
+ 
   <div class="columns p-0 h-70-v imgLiquid imgLiquidFill">
 
     <img src="http://fakeimg.pl/320?text=portada" alt="">
