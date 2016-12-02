@@ -16,7 +16,7 @@
   <!-- header escritorio -->
   <header id="header-escritorio-micrositio" class="header columns h-15-v color-blanco-bg fixed show-for-large shadow">
 
-    <div id="logo-micrositio" class="columns medium-4 m-l-4 p-1">
+    <div id="logo-micrositio" class="columns medium-4 p-1">
 
       <a href="#" class="columns p-0 h-100 ">
 
@@ -27,11 +27,11 @@
         </div>
 
         <div class="columns medium-9 p-0 h-100 v-center">
-          <h1 class="text-left texto-logo bold">
+          <h2 class="text-left texto-logo ">
 
-            HIC-AL
+            Hic-al
 
-          </h1>
+          </h2>
         </div>
 
       </a>
@@ -99,12 +99,20 @@
   <header id="header-movil-micrositio" class=" columns h-10-v shadow header hide-for-large color-white-bg p-t-0-2 p-b-0-2 fixed top z1k1 left show-for-small p-0 show-form-medium">
 
 
-    <div id="logo-movil-micrositio" class="columns small-3 medium-3 large-2 imgLiquid imgLiquidNoFill">
+    <div id="logo-movil-micrositio" class="columns small-2 medium-1 large-1 p-r-0 imgLiquid imgLiquidNoFill" data-imgLiquid-horizontalAlign="right">
+
       <img src="img/logo-50-2x.png" alt="">
+
     </div>
 
-    <div id="placeholder-header-movil" class="columns small-9 medium-9 large-10 h'a z-1 p-0 imgLiquid imgLiquidFill">
-      <!-- <img src="http://fakeimg.pl/300?text=landscape" alt=""> -->
+    <div id="placeholder-header-movil" class="columns small-8 medium-9 large-10 texto-logo text-left p-l-0-1 h-100 v-center">
+
+      <h3 class="columns h-a p-0">
+
+        Hic-al
+
+      </h3>
+
     </div>
 
 

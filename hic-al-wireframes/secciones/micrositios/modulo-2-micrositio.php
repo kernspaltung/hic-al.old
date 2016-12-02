@@ -1,5 +1,5 @@
 <!-- TEXTO CON MENU -->
-<section id="micrositio-modulo2" class="columns h-a m-b-2">
+<section id="micrositio-modulo2" class="columns h-a m-b-0-3">
 
   <!-- menu modulo 2 -->
   <ul id="micrositio-modulo2-menu" class="columns p-0 m-0 m-b-1 h-a h-20-md-v">
@@ -11,7 +11,7 @@
       <!-- shareH shareW -->
       <li class="columns medium-3 p-1 text-center v-center">
 
-        <a href="#" class="columns h-a">
+        <a href="#" class="columns h-a button">
 
           <?php echo $i; ?> - Elemento
 
