@@ -14,9 +14,9 @@
 
 
   <!-- header escritorio -->
-  <header id="header-escritorio-micrositio" class="header columns h-20-v color-blanco-bg show-for-large shadow">
+  <header id="header-escritorio-micrositio" class="header columns h-15-v color-blanco-bg fixed show-for-large shadow">
 
-    <div id="logo-micrositio" class="columns small-6 medium-4 large-2 m-l-4 p-1">
+      <div id="logo-micrositio" class="columns small-6 medium-4 large-2 m-l-4 p-1">
 
       <div class="columns h-100 imgLiquid imgLiquidNoFill">
 
@@ -48,7 +48,7 @@
 
 
             <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
-              <a href="#" class="columns text-center color-negro color-gris-hover h-100 ">
+              <a href="#" class="columns text-center color-negro color-naranja-hover h-100 ">
                 <div class="columns p-0 h-100 v-center">
 
 
@@ -194,4 +194,4 @@
     // include_once "secciones/sidebar-1.php";
     ?>
 
-    <main id="main" class="main-micrositio columns p-0 h-a">
+    <main id="main" class="top-micrositio columns p-0 h-a">

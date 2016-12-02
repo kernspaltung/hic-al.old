@@ -2,11 +2,11 @@
 <section id="micrositio-modulo1" class="columns h-a">
 
    <!-- menu modulo 1 -->
-   <ul id="micrositio-modulo1-menu" class="columns p-0 m-0 h-50-v">
+   <!-- <ul id="micrositio-modulo1-menu" class="columns p-0 m-0 h-50-v">
 
       <?php
 
-      for ($i=0; $i < 3; $i++):
+      // for ($i=0; $i < 3; $i++):
          ?>
 
          <a href="#" class="columns shareH">
@@ -15,11 +15,11 @@
 
          <?php
 
-      endfor;
+      // endfor;
 
       ?>
 
-   </ul>
+   </ul> -->
 
 
 
