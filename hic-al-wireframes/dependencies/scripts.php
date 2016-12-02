@@ -5,5 +5,6 @@
 <script src="bower_components/imgLiquid/js/imgLiquid.js"></script>
 <script src="bower_components/slick-carousel/slick/slick.js"></script>
 <script src="bower_components/leaflet/dist/leaflet.js"></script>
+<script src="js/page-index.js"></script>
 <script src="recursos/js_utils/dist/js/js_utils.min.js"></script>
 <script src="js/app.js"></script>

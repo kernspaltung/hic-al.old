@@ -1,5 +1,7 @@
 <?php
 
+include_once "logica/show_hero.php";
+
 include_once "secciones/header.php";
 
 
