@@ -1,6 +1,6 @@
 <section id="micrositio-modulo6" class="columns h-80-v p-1  m-b-3">
 
-  <div class="slick columns h-80">
+  <div id="micrositio-modulo6-slider-full" class="slick columns h-80">
 
     <?php
 
