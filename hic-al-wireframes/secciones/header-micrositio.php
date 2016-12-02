@@ -14,22 +14,34 @@
 
 
   <!-- header escritorio -->
-  <header id="header-escritorio-micrositio" class="header columns h-20-v color-blanco-bg show-for-large shadow">
+  <header id="header-escritorio-micrositio" class="header columns h-15-v color-blanco-bg fixed show-for-large shadow">
 
-    <div id="logo-micrositio" class="columns small-6 medium-4 large-2 m-l-4 p-1">
+    <div id="logo-micrositio" class="columns medium-4 p-1">
 
-      <div class="columns h-100 imgLiquid imgLiquidNoFill">
+      <a href="#" class="columns p-0 h-100 ">
 
-        <img src="img/logo-300.png" alt="">
+        <div class="columns medium-3 h-100 imgLiquid imgLiquidNoFill">
 
-      </div>
+          <img src="img/logo-300.png" alt="">
+
+        </div>
+
+        <div class="columns medium-9 p-0 h-100 v-center">
+          <h2 class="text-left texto-logo ">
+
+            Hic-al
+
+          </h2>
+        </div>
+
+      </a>
 
     </div>
 
 
 
     <!-- menu desktop -->
-    <nav id="menu-desktop-micrositio" class="columns medium-10 large-8 h-100" >
+    <nav id="menu-desktop-micrositio" class="columns medium-8 h-100" >
 
 
       <div id="menu-list-container-micrositio" class="columns h-100 p-0 h-100">
@@ -43,27 +55,27 @@
 
           for ($i=0; $i < 5 ; $i++):
 
-            ?>
+          ?>
 
 
 
-            <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
-              <a href="#" class="columns text-center color-negro color-gris-hover h-100 ">
-                <div class="columns p-0 h-100 v-center">
+          <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
+            <a href="#" class="columns text-center color-negro color-naranja-hover h-100 ">
+              <div class="columns p-0 h-100 v-center">
 
 
-                  <?php
-                  echo $menu[$i];
-                  ?>
+                <?php
+                echo $menu[$i];
+                ?>
 
 
-                </div>
+              </div>
 
-              </a>
+            </a>
 
-            </li>
+          </li>
 
-            <?php
+          <?php
           endfor;
           ?>
 
@@ -87,12 +99,20 @@
   <header id="header-movil-micrositio" class=" columns h-10-v shadow header hide-for-large color-white-bg p-t-0-2 p-b-0-2 fixed top z1k1 left show-for-small p-0 show-form-medium">
 
 
-    <div id="logo-movil-micrositio" class="columns small-3 medium-3 large-2 imgLiquid imgLiquidNoFill">
+    <div id="logo-movil-micrositio" class="columns small-2 medium-1 large-1 p-r-0 imgLiquid imgLiquidNoFill" data-imgLiquid-horizontalAlign="right">
+
       <img src="img/logo-50-2x.png" alt="">
+
     </div>
 
-    <div id="placeholder-header-movil" class="columns small-9 medium-9 large-10 h'a z-1 p-0 imgLiquid imgLiquidFill">
-      <!-- <img src="http://fakeimg.pl/300?text=landscape" alt=""> -->
+    <div id="placeholder-header-movil" class="columns small-8 medium-9 large-10 texto-logo text-left p-l-0-1 h-100 v-center">
+
+      <h3 class="columns h-a p-0">
+
+        Hic-al
+
+      </h3>
+
     </div>
 
 
@@ -118,44 +138,44 @@
 
 
           for ($i=0; $i < 6 ; $i++):
+          ?>
+
+
+          <a href="#" class="columns p-0 text-center color-blanco borde-abajo color-gris-naranja-claro-hover h-15">
+
+            <div class="columns p-0 p-t-1">
+
+              <li id="menu-element-micrositio" class="columns vcenter text-center h-a">
+
+                <?php
+                echo $menu[$i];
+                ?>
+
+              </li>
+
+            </div>
+
+            <?php
+
+            if ($i == 0):
+
             ?>
 
 
-            <a href="#" class="columns p-0 text-center color-blanco borde-abajo color-gris-naranja-claro-hover h-15">
-
-              <div class="columns p-0 p-t-1">
-
-                <li id="menu-element-micrositio" class="columns vcenter text-center h-a">
-
-                  <?php
-                  echo $menu[$i];
-                  ?>
-
-                </li>
-
-              </div>
-
-              <?php
-
-              if ($i == 0):
-
-                ?>
-
-
-
-
-                <?php
-              endif;
-
-              ?>
-
-
-
-
-            </a>
 
 
             <?php
+            endif;
+
+            ?>
+
+
+
+
+          </a>
+
+
+          <?php
           endfor;
           ?>
 
@@ -194,4 +214,4 @@
     // include_once "secciones/sidebar-1.php";
     ?>
 
-    <main id="main" class="main-micrositio columns p-0 h-a">
+    <main id="main" class="top-micrositio columns p-0 h-a">

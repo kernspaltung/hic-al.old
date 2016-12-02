@@ -1,29 +1,35 @@
-<section id="micrositio-portada" class="columns h-a">
- 
-  <div class="columns p-0 h-70-v imgLiquid imgLiquidFill">
+<section id="micrositio-portada" class="columns h-a m-b-1">
+
+  <div class="columns p-0 h-70-v m-b-1 imgLiquid imgLiquidFill">
 
     <img src="http://fakeimg.pl/320?text=portada" alt="">
 
   </div>
 
-  <div id="micrositio-portada-titulo" class="columns p-0 h-30-v v-center">
+  <div id="micrositio-portada-titulo" class="columns medium-4 p-0 h-20-v h-60-md-v m-b-0-3 v-center">
 
-    <h1 class="columns h-1 text-left font-xs-xxl font-sm-xxl font-md-xxl font-lg-xxl">
+    <h3 class="columns h-a text-left bold">
 
       Título completo de el micrositio
 
-    </h1>
+    </h3>
+    <h6 class="columns h-a text-left">
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid.
+
+    </h6>
 
   </div>
 
 
-  <div id="micrositio-portada-texto-intro" class="columns h-60-v v-center">
+  <div id="micrositio-portada-texto-intro" class="columns medium-centered v-center medium-8 h-a m-t-0-1 h-60-md-v">
 
-    <p class="columns p-0 h-a font-xs-m font-sm-m font-md-l font-lg-l">
+    <div class="columns p-0 h-a font-xs-s font-sm-m font-md-l font-lg-l">
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpa corporis excepturi accusamus dolore, perspiciatis at aut, officiis odio accusantium repellendus. Beatae nam veniam, suscipit deleniti, et debitis consequatur delectus provident voluptatibus iure a ducimus minus. Sapiente ex, praesentium dolores.
-
-    </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam repellat voluptates ducimus, provident!</p>
+      <p>Aliquam minus id amet ea similique numquam nobis magnam, maxime cupiditate. Molestias, nisi!</p>
+      <p>Velit consequatur saepe possimus voluptate quaerat, praesentium provident? Eius ipsam doloremque eaque soluta!</p>
+    </div>
 
   </div>
 
