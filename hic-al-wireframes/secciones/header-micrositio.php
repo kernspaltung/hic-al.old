@@ -16,20 +16,32 @@
   <!-- header escritorio -->
   <header id="header-escritorio-micrositio" class="header columns h-15-v color-blanco-bg fixed show-for-large shadow">
 
-      <div id="logo-micrositio" class="columns small-6 medium-4 large-2 m-l-4 p-1">
+    <div id="logo-micrositio" class="columns medium-4 m-l-4 p-1">
 
-      <div class="columns h-100 imgLiquid imgLiquidNoFill">
+      <a href="#" class="columns p-0 h-100 ">
 
-        <img src="img/logo-300.png" alt="">
+        <div class="columns medium-3 h-100 imgLiquid imgLiquidNoFill">
 
-      </div>
+          <img src="img/logo-300.png" alt="">
+
+        </div>
+
+        <div class="columns medium-9 p-0 h-100 v-center">
+          <h1 class="text-left texto-logo bold">
+
+            HIC-AL
+
+          </h1>
+        </div>
+
+      </a>
 
     </div>
 
 
 
     <!-- menu desktop -->
-    <nav id="menu-desktop-micrositio" class="columns medium-10 large-8 h-100" >
+    <nav id="menu-desktop-micrositio" class="columns medium-8 h-100" >
 
 
       <div id="menu-list-container-micrositio" class="columns h-100 p-0 h-100">
@@ -43,27 +55,27 @@
 
           for ($i=0; $i < 5 ; $i++):
 
-            ?>
+          ?>
 
 
 
-            <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
-              <a href="#" class="columns text-center color-negro color-naranja-hover h-100 ">
-                <div class="columns p-0 h-100 v-center">
+          <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
+            <a href="#" class="columns text-center color-negro color-naranja-hover h-100 ">
+              <div class="columns p-0 h-100 v-center">
 
 
-                  <?php
-                  echo $menu[$i];
-                  ?>
+                <?php
+                echo $menu[$i];
+                ?>
 
 
-                </div>
+              </div>
 
-              </a>
+            </a>
 
-            </li>
+          </li>
 
-            <?php
+          <?php
           endfor;
           ?>
 
@@ -118,44 +130,44 @@
 
 
           for ($i=0; $i < 6 ; $i++):
+          ?>
+
+
+          <a href="#" class="columns p-0 text-center color-blanco borde-abajo color-gris-naranja-claro-hover h-15">
+
+            <div class="columns p-0 p-t-1">
+
+              <li id="menu-element-micrositio" class="columns vcenter text-center h-a">
+
+                <?php
+                echo $menu[$i];
+                ?>
+
+              </li>
+
+            </div>
+
+            <?php
+
+            if ($i == 0):
+
             ?>
 
 
-            <a href="#" class="columns p-0 text-center color-blanco borde-abajo color-gris-naranja-claro-hover h-15">
-
-              <div class="columns p-0 p-t-1">
-
-                <li id="menu-element-micrositio" class="columns vcenter text-center h-a">
-
-                  <?php
-                  echo $menu[$i];
-                  ?>
-
-                </li>
-
-              </div>
-
-              <?php
-
-              if ($i == 0):
-
-                ?>
-
-
-
-
-                <?php
-              endif;
-
-              ?>
-
-
-
-
-            </a>
 
 
             <?php
+            endif;
+
+            ?>
+
+
+
+
+          </a>
+
+
+          <?php
           endfor;
           ?>
 
