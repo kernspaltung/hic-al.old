@@ -1,0 +1,95 @@
+$lista-colores: (
+
+   fondo $fondo,
+
+   texto $texto,
+
+   primario $primario,
+   primario1 $primario1,
+   primario2 $primario2,
+   primario3 $primario3,
+   primario4 $primario4,
+
+   secundarioA $secundarioA,
+   secundarioA1 $secundarioA1,
+   secundarioA2 $secundarioA2,
+   secundarioA3 $secundarioA3,
+   secundarioA4 $secundarioA4,
+
+   secundarioB $secundarioB,
+   secundarioB1 $secundarioB1,
+   secundarioB2 $secundarioB2,
+   secundarioB3 $secundarioB3,
+   secundarioB4 $secundarioB4,
+
+   terciarioA $terciarioA,
+   terciarioA1 $terciarioA1,
+   terciarioA2 $terciarioA2,
+   terciarioA3 $terciarioA3,
+   terciarioA4 $terciarioA4,
+
+   terciarioB $terciarioB,
+   terciarioB1 $terciarioB1,
+   terciarioB2 $terciarioB2,
+   terciarioB3 $terciarioB3,
+   terciarioB4 $terciarioB4,
+
+   complementario $complementario,
+   complementario1 $complementario1,
+   complementario2 $complementario2,
+   complementario3 $complementario3,
+   complementario4 $complementario4,
+
+   neutral $neutral,
+   neutral1 $neutral1,
+   neutral2 $neutral2,
+   neutral3 $neutral3,
+   neutral4 $neutral4,
+
+   acento $acento,
+   acento $acento1,
+   acento $acento2,
+   acento $acento3,
+   acento $acento4,
+
+);
+
+
+@each $value in $lista-colores {
+
+	   .color-#{nth($value, 1)} {
+			& {
+				color: nth($value, 2) !important;
+			}
+	   }
+	   .color-#{nth($value, 1)}-bg {
+			& {
+				background-color: nth($value, 2) !important;
+			}
+	   }
+	   .color-#{nth($value, 1)}-bd {
+			& {
+				border: 1px solid white;
+				border-color: nth($value, 2) !important;
+			}
+	   }
+
+	   .color-#{nth($value, 1)}-hover:hover {
+			& {
+				color: nth($value, 2) !important;
+			}
+	   }
+	   .color-#{nth($value, 1)}-hover-bg:hover {
+			& {
+				background-color: nth($value, 2) !important;
+			}
+	   }
+	   .color-#{nth($value, 1)}-hover-bd:hover {
+			& {
+				border: 1px solid white;
+				border-color: nth($value, 2) !important;
+			}
+	   }
+
+
+}
