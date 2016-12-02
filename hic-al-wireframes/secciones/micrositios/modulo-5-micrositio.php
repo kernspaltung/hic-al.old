@@ -1,4 +1,4 @@
-<section id="micrositio-modulo5" class="columns h-a">
+<section id="micrositio-modulo5" class="columns h-a m-b-2">
 
   <!-- elemento 5 -->
 

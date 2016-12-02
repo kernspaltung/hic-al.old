@@ -39,7 +39,7 @@ for ($i=0; $i < 6; $i++):
 
   <div class="columns medium-6 large-4 p-0-2 h-a end">
 
-    <article id="micrositio-modulo1-entrada" class="columns p-0 h-60-sm-v h-70-md-v card m-b-1">
+    <article id="micrositio-modulo1-entrada" class="columns p-0-1 h-60-sm-v h-70-md-v card m-b-1">
 
       <a href="#" class="columns p-0 h-100">
 

@@ -1,67 +1,72 @@
 <!-- DESTACADOS -->
-<section id="micrositio-modulo3" class="columns h-a">
+<section id="micrositio-modulo3" class="columns h-a m-b-2">
 
   <!-- elemento 3 -->
 
   <?php
 
-  for ($i=0; $i < 2; $i++):
+  for ($i=0; $i < 6; $i++):
 
     ?>
 
 
+<div class="columns medium-6 large-4 p-0-2 h-80-v end">
 
-    <article id="micrositio-modulo3-entrada" class="columns medium-6 large-4 p-1 h-100-v card">
+    <article id="micrositio-modulo3-entrada" class="columns p-0-1 h-100 card">
 
-      <div class="columns p-0 h-30 imgLiquid imgLiquidFill">
+      <a href="#" class="columns p-0 h-100">
 
-        <img src="http://fakeimg.pl/250?text=thumb" alt="">
+        <div class="columns p-0 h-40 imgLiquid imgLiquidFill">
 
-      </div>
+          <img src="http://fakeimg.pl/250?text=thumb" alt="">
+
+        </div>
 
 
 
 
-      <div class="columns h-70">
+        <div class="columns h-60">
 
-        <!-- fecha -->
-        <div class="columns p-0 h-20 v-center">
+          <!-- fecha -->
+          <div class="columns p-0 h-20 v-center">
 
-          <div class="columns p-0 h-a text-right font-xs-xs font-sm-s font-md-s font-lg-m">
+            <div class="columns p-0 h-a text-right font-xs-xs font-sm-s font-md-s font-lg-m">
 
-            16/11/2016
+              16/11/2016
+
+            </div>
 
           </div>
 
-        </div>
+          <!-- titulo -->
+          <div id="micrositio-portada-titulo" class="columns p-0 h-30 ">
 
-        <!-- titulo -->
-        <div id="micrositio-portada-titulo" class="columns p-0 h-30 ">
+            <h4 class="columns h-1 p-0 text-left bold">
 
-          <h1 class="columns h-1 p-0 text-left font-xs-xxl font-sm-xxl font-md-xxl font-lg-xxl">
+              Título completo de la entrada
 
-            Título completo de la entrada
-
-          </h1>
-
-        </div>
-
-
-        <!-- texto -->
-        <div class="columns p-0 h-30 v-center">
-
-          <div class="columns p-0 h-a font-xs-m font-sm-m font-md-l font-lg-l">
-
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpa corporis excepturi accusamus dolore. Lorem ipsum dolor sit amet.
+            </h4>
 
           </div>
 
+
+          <!-- texto -->
+          <div class="columns p-0 h-50 font-xs-s font-sm-m font-md-m font-lg-l">
+
+
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpas dolore.
+
+
+          </div>
+
+
         </div>
 
-
-      </div>
+      </a>
 
     </article>
+
+  </div>
     <!-- termina elemento -->
 
 

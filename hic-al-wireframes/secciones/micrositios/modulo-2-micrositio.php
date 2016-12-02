@@ -1,8 +1,8 @@
 <!-- TEXTO CON MENU -->
-<section id="micrositio-modulo2" class="columns h-a m-b-1">
+<section id="micrositio-modulo2" class="columns h-a m-b-2">
 
   <!-- menu modulo 2 -->
-  <ul id="micrositio-modulo2-menu" class="columns p-0 m-0 h-50-v h-20-md-v">
+  <ul id="micrositio-modulo2-menu" class="columns p-0 m-0 m-b-1 h-a h-20-md-v">
 
     <?php
 
@@ -43,10 +43,9 @@
 
     <div class="columns p-0-2 h-a end">
 
-      <article id="micrositio-modulo2-entrada" class="columns p-1-1 h-50-v v-center card">
+      <article id="micrositio-modulo2-entrada" class="columns p-1-1 h-40-v h-30-md-v card">
 
-        <a href="#" class="columns p-0">
-
+        <a href="#" class="columns p-0 h-100">
 
           <!-- <div class="columns h-50"> -->
 
@@ -62,7 +61,7 @@
       </div> -->
 
       <!-- titulo -->
-      <div id="micrositio-modulo2-titulo" class="columns medium-4 p-0 h-25 v-center">
+      <div id="micrositio-modulo2-titulo" class="columns medium-4 p-0 h-25 h-100-md v-center">
 
         <h4 class="columns h-a p-0 text-left bold">
 
@@ -77,7 +76,7 @@
       <div id="micrositio-modulo2-extracto" class="columns medium-8 p-0 h-75 v-center">
 
 
-        <p class="columns p-0 h-a font-xs-m font-sm-m font-md-l font-lg-l">
+        <p class="columns p-0 h-a font-xs-s font-sm-m font-md-l font-lg-l">
 
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpa corporis excepturi accusamus dolore, perspiciatis at aut, officiis odio accusantium repellendus.
 

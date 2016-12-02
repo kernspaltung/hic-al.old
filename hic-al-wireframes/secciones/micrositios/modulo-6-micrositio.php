@@ -1,6 +1,6 @@
-<section id="micrositio-modulo6" class="columns h-80-v p-1  m-b-3">
+<section id="micrositio-modulo6" class="columns p-0 h-90-v m-b-1">
 
-  <div id="micrositio-modulo6-slider-full" class="slick columns h-80">
+  <div id="micrositio-modulo6-slider-full" class="slick columns card p-0">
 
     <?php
 
@@ -8,8 +8,14 @@
 
       ?>
 
-      <div class="slide columns p0">
+      <div class="slide columns p-0 card">
+
+        <a href="#" class="columns p-0 h-100">
+
         <div class="imagen imgLiquid imgLiquidFill"><img src="http://fakeimg.pl/1200?text=micrositio" alt=""></div>
+
+      </a>
+
       </div>
 
 
