@@ -6,7 +6,7 @@
 
   </div>
 
-  <div id="micrositio-portada-titulo" class="columns medium-4 p-0 h-20-v h-60-md-v m-b-xs-1 v-center">
+  <div id="micrositio-portada-titulo" class="columns medium-4 p-0 h-20-v h-60-md-v m-b-0-3 v-center">
 
     <h3 class="columns h-a text-left bold">
 
