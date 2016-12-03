@@ -1,42 +1,42 @@
 .color-background {
-  color: #CDF0FF !important; }
+  color: #1D1730 !important; }
 
 .color-background-bg, body, html {
-  background-color: #CDF0FF !important; }
+  background-color: #1D1730 !important; }
 
 .color-background-bd {
   border: 1px solid white;
-  border-color: #CDF0FF !important; }
+  border-color: #1D1730 !important; }
 
 .color-background-hover:hover {
-  color: #CDF0FF !important; }
+  color: #1D1730 !important; }
 
 .color-background-hover-bg:hover {
-  background-color: #CDF0FF !important; }
+  background-color: #1D1730 !important; }
 
 .color-background-hover-bd:hover {
   border: 1px solid white;
-  border-color: #CDF0FF !important; }
+  border-color: #1D1730 !important; }
 
 .color-text, .p, .texto {
-  color: #01141C !important; }
+  color: #FFEDDB !important; }
 
 .color-text-bg {
-  background-color: #01141C !important; }
+  background-color: #FFEDDB !important; }
 
 .color-text-bd {
   border: 1px solid white;
-  border-color: #01141C !important; }
+  border-color: #FFEDDB !important; }
 
 .color-text-hover:hover {
-  color: #01141C !important; }
+  color: #FFEDDB !important; }
 
 .color-text-hover-bg:hover {
-  background-color: #01141C !important; }
+  background-color: #FFEDDB !important; }
 
 .color-text-hover-bd:hover {
   border: 1px solid white;
-  border-color: #01141C !important; }
+  border-color: #FFEDDB !important; }
 
 .color-primary-0 {
   color: #422B8B !important; }
