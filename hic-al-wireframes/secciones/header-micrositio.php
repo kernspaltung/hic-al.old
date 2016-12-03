@@ -16,25 +16,32 @@
   <!-- header escritorio -->
   <header id="header-escritorio-micrositio" class="header columns h-15-v color-primary-4-bg color-text fixed show-for-large shadow">
 
-    <div id="logo-micrositio" class="columns medium-4 p-1">
+    <div id="logo-micrositio" class="columns medium-4 p-0">
 
       <a href="#" class="columns p-0 h-100 ">
 
-        <div class="columns medium-3 h-100 imgLiquid imgLiquidNoFill">
+        <div class="columns medium-3 h-80 m-t-0-2 imgLiquid imgLiquidNoFill">
 
           <img src="img/logo-50-2x-blanco.png" alt="">
 
         </div>
 
-        <div class="columns medium-9 p-0 h-100 v-center">
-          <h5 class="text-left p-l-0-2 bold texto-logo uppercase m-0 color-blanco">
+        <div class="columns medium-9 p-0 h-100 p-t-0-2">
+          <h4 class="text-left p-l-0-2 bold texto-logo uppercase m-0 color-blanco">
 
             Hic-al
 
-          </h5>
-          <h6 class="text-left p-l-0-2 bold texto-logo uppercase m-0 color-blanco">
+          </h4>
+          <h6 class="text-left p-l-0-2 bold texto-logo uppercase m-0 color-blanco font-s">
 
-            <i class="fa fa-arrow-left "></i>Volver
+            <i class="fa fa-arrow-left p-r-0-2 "></i>Principal
+
+          </h6>
+          <h6 class="text-left p-l-0-2 bold texto-logo uppercase m-0 color-blanco font-xs">
+
+            Global
+            <i class="fa fa-arrow-right p-l-0-2"></i>
+            <i class="fa fa-globe"></i>
 
           </h6>
         </div>
@@ -55,7 +62,7 @@
 
           <?php
 
-          $menu = array('Menú', 'Menú', 'Menú','Menú','Menú');
+          $menu = array('Menú Micrositio', 'Menú Micrositio', 'Menú Micrositio','Menú Micrositio','Menú Micrositio');
 
 
           for ($i=0; $i < 4 ; $i++):
@@ -64,7 +71,7 @@
 
 
 
-          <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
+          <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-m-l">
 
             <a href="#" class="columns text-center color-accent-<?php echo $i+1;?> color-neutral-2-hover h-100 p-t-0 p-b-0">
 
