@@ -4,15 +4,19 @@ body, html {
 }
 
 a {
-   @extend .color-tertiary-2-0;
- }
+  @extend .color-accent-1-hover;
+   @extend .color-accent-0;
 
-a:hover, a:focus {
-   @extend .color-tertiary-1-0;
+&:hover {
+
+}
+
  }
 
 a:visited {
-  @extend .color-tertiary-1-3;
+
+  @extend .color-accent-2;
+
 }
 .p, .texto {
    @extend .color-text;

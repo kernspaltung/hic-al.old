@@ -1,19 +1,23 @@
 <!-- TEXTO CON MENU -->
-<section id="micrositio-modulo2" class="columns h-a m-b-0-3">
+<section id="micrositio-modulo2" class="columns h-a m-b-0-3 color-neutral-1-bg p-0 color-black">
+
+<h2 class="p-xs-1 p-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+
+<nav id="micrositio-modulo2-menu" class="columns p-0 m-0 txsh">
 
   <!-- menu modulo 2 -->
-  <ul id="micrositio-modulo2-menu" class="columns p-0 m-0 m-b-1 h-a h-20-md-v">
+  <ul class="m-0">
 
     <?php
 
-    for ($i=0; $i < 4; $i++):
+    for ($i=1; $i < 5; $i++):
       ?>
       <!-- shareH shareW -->
-      <li class="columns medium-3 p-1 text-center v-center">
+      <li class="columns text-center p-1 color-tertiary-<?php echo ($i % 2) + 1;?>-<?php echo floor($i/2)+1;?>-hover-bg color-neutral-<?php echo ($i) + 1;?>-bg">
 
-        <a href="#" class="columns h-a button">
+        <a href="#" class=" color-accent-<?php echo (5 - $i);?>">
 
-          <?php echo $i; ?> - Elemento
+          <?php echo $i; ?> - Título de menú
 
         </a>
 
@@ -27,84 +31,72 @@
 
   </ul>
 
+</nav>
 
 
-  <!-- elemento 2 -->
-
-  <?php
+<section id="modulo2-contenido" class="contenido columns p-xs-2 p-md-5 p-lg-6">
 
 
-  // misma cantidad de elementos que su menu "4"
 
-  for ($i=0; $i < 4; $i++):
+    <!-- elemento 2 -->
 
-    ?>
+    <?php
 
 
-    <div class="columns p-0-2 h-a end">
+    // misma cantidad de elementos que su menu "4"
 
-      <article id="micrositio-modulo2-entrada" class="columns p-1-1 h-40-v h-30-md-v card">
+    for ($i=0; $i < 4; $i++):
 
-        <a href="#" class="columns p-0 h-100">
+      ?>
 
-          <!-- <div class="columns h-50"> -->
 
-          <!-- fecha -->
-          <!-- <div class="columns p-0 h-30 v-center">
+      <div class="columns p-0-2 h-a end">
 
-          <div class="columns p-0 h-a text-right font-xs-xs font-sm-s font-md-s font-lg-m">
+        <article id="micrositio-modulo2-entrada" class="columns p-1-1 h-a">
 
-          16/11/2016
+        <!-- titulo -->
+        <div id="micrositio-modulo2-titulo" class="columns medium-4 p-0 h-25 h-100-md v-center">
+
+          <h4 class="columns h-a p-0 text-left bold">
+
+            <?php echo $i; ?> - Título del menú
+
+          </h4>
 
         </div>
 
-      </div> -->
 
-      <!-- titulo -->
-      <div id="micrositio-modulo2-titulo" class="columns medium-4 p-0 h-25 h-100-md v-center">
-
-        <h4 class="columns h-a p-0 text-left bold">
-
-          <?php echo $i; ?> - Título del menú
-
-        </h4>
-
-      </div>
+        <!-- texto -->
+        <div id="micrositio-modulo2-extracto" class="columns medium-8 p-0 h-75">
 
 
-      <!-- texto -->
-      <div id="micrositio-modulo2-extracto" class="columns medium-8 p-0 h-75 v-center">
+          <p class="columns p-0 h-a font-xs-s font-sm-m font-md-l font-lg-l">
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpa corporis excepturi accusamus dolore, perspiciatis at aut, officiis odio accusantium repellendus.
+
+          </p>
 
 
-        <p class="columns p-0 h-a font-xs-s font-sm-m font-md-l font-lg-l">
-
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpa corporis excepturi accusamus dolore, perspiciatis at aut, officiis odio accusantium repellendus.
-
-        </p>
+        </div>
 
 
-      </div>
+    </article>
+
+  </div>
+  <!-- termina elemento -->
 
 
+  <?php
+
+  endfor;
+
+  ?>
 
 
 
-      <!-- </div> -->
-
-    </a>
-
-  </article>
-
-</div>
-<!-- termina elemento -->
 
 
-<?php
-
-endfor;
-
-?>
-
+</section>
 
 
 

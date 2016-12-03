@@ -1,4 +1,4 @@
-<section id="micrositio-portada" class="columns h-a m-b-1">
+<section id="micrositio-portada" class="columns h-a m-b-1 p-0">
 
   <div class="columns p-0 h-70-v m-b-1 imgLiquid imgLiquidFill">
 
@@ -7,13 +7,16 @@
 
   </div>
 
-  <div id="micrositio-portada-titulo" class="columns medium-4 p-0 h-20-v h-60-md-v m-b-0-3 v-center">
+  <div id="micrositio-portada-titulo" class="columns medium-4 h-a h-60-md-v m-b-0-3 ">
 
-    <h3 class="columns h-a text-left bold">
+    <h3 class="columns h-a text-left bold m-b-1">
 
       Título completo de el micrositio
 
     </h3>
+
+    <hr class="color-complement-0-bd m-t-2 m-b-2">
+
     <h6 class="columns subheader h-a text-left">
 
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid.
