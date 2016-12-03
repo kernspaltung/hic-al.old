@@ -1,5 +1,4 @@
 <!--  -->
-<link rel="stylesheet" href="/css/micrositio/micrositio-1.css" media="screen" title="Micrositio Hic-al">
 <!--  -->
 <?php
 

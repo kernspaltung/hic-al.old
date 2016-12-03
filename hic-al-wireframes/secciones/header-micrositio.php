@@ -10,11 +10,11 @@
   <?php include_once 'dependencies/styles.php'; ?>
 
 </head>
-<body>
+<body class="color-primary-1-bg">
 
 
   <!-- header escritorio -->
-  <header id="header-escritorio-micrositio" class="header columns h-15-v color-primary-bg fixed show-for-large shadow">
+  <header id="header-escritorio-micrositio" class="header columns h-15-v color-neutral-1-bg color-blanco fixed show-for-large shadow">
 
     <div id="logo-micrositio" class="columns medium-4 p-1">
 
@@ -211,7 +211,7 @@
 
   ?>
 
-  <div id="main-container" class="columns w-100-v h-a m-0 p-0 color-white-bg">
+  <div id="main-container" class="columns w-100-v h-a m-0 p-0 color-primary-1-bg">
 
 
     <?php
