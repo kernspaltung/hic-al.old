@@ -21,7 +21,7 @@ global $show_hero;
 
    <section id="hero" class="columns h-70-v rel v-center rel">
       <div id="imagen-header" class="columns h-80-v fixed top right z-1 p-0 imgLiquid imgLiquidFill">
-         <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt="">
+         <img src="img/fotoejemplo.jpeg" alt="">
       </div>
       <div class="texto columns h-70-v absUpL z-0 v-center">
          <div class="columns h-a">

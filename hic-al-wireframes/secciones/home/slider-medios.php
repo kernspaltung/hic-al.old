@@ -5,24 +5,24 @@
    </div>
    <div class="slick columns h-80">
 
-      <!-- .slick.columns.wh-100>(.slide.columns.p0>.imagen.imgLiquid.imgLiquidFill>img[src=https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060])*6 -->
+      <!-- .slick.columns.wh-100>(.slide.columns.p0>.imagen.imgLiquid.imgLiquidFill>img[src=img/fotoejemplo.jpeg])*6 -->
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
       </div>
 
    </div>
