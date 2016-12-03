@@ -13,7 +13,7 @@
       Título completo de el micrositio
 
     </h3>
-    <h6 class="columns h-a text-left">
+    <h6 class="columns subheader h-a text-left">
 
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid.
 

@@ -63,6 +63,7 @@ function setupResize() {
   u.addWindowResizeFunction( u.shareH );
   u.addWindowResizeFunction( u.shareW );
   u.addWindowResizeFunction( u.verticalCenter );
+  u.addWindowResizeFunction( u.squareH );
 
   setTimeout(function(){
 

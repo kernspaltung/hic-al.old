@@ -50,7 +50,7 @@
 
           <?php
 
-          $menu = array('Item', 'Item', 'Item','Item','Item','Item');
+          $menu = array('Menú0', 'Menú1', 'Menú2','Menú3','Menú4');
 
 
           for ($i=0; $i < 5 ; $i++):
@@ -60,7 +60,9 @@
 
 
           <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
-            <a href="#" class="columns text-center color-negro color-naranja-hover h-100 ">
+
+            <a href="#" class="columns text-center color-negro color-naranja-hover h-100 p-t-0">
+
               <div class="columns p-0 h-100 v-center">
 
 

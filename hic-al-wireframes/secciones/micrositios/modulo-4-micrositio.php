@@ -15,7 +15,7 @@
       <a href="#" class="columns p-0 h-100">
 
 
-        <div class="columns large-5 p-0 h-40-v imgLiquid imgLiquidFill">
+        <div class="columns large-5 p-0 squareH imgLiquid imgLiquidFill">
 
           <img src="http://fakeimg.pl/250?text=thumb" alt="">
 
@@ -50,13 +50,13 @@
 
 
           <!-- texto -->
-          <div class="columns p-0 h-a p-t-1 p-b-1 font-xs-s font-sm-m font-md-m font-lg-m">
+          <!-- <div class="columns p-0 h-a p-t-1 p-b-1 font-xs-s font-sm-m font-md-m font-lg-m">
 
 
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate.
 
 
-          </div>
+          </div> -->
 
 
         </div>
