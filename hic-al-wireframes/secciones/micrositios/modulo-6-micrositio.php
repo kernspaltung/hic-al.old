@@ -1,4 +1,4 @@
-<section id="micrositio-modulo6" class="columns p-0 h-90-v m-b-2">
+<section id="micrositio-modulo6" class="columns p-0 h-90-v p-0">
 
   <div id="micrositio-modulo6-slider-full" class="slick columns card p-0">
 
@@ -12,7 +12,9 @@
 
       <a href="#" class="columns p-0 h-100 rel">
 
-        <div class="imagen imgLiquid imgLiquidFill"><img src="http://fakeimg.pl/1200?text=micrositio" alt=""></div>
+        <div class="imagen imgLiquid imgLiquidFill">
+<img src="img/fotoejemplo.jpeg" alt="">
+</div>
 
 
         <div class="columns medium-9 large-7 h-30 p-0 color-blanco absDownR v-center cortinilla-micrositio">

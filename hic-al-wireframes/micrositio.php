@@ -6,6 +6,8 @@ include_once "secciones/header-micrositio.php";
 ?>
 <!-- estilos custom -->
 <link rel="stylesheet" href="css/micrositio/micrositio-1.css" media="screen" title="Micrositio Hic-al">
+<!-- <link rel="stylesheet" href="css/micrositio/micrositio-2.css" media="screen" title="Micrositio Hic-al"> -->
+<!-- <link rel="stylesheet" href="css/micrositio/micrositio-3.css" media="screen" title="Micrositio Hic-al"> -->
 
 <?php
 

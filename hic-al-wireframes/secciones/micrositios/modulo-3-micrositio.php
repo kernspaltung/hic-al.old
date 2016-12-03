@@ -1,5 +1,5 @@
 <!-- DESTACADOS -->
-<section id="micrositio-modulo3" class="columns h-a m-b-2">
+<section id="micrositio-modulo3" class="columns h-a p-t-xs-2 p-md-4 color-secondary-2-3-bg">
 
   <!-- elemento 3 -->
 
@@ -12,7 +12,7 @@
 
 <div class="columns medium-6 large-4 p-0-2 h-80-v end">
 
-    <article id="micrositio-modulo3-entrada" class="columns p-0-1 h-100 card">
+    <article id="micrositio-modulo3-entrada" class="columns p-0-1 h-100 card color-secondary-2-2-bg">
 
       <a href="#" class="columns p-0 h-100">
 

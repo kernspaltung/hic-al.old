@@ -1,4 +1,4 @@
-<section id="micrositio-modulo4" class="columns h-a m-b-2">
+<section id="micrositio-modulo4" class="columns h-a p-md-4  color-secondary-1-3-bg">
 
   <!-- elemento 4 -->
 
@@ -10,7 +10,7 @@
 
     <div class="columns small-6 medium-4 large-6 p-0-2 end">
 
-    <article id="micrositio-modulo4-entrada" class="columns p-0-1 h-a card">
+    <article id="micrositio-modulo4-entrada" class="columns p-0-1 h-a card color-secondary-1-2-bg">
 
       <a href="#" class="columns p-0 h-100">
 

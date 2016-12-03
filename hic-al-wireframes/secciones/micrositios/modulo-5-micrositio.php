@@ -1,4 +1,4 @@
-<section id="micrositio-modulo5" class="columns h-a m-b-2">
+<section id="micrositio-modulo5" class="columns h-a p-md-4 color-accent-4-bg">
 
   <!-- elemento 5 -->
 
@@ -11,7 +11,7 @@
 
     <div class="columns medium-6 large-4 h-a p-0-2 end">
 
-      <article id="micrositio-modulo5-entrada" class="columns h-35-v p-0 card">
+      <article id="micrositio-modulo5-entrada" class="columns h-35-v p-0 color-neutral-2-bg card">
 
 
 
@@ -30,11 +30,11 @@
 
               <a href="#" class="columns p-0">
 
-              <h1 class="columns h-1 text-left bold font-xs-m font-sm-l font-md-xl font-lg-xl">
+              <h4 class="columns h-1 text-left  color-background">
 
                 Título completo de la entrada
 
-              </h1>
+              </h4>
 
             </a>
 
