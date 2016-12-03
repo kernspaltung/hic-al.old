@@ -12,7 +12,7 @@
 
         <div class="columns h-70  z0 p-0 imgLiquid imgLiquidFill">
 
-          <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060"/>
+          <img src="img/fotoejemplo.jpeg"/>
 
         </div>
 
@@ -52,7 +52,7 @@
 
             <div class="columns p-0 small-4 imgLiquid imgLiquidFill">
 
-               <img src="https://junkitechture.files.wordpress.com/2015/04/2a5e2f23-aa20-4cc3-81bf-77fe701ff8cf-2060x1236.jpeg?w=1060" alt="">
+               <img src="img/fotoejemplo.jpeg" alt="">
 
             </div>
 
