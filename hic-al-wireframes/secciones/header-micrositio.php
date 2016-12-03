@@ -14,7 +14,7 @@
 
 
   <!-- header escritorio -->
-  <header id="header-escritorio-micrositio" class="header columns h-15-v color-primario-bg fixed show-for-large shadow">
+  <header id="header-escritorio-micrositio" class="header columns h-15-v color-primary-bg fixed show-for-large shadow">
 
     <div id="logo-micrositio" class="columns medium-4 p-1">
 
@@ -27,11 +27,11 @@
         </div>
 
         <div class="columns medium-9 p-0 h-100 v-center">
-          <h2 class="text-left texto-logo ">
+          <h5 class="text-left p-l-0-2 bold texto-logo uppercase m-0">
 
             Hic-al
 
-          </h2>
+          </h5>
         </div>
 
       </a>
@@ -61,15 +61,18 @@
 
           <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
 
-            <a href="#" class="columns text-center color-negro color-naranja-hover h-100 p-t-0">
+            <a href="#" class="columns text-center color-negro color-naranja-hover h-100 p-t-0 p-b-0">
 
               <div class="columns p-0 h-100 v-center">
 
+                <div class="columns h-a">
 
                 <?php
                 echo $menu[$i];
                 ?>
 
+
+              </div>
 
               </div>
 
@@ -109,9 +112,9 @@
 
     <div id="placeholder-header-movil" class="columns small-8 medium-9 large-10 texto-logo text-left p-l-0-1 h-100 v-center">
 
-      <h3 class="columns h-a p-0">
+      <h3 class="columns h-a p-0 m-0">
 
-        Hic-al
+        HIC-AL
 
       </h3>
 

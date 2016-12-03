@@ -1,3 +1,7 @@
+<?php
+global $show_hero;
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -13,6 +17,7 @@
 <body class="p-t-xs-3">
 
 
+   <?php if( $show_hero ) : ?>
 
    <section id="hero" class="columns h-70-v rel v-center rel">
       <div id="imagen-header" class="columns h-80-v fixed top right z-1 p-0 imgLiquid imgLiquidFill">
@@ -37,6 +42,8 @@
 
       </div>
    </section>
+
+   <?php endif; ?>
 
    <!-- header escritorio -->
    <header id="header" class="header columns h-a show-for-large">
