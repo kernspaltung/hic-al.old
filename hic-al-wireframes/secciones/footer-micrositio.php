@@ -35,7 +35,7 @@
   <div id="footer-widget" class="columns small-12 medium-6 large-2 large-offset-2 h-25-v p-1 text-center imgLiquid imgLiquidNoFill">
 
     <a href="mapa.php">
-       <img src="img/mapa-naranja.png" alt="" />
+       <img src="img/mapa-naranja-puntos.png" alt="" />
     </a>
 
   </div>

@@ -1,0 +1,18 @@
+//importar colores definir colores
+
+@import "micrositio-2-colores";
+
+// importar proceso sass que genera clases color (el loop for)
+
+@import "micrositio-colores";
+// importar hoja de estilos general basica de micrositio
+
+@import "micrositio-basico";
+
+// crear clases especificas de cada micrositio:
+
+
+#noticias-especificas-de-micrositio-n {
+   @extend .color-secondary-1-1;
+   @extend .color-tertiary-2-4;
+}
