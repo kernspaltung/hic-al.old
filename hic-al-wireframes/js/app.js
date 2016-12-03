@@ -60,10 +60,10 @@ scrollWheelZoom: false
 function setupResize() {
 
   u.addWindowResizeFunction( responsivo_large );
-  u.addWindowResizeFunction( u.shareH );
   u.addWindowResizeFunction( u.shareW );
-  u.addWindowResizeFunction( u.verticalCenter );
   u.addWindowResizeFunction( u.squareH );
+  u.addWindowResizeFunction( u.shareH );
+  u.addWindowResizeFunction( u.verticalCenter );
 
   setTimeout(function(){
 
