@@ -14,7 +14,7 @@
 
 
   <!-- header escritorio -->
-  <header id="header-escritorio-micrositio" class="header columns h-15-v color-blanco-bg fixed show-for-large shadow">
+  <header id="header-escritorio-micrositio" class="header columns h-15-v color-primario-bg fixed show-for-large shadow">
 
     <div id="logo-micrositio" class="columns medium-4 p-1">
 

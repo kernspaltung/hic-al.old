@@ -1,5 +1,7 @@
+<!--  -->
+<link rel="stylesheet" href="/css/micrositio-1.css" media="screen" title="Micrositio Hic-al">
+<!--  -->
 <?php
-
 
 include_once "secciones/header-micrositio.php";
 
