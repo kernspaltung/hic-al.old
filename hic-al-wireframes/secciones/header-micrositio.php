@@ -14,7 +14,7 @@
 
 
   <!-- header escritorio -->
-  <header id="header-escritorio-micrositio" class="header columns h-15-v color-secondary-2-0-bg color-text fixed show-for-large shadow">
+  <header id="header-escritorio-micrositio" class="header columns h-15-v color-primary-4-bg color-text fixed show-for-large shadow">
 
     <div id="logo-micrositio" class="columns medium-4 p-1">
 
@@ -53,7 +53,7 @@
           $menu = array('Menú', 'Menú', 'Menú','Menú','Menú');
 
 
-          for ($i=0; $i < 5 ; $i++):
+          for ($i=0; $i < 4 ; $i++):
 
           ?>
 
@@ -61,7 +61,7 @@
 
           <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
 
-            <a href="#" class="columns text-center color-blanco bold color-primary-1-1-hover h-100 p-t-0 p-b-0">
+            <a href="#" class="columns text-center color-accent-<?php echo $i+1;?> color-neutral-2-hover h-100 p-t-0 p-b-0">
 
               <div class="columns p-0 h-100 v-center">
 

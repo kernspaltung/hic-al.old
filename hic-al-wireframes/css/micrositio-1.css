@@ -1,0 +1,841 @@
+.color-background {
+  color: #0B665F !important; }
+
+.color-background-bg, body, html {
+  background-color: #0B665F !important; }
+
+.color-background-bd {
+  border: 1px solid white;
+  border-color: #0B665F !important; }
+
+.color-background-hover:hover {
+  color: #0B665F !important; }
+
+.color-background-hover-bg:hover {
+  background-color: #0B665F !important; }
+
+.color-background-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #0B665F !important; }
+
+.color-text, body, html, .p, .texto {
+  color: #FFE0D1 !important; }
+
+.color-text-bg {
+  background-color: #FFE0D1 !important; }
+
+.color-text-bd {
+  border: 1px solid white;
+  border-color: #FFE0D1 !important; }
+
+.color-text-hover:hover {
+  color: #FFE0D1 !important; }
+
+.color-text-hover-bg:hover {
+  background-color: #FFE0D1 !important; }
+
+.color-text-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #FFE0D1 !important; }
+
+.color-primary-0 {
+  color: #136F62 !important; }
+
+.color-primary-0-bg {
+  background-color: #136F62 !important; }
+
+.color-primary-0-bd {
+  border: 1px solid white;
+  border-color: #136F62 !important; }
+
+.color-primary-0-hover:hover {
+  color: #136F62 !important; }
+
+.color-primary-0-hover-bg:hover {
+  background-color: #136F62 !important; }
+
+.color-primary-0-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #136F62 !important; }
+
+.color-primary-1 {
+  color: #86C4BC !important; }
+
+.color-primary-1-bg {
+  background-color: #86C4BC !important; }
+
+.color-primary-1-bd {
+  border: 1px solid white;
+  border-color: #86C4BC !important; }
+
+.color-primary-1-hover:hover {
+  color: #86C4BC !important; }
+
+.color-primary-1-hover-bg:hover {
+  background-color: #86C4BC !important; }
+
+.color-primary-1-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #86C4BC !important; }
+
+.color-primary-2 {
+  color: #358D81 !important; }
+
+.color-primary-2-bg {
+  background-color: #358D81 !important; }
+
+.color-primary-2-bd {
+  border: 1px solid white;
+  border-color: #358D81 !important; }
+
+.color-primary-2-hover:hover {
+  color: #358D81 !important; }
+
+.color-primary-2-hover-bg:hover {
+  background-color: #358D81 !important; }
+
+.color-primary-2-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #358D81 !important; }
+
+.color-primary-3 {
+  color: #004B41 !important; }
+
+.color-primary-3-bg {
+  background-color: #004B41 !important; }
+
+.color-primary-3-bd {
+  border: 1px solid white;
+  border-color: #004B41 !important; }
+
+.color-primary-3-hover:hover {
+  color: #004B41 !important; }
+
+.color-primary-3-hover-bg:hover {
+  background-color: #004B41 !important; }
+
+.color-primary-3-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #004B41 !important; }
+
+.color-primary-4 {
+  color: #001B17 !important; }
+
+.color-primary-4-bg {
+  background-color: #001B17 !important; }
+
+.color-primary-4-bd {
+  border: 1px solid white;
+  border-color: #001B17 !important; }
+
+.color-primary-4-hover:hover {
+  color: #001B17 !important; }
+
+.color-primary-4-hover-bg:hover {
+  background-color: #001B17 !important; }
+
+.color-primary-4-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #001B17 !important; }
+
+.color-secondary-1-0 {
+  color: #1C4274 !important; }
+
+.color-secondary-1-0-bg {
+  background-color: #1C4274 !important; }
+
+.color-secondary-1-0-bd {
+  border: 1px solid white;
+  border-color: #1C4274 !important; }
+
+.color-secondary-1-0-hover:hover {
+  color: #1C4274 !important; }
+
+.color-secondary-1-0-hover-bg:hover {
+  background-color: #1C4274 !important; }
+
+.color-secondary-1-0-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #1C4274 !important; }
+
+.color-secondary-1-1, #noticias-especificas-de-micrositio-n {
+  color: #8FA8C9 !important; }
+
+.color-secondary-1-1-bg {
+  background-color: #8FA8C9 !important; }
+
+.color-secondary-1-1-bd {
+  border: 1px solid white;
+  border-color: #8FA8C9 !important; }
+
+.color-secondary-1-1-hover:hover {
+  color: #8FA8C9 !important; }
+
+.color-secondary-1-1-hover-bg:hover {
+  background-color: #8FA8C9 !important; }
+
+.color-secondary-1-1-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #8FA8C9 !important; }
+
+.color-secondary-1-2 {
+  color: #3F6493 !important; }
+
+.color-secondary-1-2-bg {
+  background-color: #3F6493 !important; }
+
+.color-secondary-1-2-bd {
+  border: 1px solid white;
+  border-color: #3F6493 !important; }
+
+.color-secondary-1-2-hover:hover {
+  color: #3F6493 !important; }
+
+.color-secondary-1-2-hover-bg:hover {
+  background-color: #3F6493 !important; }
+
+.color-secondary-1-2-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #3F6493 !important; }
+
+.color-secondary-1-3 {
+  color: #06264E !important; }
+
+.color-secondary-1-3-bg {
+  background-color: #06264E !important; }
+
+.color-secondary-1-3-bd {
+  border: 1px solid white;
+  border-color: #06264E !important; }
+
+.color-secondary-1-3-hover:hover {
+  color: #06264E !important; }
+
+.color-secondary-1-3-hover-bg:hover {
+  background-color: #06264E !important; }
+
+.color-secondary-1-3-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #06264E !important; }
+
+.color-secondary-1-4 {
+  color: #010D1C !important; }
+
+.color-secondary-1-4-bg {
+  background-color: #010D1C !important; }
+
+.color-secondary-1-4-bd {
+  border: 1px solid white;
+  border-color: #010D1C !important; }
+
+.color-secondary-1-4-hover:hover {
+  color: #010D1C !important; }
+
+.color-secondary-1-4-hover-bg:hover {
+  background-color: #010D1C !important; }
+
+.color-secondary-1-4-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #010D1C !important; }
+
+.color-secondary-2-0 {
+  color: #188E18 !important; }
+
+.color-secondary-2-0-bg {
+  background-color: #188E18 !important; }
+
+.color-secondary-2-0-bd {
+  border: 1px solid white;
+  border-color: #188E18 !important; }
+
+.color-secondary-2-0-hover:hover {
+  color: #188E18 !important; }
+
+.color-secondary-2-0-hover-bg:hover {
+  background-color: #188E18 !important; }
+
+.color-secondary-2-0-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #188E18 !important; }
+
+.color-secondary-2-1 {
+  color: #99E099 !important; }
+
+.color-secondary-2-1-bg {
+  background-color: #99E099 !important; }
+
+.color-secondary-2-1-bd {
+  border: 1px solid white;
+  border-color: #99E099 !important; }
+
+.color-secondary-2-1-hover:hover {
+  color: #99E099 !important; }
+
+.color-secondary-2-1-hover-bg:hover {
+  background-color: #99E099 !important; }
+
+.color-secondary-2-1-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #99E099 !important; }
+
+.color-secondary-2-2 {
+  color: #43B443 !important; }
+
+.color-secondary-2-2-bg {
+  background-color: #43B443 !important; }
+
+.color-secondary-2-2-bd {
+  border: 1px solid white;
+  border-color: #43B443 !important; }
+
+.color-secondary-2-2-hover:hover {
+  color: #43B443 !important; }
+
+.color-secondary-2-2-hover-bg:hover {
+  background-color: #43B443 !important; }
+
+.color-secondary-2-2-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #43B443 !important; }
+
+.color-secondary-2-3 {
+  color: #005F00 !important; }
+
+.color-secondary-2-3-bg {
+  background-color: #005F00 !important; }
+
+.color-secondary-2-3-bd {
+  border: 1px solid white;
+  border-color: #005F00 !important; }
+
+.color-secondary-2-3-hover:hover {
+  color: #005F00 !important; }
+
+.color-secondary-2-3-hover-bg:hover {
+  background-color: #005F00 !important; }
+
+.color-secondary-2-3-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #005F00 !important; }
+
+.color-secondary-2-4 {
+  color: #002200 !important; }
+
+.color-secondary-2-4-bg {
+  background-color: #002200 !important; }
+
+.color-secondary-2-4-bd {
+  border: 1px solid white;
+  border-color: #002200 !important; }
+
+.color-secondary-2-4-hover:hover {
+  color: #002200 !important; }
+
+.color-secondary-2-4-hover-bg:hover {
+  background-color: #002200 !important; }
+
+.color-secondary-2-4-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #002200 !important; }
+
+.color-tertiary-1-0, a:hover, a:focus {
+  color: #B1791E !important; }
+
+.color-tertiary-1-0-bg {
+  background-color: #B1791E !important; }
+
+.color-tertiary-1-0-bd {
+  border: 1px solid white;
+  border-color: #B1791E !important; }
+
+.color-tertiary-1-0-hover:hover {
+  color: #B1791E !important; }
+
+.color-tertiary-1-0-hover-bg:hover {
+  background-color: #B1791E !important; }
+
+.color-tertiary-1-0-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #B1791E !important; }
+
+.color-tertiary-1-1 {
+  color: #FFE0AF !important; }
+
+.color-tertiary-1-1-bg {
+  background-color: #FFE0AF !important; }
+
+.color-tertiary-1-1-bd {
+  border: 1px solid white;
+  border-color: #FFE0AF !important; }
+
+.color-tertiary-1-1-hover:hover {
+  color: #FFE0AF !important; }
+
+.color-tertiary-1-1-hover-bg:hover {
+  background-color: #FFE0AF !important; }
+
+.color-tertiary-1-1-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #FFE0AF !important; }
+
+.color-tertiary-1-2 {
+  color: #E0AB54 !important; }
+
+.color-tertiary-1-2-bg {
+  background-color: #E0AB54 !important; }
+
+.color-tertiary-1-2-bd {
+  border: 1px solid white;
+  border-color: #E0AB54 !important; }
+
+.color-tertiary-1-2-hover:hover {
+  color: #E0AB54 !important; }
+
+.color-tertiary-1-2-hover-bg:hover {
+  background-color: #E0AB54 !important; }
+
+.color-tertiary-1-2-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #E0AB54 !important; }
+
+.color-tertiary-1-3, a:visited {
+  color: #774A00 !important; }
+
+.color-tertiary-1-3-bg {
+  background-color: #774A00 !important; }
+
+.color-tertiary-1-3-bd {
+  border: 1px solid white;
+  border-color: #774A00 !important; }
+
+.color-tertiary-1-3-hover:hover {
+  color: #774A00 !important; }
+
+.color-tertiary-1-3-hover-bg:hover {
+  background-color: #774A00 !important; }
+
+.color-tertiary-1-3-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #774A00 !important; }
+
+.color-tertiary-1-4 {
+  color: #2B1A00 !important; }
+
+.color-tertiary-1-4-bg {
+  background-color: #2B1A00 !important; }
+
+.color-tertiary-1-4-bd {
+  border: 1px solid white;
+  border-color: #2B1A00 !important; }
+
+.color-tertiary-1-4-hover:hover {
+  color: #2B1A00 !important; }
+
+.color-tertiary-1-4-hover-bg:hover {
+  background-color: #2B1A00 !important; }
+
+.color-tertiary-1-4-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #2B1A00 !important; }
+
+.color-tertiary-2-0, a {
+  color: #B11E1E !important; }
+
+.color-tertiary-2-0-bg {
+  background-color: #B11E1E !important; }
+
+.color-tertiary-2-0-bd {
+  border: 1px solid white;
+  border-color: #B11E1E !important; }
+
+.color-tertiary-2-0-hover:hover {
+  color: #B11E1E !important; }
+
+.color-tertiary-2-0-hover-bg:hover {
+  background-color: #B11E1E !important; }
+
+.color-tertiary-2-0-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #B11E1E !important; }
+
+.color-tertiary-2-1 {
+  color: #FFAFAF !important; }
+
+.color-tertiary-2-1-bg {
+  background-color: #FFAFAF !important; }
+
+.color-tertiary-2-1-bd {
+  border: 1px solid white;
+  border-color: #FFAFAF !important; }
+
+.color-tertiary-2-1-hover:hover {
+  color: #FFAFAF !important; }
+
+.color-tertiary-2-1-hover-bg:hover {
+  background-color: #FFAFAF !important; }
+
+.color-tertiary-2-1-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #FFAFAF !important; }
+
+.color-tertiary-2-2 {
+  color: #E05454 !important; }
+
+.color-tertiary-2-2-bg {
+  background-color: #E05454 !important; }
+
+.color-tertiary-2-2-bd {
+  border: 1px solid white;
+  border-color: #E05454 !important; }
+
+.color-tertiary-2-2-hover:hover {
+  color: #E05454 !important; }
+
+.color-tertiary-2-2-hover-bg:hover {
+  background-color: #E05454 !important; }
+
+.color-tertiary-2-2-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #E05454 !important; }
+
+.color-tertiary-2-3 {
+  color: #770000 !important; }
+
+.color-tertiary-2-3-bg {
+  background-color: #770000 !important; }
+
+.color-tertiary-2-3-bd {
+  border: 1px solid white;
+  border-color: #770000 !important; }
+
+.color-tertiary-2-3-hover:hover {
+  color: #770000 !important; }
+
+.color-tertiary-2-3-hover-bg:hover {
+  background-color: #770000 !important; }
+
+.color-tertiary-2-3-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #770000 !important; }
+
+.color-tertiary-2-4, #noticias-especificas-de-micrositio-n {
+  color: #2B0000 !important; }
+
+.color-tertiary-2-4-bg {
+  background-color: #2B0000 !important; }
+
+.color-tertiary-2-4-bd {
+  border: 1px solid white;
+  border-color: #2B0000 !important; }
+
+.color-tertiary-2-4-hover:hover {
+  color: #2B0000 !important; }
+
+.color-tertiary-2-4-hover-bg:hover {
+  background-color: #2B0000 !important; }
+
+.color-tertiary-2-4-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #2B0000 !important; }
+
+.color-complement-0 {
+  color: #B15B1E !important; }
+
+.color-complement-0-bg {
+  background-color: #B15B1E !important; }
+
+.color-complement-0-bd {
+  border: 1px solid white;
+  border-color: #B15B1E !important; }
+
+.color-complement-0-hover:hover {
+  color: #B15B1E !important; }
+
+.color-complement-0-hover-bg:hover {
+  background-color: #B15B1E !important; }
+
+.color-complement-0-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #B15B1E !important; }
+
+.color-complement-1 {
+  color: #FFD0AF !important; }
+
+.color-complement-1-bg {
+  background-color: #FFD0AF !important; }
+
+.color-complement-1-bd {
+  border: 1px solid white;
+  border-color: #FFD0AF !important; }
+
+.color-complement-1-hover:hover {
+  color: #FFD0AF !important; }
+
+.color-complement-1-hover-bg:hover {
+  background-color: #FFD0AF !important; }
+
+.color-complement-1-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #FFD0AF !important; }
+
+.color-complement-2 {
+  color: #E08E54 !important; }
+
+.color-complement-2-bg {
+  background-color: #E08E54 !important; }
+
+.color-complement-2-bd {
+  border: 1px solid white;
+  border-color: #E08E54 !important; }
+
+.color-complement-2-hover:hover {
+  color: #E08E54 !important; }
+
+.color-complement-2-hover-bg:hover {
+  background-color: #E08E54 !important; }
+
+.color-complement-2-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #E08E54 !important; }
+
+.color-complement-3 {
+  color: #773100 !important; }
+
+.color-complement-3-bg {
+  background-color: #773100 !important; }
+
+.color-complement-3-bd {
+  border: 1px solid white;
+  border-color: #773100 !important; }
+
+.color-complement-3-hover:hover {
+  color: #773100 !important; }
+
+.color-complement-3-hover-bg:hover {
+  background-color: #773100 !important; }
+
+.color-complement-3-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #773100 !important; }
+
+.color-complement-4 {
+  color: #2B1200 !important; }
+
+.color-complement-4-bg {
+  background-color: #2B1200 !important; }
+
+.color-complement-4-bd {
+  border: 1px solid white;
+  border-color: #2B1200 !important; }
+
+.color-complement-4-hover:hover {
+  color: #2B1200 !important; }
+
+.color-complement-4-hover-bg:hover {
+  background-color: #2B1200 !important; }
+
+.color-complement-4-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #2B1200 !important; }
+
+.color-neutral-0 {
+  color: #A6B5A6 !important; }
+
+.color-neutral-0-bg {
+  background-color: #A6B5A6 !important; }
+
+.color-neutral-0-bd {
+  border: 1px solid white;
+  border-color: #A6B5A6 !important; }
+
+.color-neutral-0-hover:hover {
+  color: #A6B5A6 !important; }
+
+.color-neutral-0-hover-bg:hover {
+  background-color: #A6B5A6 !important; }
+
+.color-neutral-0-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #A6B5A6 !important; }
+
+.color-neutral-1 {
+  color: #FFFFFF !important; }
+
+.color-neutral-1-bg {
+  background-color: #FFFFFF !important; }
+
+.color-neutral-1-bd {
+  border: 1px solid white;
+  border-color: #FFFFFF !important; }
+
+.color-neutral-1-hover:hover {
+  color: #FFFFFF !important; }
+
+.color-neutral-1-hover-bg:hover {
+  background-color: #FFFFFF !important; }
+
+.color-neutral-1-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #FFFFFF !important; }
+
+.color-neutral-2 {
+  color: #E3E6E3 !important; }
+
+.color-neutral-2-bg {
+  background-color: #E3E6E3 !important; }
+
+.color-neutral-2-bd {
+  border: 1px solid white;
+  border-color: #E3E6E3 !important; }
+
+.color-neutral-2-hover:hover {
+  color: #E3E6E3 !important; }
+
+.color-neutral-2-hover-bg:hover {
+  background-color: #E3E6E3 !important; }
+
+.color-neutral-2-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #E3E6E3 !important; }
+
+.color-neutral-3 {
+  color: #6C896C !important; }
+
+.color-neutral-3-bg {
+  background-color: #6C896C !important; }
+
+.color-neutral-3-bd {
+  border: 1px solid white;
+  border-color: #6C896C !important; }
+
+.color-neutral-3-hover:hover {
+  color: #6C896C !important; }
+
+.color-neutral-3-hover-bg:hover {
+  background-color: #6C896C !important; }
+
+.color-neutral-3-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #6C896C !important; }
+
+.color-neutral-4 {
+  color: #345934 !important; }
+
+.color-neutral-4-bg {
+  background-color: #345934 !important; }
+
+.color-neutral-4-bd {
+  border: 1px solid white;
+  border-color: #345934 !important; }
+
+.color-neutral-4-hover:hover {
+  color: #345934 !important; }
+
+.color-neutral-4-hover-bg:hover {
+  background-color: #345934 !important; }
+
+.color-neutral-4-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #345934 !important; }
+
+.color-accent-0 {
+  color: #AED13C !important; }
+
+.color-accent-0-bg {
+  background-color: #AED13C !important; }
+
+.color-accent-0-bd {
+  border: 1px solid white;
+  border-color: #AED13C !important; }
+
+.color-accent-0-hover:hover {
+  color: #AED13C !important; }
+
+.color-accent-0-hover-bg:hover {
+  background-color: #AED13C !important; }
+
+.color-accent-0-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #AED13C !important; }
+
+.color-accent-1 {
+  color: #F1FCCF !important; }
+
+.color-accent-1-bg {
+  background-color: #F1FCCF !important; }
+
+.color-accent-1-bd {
+  border: 1px solid white;
+  border-color: #F1FCCF !important; }
+
+.color-accent-1-hover:hover {
+  color: #F1FCCF !important; }
+
+.color-accent-1-hover-bg:hover {
+  background-color: #F1FCCF !important; }
+
+.color-accent-1-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #F1FCCF !important; }
+
+.color-accent-2 {
+  color: #D9F57E !important; }
+
+.color-accent-2-bg {
+  background-color: #D9F57E !important; }
+
+.color-accent-2-bd {
+  border: 1px solid white;
+  border-color: #D9F57E !important; }
+
+.color-accent-2-hover:hover {
+  color: #D9F57E !important; }
+
+.color-accent-2-hover-bg:hover {
+  background-color: #D9F57E !important; }
+
+.color-accent-2-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #D9F57E !important; }
+
+.color-accent-3 {
+  color: #7D9E11 !important; }
+
+.color-accent-3-bg {
+  background-color: #7D9E11 !important; }
+
+.color-accent-3-bd {
+  border: 1px solid white;
+  border-color: #7D9E11 !important; }
+
+.color-accent-3-hover:hover {
+  color: #7D9E11 !important; }
+
+.color-accent-3-hover-bg:hover {
+  background-color: #7D9E11 !important; }
+
+.color-accent-3-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #7D9E11 !important; }
+
+.color-accent-4 {
+  color: #3F5200 !important; }
+
+.color-accent-4-bg {
+  background-color: #3F5200 !important; }
+
+.color-accent-4-bd {
+  border: 1px solid white;
+  border-color: #3F5200 !important; }
+
+.color-accent-4-hover:hover {
+  color: #3F5200 !important; }
+
+.color-accent-4-hover-bg:hover {
+  background-color: #3F5200 !important; }
+
+.color-accent-4-hover-bd:hover {
+  border: 1px solid white;
+  border-color: #3F5200 !important; }
+
+/*# sourceMappingURL=micrositio-1.css.map */
