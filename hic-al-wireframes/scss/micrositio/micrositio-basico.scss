@@ -3,8 +3,12 @@ body, html {
 }
 
 a {
-   @extend .color-accent-0;
-}
+   @extend .color-tertiary-2-0;
+ }
+
+a:hover, a:focus {
+   @extend .color-tertiary-1-0;
+ }
 
 .p, .texto {
    @extend .color-text;

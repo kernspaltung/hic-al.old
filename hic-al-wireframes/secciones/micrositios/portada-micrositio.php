@@ -2,7 +2,8 @@
 
   <div class="columns p-0 h-70-v m-b-1 imgLiquid imgLiquidFill">
 
-    <img src="http://fakeimg.pl/320?text=portada" alt="">
+    <img src="img/fotoejemplo.jpeg" alt="">
+    <!-- <img src="http://fakeimg.pl/320?text=portada" alt=""> -->
 
   </div>
 

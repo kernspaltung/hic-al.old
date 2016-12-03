@@ -10,11 +10,11 @@
   <?php include_once 'dependencies/styles.php'; ?>
 
 </head>
-<body class="color-primary-1-bg">
+<body class="color-text">
 
 
   <!-- header escritorio -->
-  <header id="header-escritorio-micrositio" class="header columns h-15-v color-neutral-1-bg color-blanco fixed show-for-large shadow">
+  <header id="header-escritorio-micrositio" class="header columns h-15-v color-secondary-2-0-bg color-text fixed show-for-large shadow">
 
     <div id="logo-micrositio" class="columns medium-4 p-1">
 
@@ -22,12 +22,12 @@
 
         <div class="columns medium-3 h-100 imgLiquid imgLiquidNoFill">
 
-          <img src="img/logo-300.png" alt="">
+          <img src="img/logo-50-2x-blanco.png" alt="">
 
         </div>
 
         <div class="columns medium-9 p-0 h-100 v-center">
-          <h5 class="text-left p-l-0-2 bold texto-logo uppercase m-0">
+          <h5 class="text-left p-l-0-2 bold texto-logo uppercase m-0 color-blanco">
 
             Hic-al
 
@@ -50,7 +50,7 @@
 
           <?php
 
-          $menu = array('Menú0', 'Menú1', 'Menú2','Menú3','Menú4');
+          $menu = array('Menú', 'Menú', 'Menú','Menú','Menú');
 
 
           for ($i=0; $i < 5 ; $i++):
@@ -61,7 +61,7 @@
 
           <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-l">
 
-            <a href="#" class="columns text-center color-negro color-naranja-hover h-100 p-t-0 p-b-0">
+            <a href="#" class="columns text-center color-blanco bold color-primary-1-1-hover h-100 p-t-0 p-b-0">
 
               <div class="columns p-0 h-100 v-center">
 
@@ -211,7 +211,7 @@
 
   ?>
 
-  <div id="main-container" class="columns w-100-v h-a m-0 p-0 color-primary-1-bg">
+  <div id="main-container" class="columns w-100-v h-a m-0 p-0">
 
 
     <?php
