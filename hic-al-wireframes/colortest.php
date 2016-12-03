@@ -67,12 +67,16 @@ $colorList = [
 
 foreach($colorList as $color) {
 
+   ?>
+   <h2 class="<?php echo $color; ?>"><?php echo $color; ?></h2>
+   <?php
    for ($i=0; $i < ( floor(count($colorList)/5)); $i++) {
 
 ?>
 
 <div class="columns w-20 h-a p-0-1">
-   <div class="w-100 h-15-v squareH v-center <?php echo $color . "-bg"; ?>">
+   <h6 class="<?php echo $colorList[($i*5)]; ?>"><?php echo $colorList[($i*5)]; ?></h6>
+   <div class="w-100 h-15-v squareH v-center text-center <?php echo $color . "-bg"; ?>">
 
 <?php
 
