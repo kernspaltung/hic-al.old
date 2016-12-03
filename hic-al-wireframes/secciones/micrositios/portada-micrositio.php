@@ -14,6 +14,9 @@
       Título completo de el micrositio
 
     </h3>
+
+   <hr class="color-complement-0-bd m-t-2 m-b-2">
+
     <h6 class="columns subheader h-a text-left">
 
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid.
@@ -23,9 +26,9 @@
   </div>
 
 
-  <div id="micrositio-portada-texto-intro" class="columns medium-centered v-center medium-8 h-a m-t-0-1 h-60-md-v">
+  <div id="micrositio-portada-texto-intro" class="columns v-center medium-8 h-a m-t-0-1 h-60-md-v">
 
-    <div class="columns p-0 h-a font-xs-s font-sm-m font-md-l font-lg-l">
+    <div class="columns p-0 h-a font-xs-s font-sm-m font-md-m font-lg-m-l p-md-3">
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam repellat voluptates ducimus, provident!</p>
       <p>Aliquam minus id amet ea similique numquam nobis magnam, maxime cupiditate. Molestias, nisi!</p>
