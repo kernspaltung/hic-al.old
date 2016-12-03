@@ -1,11 +1,11 @@
 body, html {
-   @extend .color-fondo-bg;
+   @extend .color-background-bg;
 }
 
 a {
-   @extend .color-acento-bg;
+   @extend .color-accent-0-bg;
 }
 
 .p, .texto {
-   @extend .color-texto;
+   @extend .color-text;
 }
