@@ -1,6 +1,7 @@
 <?php
 global $show_hero;
 
+include_once 'logica/show_hero.php';
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
