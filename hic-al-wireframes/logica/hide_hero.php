@@ -1,4 +1,4 @@
 <?php
-global $hide_hero;
-$hide_hero = false;
+global $show_hero;
+$show_hero = true;
 ?>
