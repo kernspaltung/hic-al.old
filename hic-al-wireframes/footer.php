@@ -4,7 +4,12 @@
 </main>
 <!-- main -->
 
-<?php include_once "secciones/sidebar-2.php"; ?>
+<?php
+
+  // include_once "secciones/sidebar-2.php";
+  get_template_part('secciones/sidebar-2');
+
+?>
 
 </div>
 <!-- .main-container -->
@@ -18,23 +23,23 @@
 
     <div id="footer-img-1" class="columns text-center h-sm-50 h-md-70 h-lg-50 p-1">
       <div class="logo columns small-6 h-sm-100 imgLiquid imgLiquidNoFill ">
-         <img src="img/logo-50-2x-blanco.png" alt="" />
+        <img src="img/logo-50-2x-blanco.png" alt="" />
       </div>
       <div class="logo-text columns small-6 color-blanco v-center">
-         <h6 class="columns h-a m-0 font-s bold">Habitat International Coalition</h6>
+        <h6 class="columns h-a m-0 font-s bold">Habitat International Coalition</h6>
       </div>
     </div>
     <div id="footer-widget-txt-1" class="columns h-sm-50 h-md-30 m-t-1 text-center font-xs h-20">
       HIC - Red global por el derecho al hábitat y la justicia social
     </div>
-
+ 
   </div>
 
   <!--  -->
   <div id="footer-widget" class="columns small-12 medium-6 large-2 large-offset-2 h-25-v p-1 text-center imgLiquid imgLiquidNoFill">
 
     <a href="mapa.php">
-       <img src="img/mapa-naranja-puntos-blancos.png" alt="" />
+      <img src="img/mapa-naranja-puntos-blancos.png" alt="" />
     </a>
 
   </div>
@@ -49,9 +54,9 @@
     <div id="footer-widget-txt-2" class="columns text-right h-20 v-center">
       <div id="menu-aviso-footer" class="columns h-100 p-0-2 font-xs bold">
 
-         <span class="w-a f-r p-0-1 p-t-0"><a href="#" class="color-blanco"><i class="p-0">Legal disclaimer</i></a></span>
-         <span class="w-a f-r p-0-1 p-t-0 color-blanco">/</span>
-          <span class="w-a f-r p-0-1 p-t-0"><a href="#" class="color-blanco">Aviso legal</a> </span>
+        <span class="w-a f-r p-0-1 p-t-0"><a href="#" class="color-blanco"><i class="p-0">Legal disclaimer</i></a></span>
+        <span class="w-a f-r p-0-1 p-t-0 color-blanco">/</span>
+        <span class="w-a f-r p-0-1 p-t-0"><a href="#" class="color-blanco">Aviso legal</a> </span>
 
       </div>
 

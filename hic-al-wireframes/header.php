@@ -1,10 +1,8 @@
 <?php
 global $show_hero;
 
-<<<<<<< HEAD
-include_once 'logica/show_hero.php';
-=======
->>>>>>> 5eb319362b699bca9c28cbdc3d3be7bb74067632
+// include_once 'logica/show_hero.php';
+get_template_part('logica/show_hero');
 
 ?>
 <!doctype html>
@@ -14,21 +12,23 @@ include_once 'logica/show_hero.php';
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HIC-AL</title>
+
+  <meta name="description" content="content">
+  <meta name="keywords" content="content">
+
+  <title><?php bloginfo('name'); ?></title>
 
   <?php
-
-
-  include_once 'dependencies/styles.php';
+  // include_once 'dependencies/styles.php';
 
   wp_head();
-
 
   ?>
 
 
 
 </head>
+
 <body class="p-t-xs-3">
 
 
@@ -232,7 +232,8 @@ include_once 'logica/show_hero.php';
 <!-- termina header movil -->
 
 <?php
-include_once "secciones/menu-scroll.php";
+// include_once "secciones/menu-scroll.php";
+get_template_part('secciones/menu-scroll');
 
 
 ?>
@@ -242,7 +243,8 @@ include_once "secciones/menu-scroll.php";
 
   <?php
 
-  include_once "secciones/sidebar-1.php";
+  // include_once "secciones/sidebar-1.php";
+  get_template_part('secciones/sidebar-1');
   ?>
 
   <main id="main" class="columns large-8 p-0 h-a">
