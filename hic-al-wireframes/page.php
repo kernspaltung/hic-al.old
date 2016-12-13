@@ -14,10 +14,10 @@ Automáticamente toma los titulares del contenido, y construye un índice.
 
 */
 
+//include_once "logica/hide_hero.php";
+get_template_part('logica/hide_hero');
 
-include_once "logica/hide_hero.php";
-include_once "secciones/header.php";
-
+get_header();
 
 $title = "Lorem ipsum dolor sit amet, consectetur adipisicing.";
 $content = "";
@@ -135,4 +135,5 @@ $content .= "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciu
 
 
 
-include_once "secciones/footer.php";
+// include_once "secciones/footer.php";
+get_footer();
