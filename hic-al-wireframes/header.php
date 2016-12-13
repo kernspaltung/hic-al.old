@@ -1,8 +1,6 @@
 <?php
 global $show_hero;
 
-// include_once 'logica/show_hero.php';
-get_template_part('logica/show_hero');
 
 ?>
 <!doctype html>

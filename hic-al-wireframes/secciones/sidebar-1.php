@@ -30,25 +30,32 @@
             ];
 
 
-            for ($i=0; $i < 8; $i++):
+            $q = new WP_Query( array( 'post_type' => 'tema', 'post_per_page' => 8 ) );
+
+            if( $q -> have_posts() ) :
+               while ( $q -> have_posts() ) :
+                  $q -> the_post();
+                  ?>
 
 
-               ?>
 
+                  <li class="columns h-a shareH p-0">
+                     <div class="columns font-xs text-center card color-gris-naranja-claro-bg text-left v-center">
+                        <div class="columns h-a p-0">
 
+                           <a href="<?php echo get_the_permalink( get_the_ID() ); ?>" class="<?php echo $colors_bg[rand(0,4)]; ?>">
+                              <?php echo get_the_title(); ?>
+                           </a>
 
-               <li class="columns h-a shareH p-0">
-                  <div class="columns font-xs text-center card color-gris-naranja-claro-bg text-left v-center <?php echo $colors_bg[rand(0,4)]; ?>">
-                     <div class="columns h-a p-0">
-                        Megaproyectos y Alternativas
+                        </div>
                      </div>
-                  </div>
-               </li>
+                  </li>
 
 
-               <?php
+                  <?php
 
-            endfor;
+               endwhile;
+            endif;
 
             ?>
 
