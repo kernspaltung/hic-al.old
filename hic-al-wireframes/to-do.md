@@ -13,8 +13,9 @@
 
 ## Wordpress
 
-- Convertir a Theme WP
+- Convertir a Theme WP ** (20%) josecaos**
 - Instalar entornos locales
+- - ** (100%) josecaos**
 - Asignar Theme en Dev
 
 
@@ -23,7 +24,7 @@
    - Tema 2.0
    - Asignar lugar para enlace y plantillas "Contacto"
    - Page
-   - Archive **(0%)** 
+   - Archive **(0%)**
    - Contacto
 
 ### Plantillas
