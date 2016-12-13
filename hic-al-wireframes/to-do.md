@@ -13,9 +13,9 @@
 
 ## Wordpress
 
-- Convertir a Theme WP ** (20%) josecaos**
+- Convertir a Theme WP ** (50%) josecaos **
 - Instalar entornos locales
-- - ** (100%) josecaos**
+- - ** (100%) josecaos **
 - Asignar Theme en Dev
 
 

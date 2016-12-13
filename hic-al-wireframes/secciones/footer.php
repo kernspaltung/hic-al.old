@@ -61,6 +61,7 @@
 
 </footer>
 
-<?php include_once 'dependencies/scripts.php'; ?>
+<?php get_footer(); ?>
+
 </body>
 </html>
