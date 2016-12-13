@@ -1,7 +1,10 @@
 <?php
 global $show_hero;
 
+<<<<<<< HEAD
 include_once 'logica/show_hero.php';
+=======
+>>>>>>> 5eb319362b699bca9c28cbdc3d3be7bb74067632
 
 ?>
 <!doctype html>

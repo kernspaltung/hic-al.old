@@ -64,6 +64,11 @@ function setupResize() {
   u.addWindowResizeFunction( u.squareH );
   u.addWindowResizeFunction( u.shareH );
   u.addWindowResizeFunction( u.verticalCenter );
+  u.addWindowResizeFunction( function() {
+      $('.h-16-9, iframe').each(function(){
+         $(this).height( $(this).width() / ( 16 / 9 ) )
+      })
+   } );
 
   setTimeout(function(){
 

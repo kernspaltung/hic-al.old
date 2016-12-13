@@ -31,27 +31,82 @@ $content .= "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciu
 
 ?>
 
-<article class="small-12 h_a">
-   <header class="columns p5 text-left h_100 h_50vh">
 
+<article id="page_0" class="page page-index small-12 h_a p-0">
+
+<header class="columns h-a m-b-1 p-0">
+
+      <div class="imagen columns h-40-v imgLiquid imgLiquidFill">
+         <img src="img/fotoejemplo.jpeg" alt="" />
+      </div>
+
+      <div class="titulo columns h-a p-2">
          <h1>
-            <?php echo $title; ?>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum.
          </h1>
+      </div>
 
-         <nav id="page-index-menu">
+      <button id="page-index-button" class="show-for-small-only columns p-2">
+         <h3>Índice</h3>
+      </button>
 
-            <ul class="h_100 m0 p0">
-            </ul>
-
-         </nav>
-
-   </header>
+      <nav class="page-index hide-for-small-only p-2">
+         <ul>
+         </ul>
+      </nav>
 
 
+      <nav id="page-subpages" class="columns p-0">
+         <ul class="columns m-0 p-0">
 
-   <section id="page-content" class="columns text-left p5 h_a">
-      <?php echo $content; ?>
-   </section>
+            <?php for ($i=0; $i < 3; $i++) : ?>
+
+               <li class="columns small-4 squareH rel p-0">
+
+                  <div class="imagen columns w-100 h-100 z0 abs imgLiquid imgLiquidFill">
+                     <img src="img/fotoejemplo.jpeg" alt="">
+                  </div>
+
+                  <div class="curtain columns p-0 absUpL z0 color-white-bg transparency ">
+                  </div>
+
+                  <div class="columns h-100 v-center z0 abs">
+                     <div class="columns h-a font-xs p-0">
+                        <h6 class="m-0 font-m-s text-center">
+                           Nombre<?php echo $i>0 ? " Completo" : "";  echo $i>1 ? " de Subpágina" : "";?>
+                        </h6>
+                     </div>
+                  </div>
+
+               </li>
+
+            <?php endfor; ?>
+         </ul>
+      </nav>
+</header>
+
+
+<section class="content page-content columns p-3">
+
+   <!-- (h2>lorem10^+(p>lorem18)*2+.wp-caption>a[http://fakeimg.pl/1200x700][target=_blank]>img[http://fakeimg.pl/960x600]+.text>lorem8)*3 -->
+   <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ratione.</h2>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit consectetur obcaecati, odio inventore nobis magni eos optio corporis!</p>
+   <p>Id sunt dolore repellendus dolores quam totam dolor praesentium consequuntur, ratione dolorum distinctio perspiciatis tempore veniam? Ducimus, ipsum.</p>
+   <div class="wp-caption"><a href="http://fakeimg.pl/1200x700" target="_blank"><img src="http://fakeimg.pl/960x600" alt=""><span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a></div>
+   <h2>Provident quis accusamus officia, hic fuga, commodi voluptate veritatis. Consequuntur.</h2>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor blanditiis officia eos debitis, maxime atque expedita voluptatum recusandae.</p>
+   <p>At aliquid unde consectetur optio, accusamus iste aspernatur impedit, quibusdam, corrupti, beatae obcaecati amet. Temporibus, delectus perspiciatis expedita.</p>
+   <div class="wp-caption"><a href="http://fakeimg.pl/1200x700" target="_blank"><img src="http://fakeimg.pl/960x600" alt=""><span class="text">Modi adipisci, ex doloremque eaque esse porro odio!</span></a></div>
+   <h2>Aliquam perferendis quisquam perspiciatis quibusdam sed, id qui nulla ad.</h2>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ducimus earum debitis iste incidunt consectetur sed repudiandae vero!</p>
+   <p>Incidunt possimus autem delectus quis at alias magnam reiciendis beatae eius fuga tempore modi ipsum distinctio, recusandae quas!</p>
+   <div class="wp-caption"><a href="http://fakeimg.pl/1200x700" target="_blank"><img src="http://fakeimg.pl/960x600" alt=""><span class="text">Non, repellendus assumenda itaque explicabo, a pariatur voluptatibus.</span></a></div>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allowfullscreen></iframe>
+
+
+</section>
 
 
 </article>

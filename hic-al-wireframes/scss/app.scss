@@ -304,3 +304,26 @@ hr {
     }
 
   }
+
+
+
+
+
+
+.wp-caption {
+   @extend .columns;
+   @extend .p-1;
+   @extend .font-s;
+
+   img {
+      @extend .m-b-0-2;
+   }
+}
+
+
+iframe {
+   width: 100%;
+   max-width: 100%;
+   @extend .m-t-1;
+   @extend .m-b-1;
+}
