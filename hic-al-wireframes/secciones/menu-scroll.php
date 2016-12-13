@@ -15,15 +15,15 @@ $large_classes = ! $hide_sidebars ? " large-8 large-offset-2 " : "";
 
   <!--  -->
 
-  <div id="logo-scroll" class="columns large-2 h-100 p-0 imgLiquid imgLiquidNoFill">
+  <a href="index.php" class="columns large-2 h-100 m-0 p-0">
+  <div id="logo-scroll" class="columns p-0 imgLiquid imgLiquidNoFill">
 
-    <a href="index.php" class="h-100 w-100 p-0-2">
 
-      <img src="img/logo-50-2x.png" alt="">
+      <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo-50-2x.png" alt="">
 
-    </a>
 
   </div>
+</a>
 
   <!--  -->
 

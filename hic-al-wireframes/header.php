@@ -14,10 +14,11 @@ global $show_hero;
   <meta name="description" content="content">
   <meta name="keywords" content="content">
 
+  <link rel="icon" href="<?php echo get_stylesheet_directory_uri();?>/img/favicon.png" type="image/png">
+
   <title><?php bloginfo('name'); ?></title>
 
   <?php
-  // include_once 'dependencies/styles.php';
 
   wp_head();
 
