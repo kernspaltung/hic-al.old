@@ -1,4 +1,4 @@
-<section id="micrositio-modulo6" class="columns p-0 h-90-v p-0">
+<section id="micrositio-modulo6" class="columns p-0 h-90-v p-0 z0">
 
   <div id="micrositio-modulo6-slider-full" class="slick columns card p-0">
 
