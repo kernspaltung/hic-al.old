@@ -7,6 +7,47 @@ var textblocks = {};
 $(document).ready(function(){
 
 
+// 1. select all headers from content
+
+   headings = pageContent.find('h1,h2,h3,h4,h5,h6');
+
+// 2. find out hierarchy
+
+   // build hierarchy tree:
+
+   // we'll use a js array to store 'tree' Objects
+
+   tree = []
+
+   // iterate through headings
+
+      headings.each(function(){
+
+         console.log( $(this) )
+
+      // it theres no tree in progress,
+         // start a new tree
+      // if there's a tree in progress,
+         // check if new heading is lower hierarchy than last heading added
+            // if it's the second element
+               // create a sub-tree and add new heading to it
+            // if it's not the second,
+               // check if new heading is lower hierarchy than current sub-tree's first item
+                  // if so, add it to sub-tree
+               // otherwise
+                  // create a new sub-tree
+         // otherwise,
+            //create a new tree with new heading as starting node
+
+      }) // finish headings' loop
+
+// 3. show index html
+
+// 4. activate links for scrolling
+
+// 5. add "back to index" button
+
+/*
    if( $(".page-content").length > 0 ) {
 
       var i = 0;
@@ -30,7 +71,7 @@ $(document).ready(function(){
             var scrollTo = $('.page-content [data-index='+$(this).data('index')+']').offset().top;
 
             // scrollTo += parseInt($('body').scrollTop())
-            scrollTo -= parseInt($('#page-content').offset().top)
+            scrollTo -= parseInt($('.page-content').offset().top)
 
             $('html,body').animate({ scrollTop: scrollTo })
 
@@ -99,7 +140,7 @@ $(document).ready(function(){
       });
 
 
-      $('#page-content').html( new_html.html() );
+      $('.page-content').html( new_html.html() );
 
 
 
@@ -138,5 +179,5 @@ $(document).ready(function(){
       $( containerSelector ).trigger('scroll');
 
    }
-
+*/
 });
