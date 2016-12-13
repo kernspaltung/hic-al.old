@@ -46,7 +46,7 @@ $content .= "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciu
 <header class="columns h-a m-b-1 p-0">
 
       <div class="imagen columns h-40-v imgLiquid imgLiquidFill">
-         <img src="img/fotoejemplo.jpeg" alt="" />
+         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="" />
       </div>
 
       <div class="titulo columns h-a p-2">
@@ -73,7 +73,7 @@ $content .= "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciu
                <li class="columns small-4 squareH rel p-0">
 
                   <div class="imagen columns w-100 h-100 z0 abs imgLiquid imgLiquidFill">
-                     <img src="img/fotoejemplo.jpeg" alt="">
+                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
                   </div>
 
                   <div class="curtain columns p-0 absUpL z0 color-white-bg transparency ">
@@ -104,17 +104,17 @@ $content .= "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciu
       <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ratione.</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit consectetur obcaecati, odio inventore nobis magni eos optio corporis!</p>
       <p>Id sunt dolore repellendus dolores quam totam dolor praesentium consequuntur, ratione dolorum distinctio perspiciatis tempore veniam? Ducimus, ipsum.</p>
-      <div class="wp-caption"><a href="img/fotoejemplo.jpeg" target="_blank"><img src="img/fotoejemplo.jpeg" alt=""><span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a></div>
+      <div class="wp-caption"><a href="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt=""><span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a></div>
       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ratione.</h3>
       <p>Id sunt dolore repellendus dolores quam totam dolor praesentium consequuntur, ratione dolorum distinctio perspiciatis tempore veniam? Ducimus, ipsum.</p>
       <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ratione.</h4>
       <p>Id sunt dolore repellendus dolores quam totam dolor praesentium consequuntur, ratione dolorum distinctio perspiciatis tempore veniam? Ducimus, ipsum.</p>
-      <div class="wp-caption"><a href="img/fotoejemplo.jpeg" target="_blank"><img src="img/fotoejemplo.jpeg" alt=""><span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a></div>
+      <div class="wp-caption"><a href="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt=""><span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a></div>
       <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ratione.</h4>
       <p>Id sunt dolore repellendus dolores quam totam dolor praesentium consequuntur, ratione dolorum distinctio perspiciatis tempore veniam? Ducimus, ipsum.</p>
       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ratione.</h3>
       <p>Id sunt dolore repellendus dolores quam totam dolor praesentium consequuntur, ratione dolorum distinctio perspiciatis tempore veniam? Ducimus, ipsum.</p>
-      <div class="wp-caption"><a href="img/fotoejemplo.jpeg" target="_blank"><img src="img/fotoejemplo.jpeg" alt=""><span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a></div>
+      <div class="wp-caption"><a href="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt=""><span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a></div>
       <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ratione.</h4>
       <p>Id sunt dolore repellendus dolores quam totam dolor praesentium consequuntur, ratione dolorum distinctio perspiciatis tempore veniam? Ducimus, ipsum.</p>
 

@@ -36,12 +36,12 @@ get_template_part('logica/show_hero');
 
     <section id="hero" class="columns h-70-v rel v-center rel">
       <div id="imagen-header" class="columns h-80-v fixed top right z-1 p-0 imgLiquid imgLiquidFill">
-        <img src="img/fotoejemplo.jpeg" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
       </div>
       <div class="texto columns h-70-v absUpL z-0 v-center">
         <div class="columns h-a">
           <div id="logo" class="columns h-15-v h-md-100 medium-4 large-2 p-l-4 p-0 imgLiquid imgLiquidNoFill">
-            <img src="img/logo-300.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-300.png" alt="">
           </div>
           <div id="logo" class="columns h-sm-50 h-md-100 medium-8 large-10 p-l-4 p-0 v-center color-blanco">
             <div class="columns h-a p-0">
@@ -132,7 +132,7 @@ get_template_part('logica/show_hero');
 <header id="header-movil" class="columns h-10-v shadow header hide-for-large fixed top z1k1 left show-for-small p-0-2 show-form-medium color-white-bg">
 
   <div id="logo-movil" class="columns small-3 medium-3 large-2 p-0 imgLiquid imgLiquidNoFill">
-    <img src="img/logo-50.png" alt="">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-50.png" alt="">
   </div>
 
 

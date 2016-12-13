@@ -13,7 +13,7 @@
       <a href="#" class="columns p-0 h-100 rel">
 
         <div class="imagen imgLiquid imgLiquidFill">
-<img src="img/fotoejemplo.jpeg" alt="">
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
 </div>
 
 

@@ -5,24 +5,24 @@
    </div>
    <div class="slick columns h-80">
 
-      <!-- .slick.columns.wh-100>(.slide.columns.p0>.imagen.imgLiquid.imgLiquidFill>img[src=img/fotoejemplo.jpeg])*6 -->
+      <!-- .slick.columns.wh-100>(.slide.columns.p0>.imagen.imgLiquid.imgLiquidFill>img[src=<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg])*6 -->
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt=""></div>
       </div>
       <div class="slide columns p0">
-         <div class="imagen imgLiquid imgLiquidFill"><img src="img/fotoejemplo.jpeg" alt=""></div>
+         <div class="imagen imgLiquid imgLiquidFill"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt=""></div>
       </div>
 
    </div>

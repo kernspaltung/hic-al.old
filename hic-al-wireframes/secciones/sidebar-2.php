@@ -30,7 +30,7 @@
             <a href="micrositio<?php echo $i+1;?>.php" target="_blank" class="columns h-100 p-0 color-blanco">
 
               <div class="image columns p-0 absUpL z-1 imgLiquid imgLiquidFill">
-                <img src="img/fotoejemplo.jpeg" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
               </div>
 
               <div class="curtain columns p-0 absUpL z0 <?php echo $colors_bg[$i]; ?> color-black-hover-bg transparency ">
