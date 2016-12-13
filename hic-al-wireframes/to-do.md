@@ -13,9 +13,8 @@
 
 ## Wordpress
 
-- Convertir a Theme WP ** (20%) josecaos**
+- Convertir a Theme WP
 - Instalar entornos locales
-- - ** (100%) josecaos**
 - Asignar Theme en Dev
 
 
@@ -23,8 +22,8 @@
    - Dibujar wireframe módulo Acciones Urgentes en Inicio
    - Tema 2.0
    - Asignar lugar para enlace y plantillas "Contacto"
-   - Page
-   - Archive **(0%)**
+   - Page **(50%)**
+   - Archive **(100%)**
    - Contacto
 
 ### Plantillas

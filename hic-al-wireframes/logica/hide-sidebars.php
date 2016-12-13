@@ -1,4 +1,4 @@
 <?php
-global $hide_sidebars;
+global $show_sidebars;
 
-$hide_sidebars = false;
+$show_sidebars = false;
