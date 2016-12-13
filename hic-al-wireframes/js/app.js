@@ -466,7 +466,11 @@ function buscador() {
 
   $('#boton-buscar').on('click', function() {
 
-    console.log("busca");
+  $('#menu-search').toggleClass('open-pos');
+
+  console.log('buscador');
+
+  return false;
 
   });
 
