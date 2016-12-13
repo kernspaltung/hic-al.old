@@ -32,7 +32,7 @@
     <div id="footer-widget-txt-1" class="columns h-sm-50 h-md-30 m-t-1 text-center font-xs h-20">
       HIC - Red global por el derecho al hábitat y la justicia social
     </div>
- 
+
   </div>
 
   <!--  -->
@@ -66,7 +66,7 @@
 
 </footer>
 
-<?php get_footer(); ?>
+<?php wp_footer(); ?>
 
 </body>
 </html>
