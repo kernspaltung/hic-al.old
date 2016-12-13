@@ -12,9 +12,9 @@ include_once "secciones/header.php";
 
 <?php
 
-include_once "secciones/portfolio/portfolio-grid.php";
+include_once "secciones/medios/medios-grid.php";
 
-include_once "secciones/portfolio/portfolio-preview.php";
+include_once "secciones/medios/medios-preview.php";
 
 ?>
 </div>

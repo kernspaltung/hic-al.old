@@ -1,13 +1,13 @@
 <section id="portafolio-preview-canvas" class="columns h-60-v m-b-2 color-gris-oscuro-bg color-blanco" style="display: none;">
 
-  <div id="close-portfolio-preview" class="columns p2 text-right h-10 pointer">
+  <div id="close-medios-preview" class="columns p2 text-right h-10 pointer">
 
     <i class="fa fa-remove bold font-xs-m font-sm-l font-md-xl font-lg-xxl color-blanco color-naranja-hover"></i>
 
   </div>
 
   <!-- perview lado izquierdo imagen -->
-  <div id="portfolio-preview-img" class="columns small-12 medium-6 large-6 p-3 h-90">
+  <div id="medios-preview-img" class="columns small-12 medium-6 large-6 p-3 h-90">
 
     <div class="columns h-100 p-0 imgLiquid imgLiquidNoFill">
 
@@ -18,7 +18,7 @@
   </div>
 
   <!-- perview lado derecho texto + imagenes -->
-  <div id="portfolio-preview-texto" class="columns small-12 medium-6 large-6 p-3 h-90">
+  <div id="medios-preview-texto" class="columns small-12 medium-6 large-6 p-3 h-90">
 
     <div class="columns h-100 p-0">
 
@@ -32,7 +32,7 @@
 
       </div>
 
-      <div id="portfolio-preview-thumbs" class="columns h-50 slick-portfolio-preview-thumbs">
+      <div id="medios-preview-thumbs" class="columns h-50 slick-medios-preview-thumbs">
 
 
         <?php

@@ -1,4 +1,4 @@
-<section id="portfolio-grid" class="columns p-0 p-b-3">
+<section id="medios-grid" class="columns p-0 p-b-3">
 
    <h1 id="titulo-portfafolio" class="columns text-center p-t-1 p-b-1">
       Título de Medios
@@ -10,7 +10,7 @@
       ?>
 
 
-      <article id="canvas-item-portfolio-<?php echo $i;?>" class="columns small-12 medium-6 large-4 rel p-1 m-b-0-1 pointer end h-40-v portfolio-item p-0-2">
+      <article id="canvas-item-medios-<?php echo $i;?>" class="columns small-12 medium-6 large-4 rel p-1 m-b-0-1 pointer end h-40-v medios-item p-0-2">
          <div class="columns  imgLiquid imgLiquidFill ">
 
             <img src="http://fakeimg.pl/400?text=Item" alt="">
@@ -32,7 +32,7 @@
 
       <?php
 
-      // include_once "secciones/portfolio/portfolio-preview.php";
+      // include_once "secciones/medios/medios-preview.php";
 
    endfor;
    ?>
