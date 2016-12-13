@@ -46,7 +46,7 @@ for ($i=0; $i < 6; $i++):
         <div class="columns p-0 h-60 imgLiquid imgLiquidFill">
 
           <!-- <img src="http://fakeimg.pl/250?text=thumb" alt=""> -->
-          <img src="img/fotoejemplo.jpeg" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
 
         </div>
 

@@ -11,7 +11,7 @@
 
       <div class="columns h-70  z0 p-0 imgLiquid imgLiquidFill">
 
-        <img src="img/fotoejemplo.jpeg"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg"/>
 
       </div>
 
@@ -60,7 +60,7 @@
 
             <div class="columns p-0 small-3 imgLiquid imgLiquidFill">
 
-               <img src="img/fotoejemplo.jpeg" alt="">
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
 
             </div>
 

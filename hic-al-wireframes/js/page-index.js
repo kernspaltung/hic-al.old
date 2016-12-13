@@ -1,17 +1,60 @@
 
+// var containerSelector = window;
+var containerSelector = 'main';
+
 var textblocks = {};
 
 $(document).ready(function(){
 
 
-   if(   typeof( $("#page-content") ) != "undefined"
-   && $("#page-content").length > 0 ) {
+// 1. select all headers from content
+
+   headings = pageContent.find('h1,h2,h3,h4,h5,h6');
+
+// 2. find out hierarchy
+
+   // build hierarchy tree:
+
+   // we'll use a js array to store 'tree' Objects
+
+   tree = []
+
+   // iterate through headings
+
+      headings.each(function(){
+
+         console.log( $(this) )
+
+      // it theres no tree in progress,
+         // start a new tree
+      // if there's a tree in progress,
+         // check if new heading is lower hierarchy than last heading added
+            // if it's the second element
+               // create a sub-tree and add new heading to it
+            // if it's not the second,
+               // check if new heading is lower hierarchy than current sub-tree's first item
+                  // if so, add it to sub-tree
+               // otherwise
+                  // create a new sub-tree
+         // otherwise,
+            //create a new tree with new heading as starting node
+
+      }) // finish headings' loop
+
+// 3. show index html
+
+// 4. activate links for scrolling
+
+// 5. add "back to index" button
+
+/*
+   if( $(".page-content").length > 0 ) {
 
       var i = 0;
 
-      var headings = $('#page-content').find('h1,h2,h3,h4,h5,h6');
+      var headings = $('.page-content').find('h1,h2,h3,h4,h5,h6');
 
-      $('#page-index-menu ul').html('');
+      $('.page-index-menu ul').html('');
 
       headings.each(function(i){
 
@@ -25,16 +68,16 @@ $(document).ready(function(){
          newli.click(function(){
 
 
-            var scrollTo = $('#page-content [data-index='+$(this).data('index')+']').offset().top;
+            var scrollTo = $('.page-content [data-index='+$(this).data('index')+']').offset().top;
 
             // scrollTo += parseInt($('body').scrollTop())
-            scrollTo -= parseInt($('#page-content').offset().top)
+            scrollTo -= parseInt($('.page-content').offset().top)
 
             $('html,body').animate({ scrollTop: scrollTo })
 
          })
 
-         $('#page-index-menu ul').append( newli );
+         $('.page-index-menu ul').append( newli );
 
 
          i++;
@@ -75,7 +118,7 @@ $(document).ready(function(){
 
          } else {
 
-            $('#page-content').children().not('h1,h2,h3,h4,h5,h6,.cloned').each(
+            $('.page-content').children().not('h1,h2,h3,h4,h5,h6,.cloned').each(
                function() {
                   textblocks.push( $(this).clone() );
                }
@@ -97,7 +140,7 @@ $(document).ready(function(){
       });
 
 
-      $('#page-content').html( new_html.html() );
+      $('.page-content').html( new_html.html() );
 
 
 
@@ -105,15 +148,15 @@ $(document).ready(function(){
 
       var scrolling = false;
 
-      $(window).scroll(function(){
+      $( containerSelector ).scroll(function(){
 
          if(!scrolling) {
             scrolling = setTimeout(function(){
 
                // check if visible:
-               $('#page-content .textblock').each(function(){
+               $('.page-content .textblock').each(function(){
 
-                  if ( u.isElementInView( $(window), $(this), true ) ) {
+                  if ( u.isElementInView( $( containerSelector ), $(this), true ) ) {
 
                      console.log($(this).attr('data-index'));
 
@@ -133,8 +176,8 @@ $(document).ready(function(){
          }
       });
 
-      $(window).trigger('scroll');
+      $( containerSelector ).trigger('scroll');
 
    }
-
+*/
 });

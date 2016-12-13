@@ -13,7 +13,7 @@
 
          <article class="columns p-0 rel imgLiquid imgLiquidFill">
 
-            <img src="img/fotoejemplo.jpeg"/>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg"/>
 
 
             <div class="columns h-a p-l-4 p-r-4 abs bottom ">
@@ -53,7 +53,7 @@
 
                   <div class="columns p-0 small-4 imgLiquid imgLiquidFill">
 
-                     <img src="img/fotoejemplo.jpeg" alt="">
+                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
 
                   </div>
 

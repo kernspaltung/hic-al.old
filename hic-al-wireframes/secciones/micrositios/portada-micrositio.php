@@ -2,7 +2,7 @@
 
   <div class="columns p-0 h-70-v m-b-1 imgLiquid imgLiquidFill">
 
-    <img src="img/fotoejemplo.jpeg" alt="">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
     <!-- <img src="http://fakeimg.pl/320?text=portada" alt=""> -->
 
   </div>
