@@ -16,7 +16,7 @@ function dependencias() {
    wp_enqueue_script( 'foundation', get_stylesheet_directory_uri() . '/bower_components/foundation-sites/dist/foundation.js',array(),'6', true );
    wp_enqueue_script( 'imgLiquid', get_stylesheet_directory_uri() . '/bower_components/imgLiquid/js/imgLiquid.js',array(),'1', true );
    wp_enqueue_script( 'slick-js', get_stylesheet_directory_uri() . '/bower_components/slick-carousel/slick/slick.min.js',array(),'0.1', true );
-   wp_enqueue_script( 'leaflet-js', get_stylesheet_directory_uri() . '/bower_components/leaflet/dist/leaflet.js',array(),'0.1', true );
+   wp_enqueue_script( 'leaflet-js', get_stylesheet_directory_uri() . '/bower_components/leaflet/dist/leaflet.js',array('jquery'),'0.1', true );
    wp_enqueue_script( 'frontend-js', get_stylesheet_directory_uri() . '/recursos/js_utils/dist/js/js_utils.js',array('jquery'),'0.99', true );
    wp_enqueue_script( 'app-js', get_stylesheet_directory_uri() . '/js/app.js',array('jquery'),'0', true );
    wp_enqueue_script( 'page-index-js', get_stylesheet_directory_uri() . '/js/page-index.js',array('jquery'),'0', true );
