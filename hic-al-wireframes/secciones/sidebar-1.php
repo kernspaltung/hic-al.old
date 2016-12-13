@@ -88,9 +88,9 @@
                      <a class="columns p-0 h-50 m-0 card color-amarillo-bg" href="#">
                         <article class="columns h-100 p-0-2 v-center">
 
-                           <div class="columns h-a p-1 font-xs  color-negro">
+                           <p class="columns m-0 h-a p-1 font-xs text-left color-negro">
                               Lorem ipsum oscurum tiniebla dolor sit amet, consectetur.
-                           </div>
+                           </p>
 
                         </article>
                         <hr class="color-gris-oscuro">

@@ -26,7 +26,7 @@
          <div class="columns h-a text-left p-t-1">
 
             <p>
-               <?php echo get_the_excerpt(); ?>
+               <?php echo wpautop(get_the_excerpt()); ?>
             </p>
 
             <div class="columns h-a p-1 text-center m-t-1">

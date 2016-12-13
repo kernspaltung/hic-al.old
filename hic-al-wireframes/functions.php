@@ -37,12 +37,66 @@ function dependencias() {
    wp_enqueue_script( 'page-index-js', get_stylesheet_directory_uri() . '/js/page-index.js',array('jquery'),'0', true );
 
 
-  //  if( get_post_type() == 'galeria' ) {
-  //     wp_enqueue_script( 'galeria-js', get_stylesheet_directory_uri() . '/js/galeria.js',array('jquery'),'1.0', true );
-  //  }
+   //  if( get_post_type() == 'galeria' ) {
+   //     wp_enqueue_script( 'galeria-js', get_stylesheet_directory_uri() . '/js/galeria.js',array('jquery'),'1.0', true );
+   //  }
    //
    //  if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
    //     wp_enqueue_script( 'comment-reply' );
    //  }
 }
 add_action( 'wp_enqueue_scripts', 'dependencias' );
+
+
+
+
+
+
+
+
+
+
+
+
+
+function keep_excerpt_tags( $text = '' ) {
+   $raw_excerpt = $text;
+
+   if ( '' == $text ) {
+      $text = get_the_content( '' );
+      $text = strip_shortcodes( $text );
+      $text = apply_filters( 'the_content', $text );
+      $text = str_replace( ']]>', ']]&gt;', $text );
+      $excerpt_length = apply_filters( 'excerpt_length', 55 );
+      $excerpt_more = apply_filters( 'excerpt_more', ' ' . '[...]' );
+
+      $allowable = '<br>';
+      $text = preg_replace( '@<(script|style)[^>]*?>.*?</\\1>@si', '', $text );
+      $text = trim( strip_tags( $text, $allowable ) );
+
+      if ( 'characters' == _x( 'words', 'word count: words or characters?' )
+      && preg_match( '/^utf\-?8$/i', get_option( 'blog_charset' ) ) )
+      {
+         $text = trim( preg_replace( "/[\n\r\t ]+/", ' ', $text ), ' ' );
+         preg_match_all( '/./u', $text, $words_array );
+         $words_array = array_slice( $words_array[0], 0, $num_words + 1 );
+         $sep = '';
+      } else {
+         $words_array = preg_split( "/[\n\r\t ]+/", $text, $num_words + 1, PREG_SPLIT_NO_EMPTY );
+         $sep = ' ';
+      }
+
+      if ( count( $words_array ) > $excerpt_length ) {
+         array_pop( $words_array );
+         $text = implode( $sep, $words_array );
+         $text = $text . $excerpt_more;
+      } else {
+         $text = implode( $sep, $words_array );
+      }
+   }
+
+   return apply_filters( 'wp_trim_excerpt', $text, $raw_excerpt );
+}
+
+remove_filter( 'get_the_excerpt', 'wp_trim_excerpt');
+add_filter( 'get_the_excerpt', 'keep_excerpt_tags' );

@@ -65,11 +65,11 @@ global $show_hero;
 
 
     <!-- menu desktop -->
-    <nav id="menu-desktop" class="columns medium-10 large-8  p-l-1-2 absUpR text-left h-a color-vino-bg bottom-left-corner" >
+    <nav id="menu-desktop" class="columns medium-10 large-8 absUpR text-left h-a color-vino-bg bottom-left-corner" >
 
 
       <!-- este se mueve de sitio con jquery -->
-      <div id="menu-list-container" class="columns h-menu-hical rel p-0">
+      <div id="menu-list-container" class="columns h-menu-hical p-0">
 
         <ul id="menu-list" class="columns medium-11 large-11 h-100 p-0 m-0">
 
@@ -101,7 +101,7 @@ global $show_hero;
 
         <div class="columns medium-1 large-1 p-0 h-100 v-center">
 
-          <a href="" id="boton-buscar" class="shareW p-0 text-center color-blanco color-gris-naranja-claro-hover h-a  ">
+          <a href="#" class="shareW p-0 text-center color-blanco color-gris-naranja-claro-hover h-a  ">
             <li class="columns font-md-s font-lg-m h-100">
               <i class="fa fa-search"></i>
             </li>
@@ -109,11 +109,11 @@ global $show_hero;
 
         </div>
 
-        <div id="menu-search" class="columns large-11 p-0 end z1k1 absUpL top left p-r-0-2 init-pos">
+        <!-- <div id="menu-element" class="columns medium-3 large-3 h-100 p-t-0-2 p-r-0">
 
-          <input type="text" class="columns h-100  p-l-1  color-vino-claro-bg color-gris-claro p-0" placeholder="Buscar ...">
+        <input type="text" class="columns p-0 h-80" placeholder="Search ...">
 
-        </div>
+      </div> -->
 
     </div>
 
