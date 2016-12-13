@@ -19,10 +19,10 @@
 
     <div id="footer-img-1" class="columns text-center h-sm-50 h-md-70 h-lg-50 p-1">
       <div class="logo columns small-6 h-sm-100 imgLiquid imgLiquidNoFill ">
-         <img src="img/logo-50-2x-blanco.png" alt="" />
+        <img src="img/logo-50-2x-blanco.png" alt="" />
       </div>
       <div class="logo-text columns small-6 color-blanco v-center">
-         <h6 class="columns h-a m-0 font-s bold">Habitat International Coalition</h6>
+        <h6 class="columns h-a m-0 font-s bold">Habitat International Coalition</h6>
       </div>
     </div>
     <div id="footer-widget-txt-1" class="columns h-sm-50 h-md-30 m-t-1 text-center font-xs h-20">
@@ -35,7 +35,7 @@
   <div id="footer-widget" class="columns small-12 medium-6 large-2 large-offset-2 h-25-v p-1 text-center imgLiquid imgLiquidNoFill">
 
     <a href="mapa.php">
-       <img src="img/mapa-naranja-puntos.png" alt="" />
+      <img src="img/mapa-naranja-puntos.png" alt="" />
     </a>
 
   </div>
@@ -50,24 +50,28 @@
     <div id="footer-widget-txt-2" class="columns text-right h-20 v-center">
       <div id="menu-aviso-footer" class="columns h-100 p-0-2 font-xs bold">
 
-         <span class="w-a f-r p-0-1 p-t-0"><a href="#" class="color-blanco"><i class="p-0">Legal disclaimer</i></a></span>
-         <span class="w-a f-r p-0-1 p-t-0 color-blanco">/</span>
-          <span class="w-a f-r p-0-1 p-t-0"><a href="#" class="color-blanco">Aviso legal</a> </span>
+        <span class="w-a f-r p-0-1 p-t-0"><a href="#" class="color-blanco"><i class="p-0">Legal disclaimer</i></a></span>
+        <span class="w-a f-r p-0-1 p-t-0 color-blanco">/</span>
+        <span class="w-a f-r p-0-1 p-t-0"><a href="#" class="color-blanco">Aviso legal</a> </span>
 
       </div>
 
     </div>
 
   </div>
-<!--
+  <!--
   <div id="footer-micrositio-copyright" class="columns v-center">
-    <h2 class="columns p0 text-center font-xs-l font-sm-l <font-md-x></font-md-x>l font-lg-xl">
-      <i class="fa fa-copyright"></i> Hic-al 2016</h2>
-    </div> -->
+  <h2 class="columns p0 text-center font-xs-l font-sm-l <font-md-x></font-md-x>l font-lg-xl">
+  <i class="fa fa-copyright"></i> Hic-al 2016</h2>
+</div> -->
 
-  </footer>
+</footer>
 
-  <?php include_once 'dependencies/scripts.php'; ?>
+<?php
+
+wp_footer();
+
+?>
 
 </body>
 </html>

@@ -5,9 +5,14 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HIC-AL - Micrositio</title>
 
-  <?php include_once 'dependencies/styles.php'; ?>
+  <meta name="description" content="content">
+  <meta name="keywords" content="content">
+
+  <title><?php bloginfo('name'); ?></title>
+
+  wp_head();
+
 
 </head>
 <body class="color-text">
@@ -67,32 +72,32 @@
 
           for ($i=0; $i < 4 ; $i++):
 
-          ?>
+            ?>
 
 
 
-          <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-m-l">
+            <li id="menu-element-micrositio" class="shareW h-100 p-0 text-center font-md-m font-lg-m-l">
 
-            <a href="#" class="columns text-center color-accent-<?php echo $i+1;?> color-neutral-2-hover h-100 p-t-0 p-b-0">
+              <a href="#" class="columns text-center color-accent-<?php echo $i+1;?> color-neutral-2-hover h-100 p-t-0 p-b-0">
 
-              <div class="columns p-0 h-100 v-center">
+                <div class="columns p-0 h-100 v-center">
 
-                <div class="columns h-a">
+                  <div class="columns h-a">
 
-                  <?php
-                  echo $menu[$i];
-                  ?>
+                    <?php
+                    echo $menu[$i];
+                    ?>
 
+
+                  </div>
 
                 </div>
 
-              </div>
+              </a>
 
-            </a>
+            </li>
 
-          </li>
-
-          <?php
+            <?php
           endfor;
           ?>
 
@@ -170,44 +175,44 @@
 
 
           for ($i=0; $i < 6 ; $i++):
-          ?>
+            ?>
 
 
-          <a href="#" class="columns p-0 text-center color-blanco borde-abajo color-gris-naranja-claro-hover h-15">
+            <a href="#" class="columns p-0 text-center color-blanco borde-abajo color-gris-naranja-claro-hover h-15">
 
-            <div class="columns p-0 p-t-1">
+              <div class="columns p-0 p-t-1">
 
-              <li id="menu-element-micrositio" class="columns vcenter text-center h-a">
+                <li id="menu-element-micrositio" class="columns vcenter text-center h-a">
 
-                <?php
-                echo $menu[$i];
+                  <?php
+                  echo $menu[$i];
+                  ?>
+
+                </li>
+
+              </div>
+
+              <?php
+
+              if ($i == 0):
+
                 ?>
 
-              </li>
 
-            </div>
+
+
+                <?php
+              endif;
+
+              ?>
+
+
+
+
+            </a>
+
 
             <?php
-
-            if ($i == 0):
-
-            ?>
-
-
-
-
-            <?php
-            endif;
-
-            ?>
-
-
-
-
-          </a>
-
-
-          <?php
           endfor;
           ?>
 
