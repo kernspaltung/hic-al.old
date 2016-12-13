@@ -10,10 +10,10 @@
       ?>
 
 
-      <article id="canvas-item-medios-<?php echo $i;?>" class="columns small-12 medium-6 large-4 rel p-1 m-b-0-1 pointer end h-40-v medios-item p-0-2">
+      <article id="canvas-item-medios-<?php echo $i;?>" class="columns small-6 medium-4 large-3 squareH rel p-1 m-b-0-1 pointer end  medios-item p-0-2">
          <div class="columns  imgLiquid imgLiquidFill ">
 
-            <img src="http://fakeimg.pl/400?text=Item" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
 
 
             <div id="canvas-item-pointer-<?php echo $i;?>" class="columns absDownL left h-5 canvas-item-pointer hidden ">

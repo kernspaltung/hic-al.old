@@ -1,81 +1,83 @@
 <!-- DESTACADOS -->
-<section id="micrositio-modulo3" class="columns h-a p-t-xs-2 p-md-4 color-secondary-2-3-bg">
+<section id="micrositio-modulo3" class="columns h-a p-t-xs-2 p-md-4 color-tertiary-1-2-1-bg">
+   <div class="row h-a p-1">
 
-  <!-- elemento 3 -->
+        <!-- elemento 3 -->
 
-  <?php
+        <?php
 
-  for ($i=0; $i < 6; $i++):
+        for ($i=0; $i < 6; $i++):
 
-    ?>
+          ?>
 
 
-<div class="columns medium-6 large-4 p-0-2 h-80-v end">
+      <div class="columns medium-6 large-4 p-0-2 h-a end">
 
-    <article id="micrositio-modulo3-entrada" class="columns p-0-1 h-100 card color-secondary-2-2-bg">
+          <article id="micrositio-modulo3-entrada" class="columns p-0 h-50-v card color-neutral-1-bg">
 
-      <a href="#" class="columns p-0 h-100">
+            <a href="#" class="columns p-0 h-100 color-black">
 
-        <div class="columns p-0 h-40 imgLiquid imgLiquidFill">
+              <div class="columns p-0 h-60 imgLiquid imgLiquidFill">
 
-          <img src="http://fakeimg.pl/250?text=thumb" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
+
+              </div>
+
+
+
+
+              <div class="columns h-40 p-1">
+
+                <!-- fecha -->
+                <div class="columns p-0 h-a ">
+
+                  <div class="columns p-0 h-a text-right font-xs color-secondary-2-0">
+
+                    16/11/2016
+
+                  </div>
+
+                </div>
+
+                <!-- titulo -->
+                <div id="micrositio-portada-titulo" class="columns p-0 h-a ">
+
+                  <h6 class="columns h-1 p-0 text-left">
+
+                    Título completo de la entrada
+
+                  </h6>
+
+                </div>
+
+
+                <!-- texto -->
+                <div class="columns p-0 h-50 font-s">
+
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpas dolore.
+
+
+                </div>
+
+
+              </div>
+
+            </a>
+
+          </article>
 
         </div>
+          <!-- termina elemento -->
+
+
+          <?php
+
+        endfor;
+
+        ?>
 
 
 
-
-        <div class="columns h-60">
-
-          <!-- fecha -->
-          <div class="columns p-0 h-20 v-center">
-
-            <div class="columns p-0 h-a text-right font-xs-xs font-sm-s font-md-s font-lg-m">
-
-              16/11/2016
-
-            </div>
-
-          </div>
-
-          <!-- titulo -->
-          <div id="micrositio-portada-titulo" class="columns p-0 h-30 ">
-
-            <h4 class="columns h-1 p-0 text-left bold">
-
-              Título completo de la entrada
-
-            </h4>
-
-          </div>
-
-
-          <!-- texto -->
-          <div class="columns p-0 h-50 font-xs-s font-sm-m font-md-m font-lg-l">
-
-
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpas dolore.
-
-
-          </div>
-
-
-        </div>
-
-      </a>
-
-    </article>
-
-  </div>
-    <!-- termina elemento -->
-
-
-    <?php
-
-  endfor;
-
-  ?>
-
-
-
+   </div>
 </section>

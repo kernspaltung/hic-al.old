@@ -31,10 +31,10 @@ $content .= "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciu
 
 ?>
 
-<header class="columns">
-   <nav id="page-go-back" class="columns">
-      <a href="#" class="button columns wh-100 m-0 color-white-bg color-black">
-         <span class="span columns small-2 medium-1"><i class="fa fa-arrow-left font-l"></i></span>
+<header class="columns p-0 m-t-1">
+   <nav id="page-go-back" class="columns p-0">
+      <a href="#" class="button columns wh-100 m-0 color-white-bg color-black font-m-l p-1 color-gris-claro-bg color-black">
+         <span class="span columns small-2 medium-1 color-naranja"><i class="fa fa-arrow-left font-l"></i></span>
          <span class="span columns w-a hide-for-small-only">Regresar:</span>
          <span class="span columns small-10 medium-9 end">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam.</span>
       </a>
@@ -70,23 +70,25 @@ $content .= "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciu
 
             <?php for ($i=0; $i < 3; $i++) : ?>
 
-               <li class="columns small-4 squareH rel p-0">
+               <li class="columns small-4 squareH p-1">
 
-                  <div class="imagen columns w-100 h-100 z0 abs imgLiquid imgLiquidFill">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
-                  </div>
+<div class="columns h-100 p-0 rel">
+   <div class="imagen columns w-100 h-100 z0 abs imgLiquid imgLiquidFill">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fotoejemplo.jpeg" alt="">
+   </div>
 
-                  <div class="curtain columns p-0 absUpL z0 color-white-bg transparency ">
-                  </div>
+   <div class="curtain columns w-100 p-0 absUpL z0 color-white-bg transparency ">
+   </div>
 
-                  <div class="columns h-100 v-center z0 abs">
-                     <div class="columns h-a font-xs p-0">
-                        <h6 class="m-0 font-xs-m-s font-sm-l font-lg-xl text-center">
-                           Nombre<?php echo $i>0 ? " Completo" : "";  echo $i>1 ? " de Subpágina" : "";?>
-                        </h6>
-                     </div>
-                  </div>
+   <div class="columns h-100 v-center z0 abs">
+      <div class="columns h-a font-xs p-0">
+         <h6 class="m-0 font-xs-m-s font-sm-l font-lg-xl text-center">
+            Nombre<?php echo $i>0 ? " Completo" : "";  echo $i>1 ? " de Subpágina" : "";?>
+         </h6>
+      </div>
+   </div>
 
+</div>
                </li>
 
             <?php endfor; ?>

@@ -54,9 +54,8 @@
 @import "../recursos/style_utils/scss/style_utils";
 @import "colores-hic-al";
 
-* {
-  // outline: 1px solid lightblue;
-}
+
+/* resets */
 
 body {
   overflow-x: hidden;
@@ -65,6 +64,9 @@ body {
 hr {
   margin: 0;
 }
+
+/* utilidades */
+
 
 .pointer {
   cursor: pointer;
@@ -85,6 +87,13 @@ hr {
 }
 .top-right-corner {
   border-radius: 0px 25px 0px 0px;
+}
+
+
+/* animación */
+
+.animate-height {
+   transition: height 0.6s;
 }
 //
 .triangulo-arriba {
@@ -323,12 +332,6 @@ input {
   }
 
 
-  iframe {
-    width: 100%;
-    max-width: 100%;
-    @extend .m-t-1;
-    @extend .m-b-1;
-  }
 
   //
   .init-pos {
@@ -347,3 +350,50 @@ input {
     width: 100%;
   }
   //
+
+
+
+
+
+.calendar {
+
+   div,header,footer,section,article {
+      height: auto !important;
+   }
+
+   .day {
+      @extend .font-xxs;
+
+
+      .container {
+         height: 100% !important;
+      }
+   }
+
+
+}
+
+
+p:empty { display:none; }
+
+
+
+.tema-documentos-pestana {
+   margin-top: -24px;
+   height: 16px;
+}
+
+
+
+
+.page-content {
+   img,
+   .wp-caption,
+   iframe {
+     width: 100%;
+     max-width: 100%;
+     @extend .m-t-1;
+     @extend .m-b-1;
+   }
+
+}

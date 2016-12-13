@@ -15,7 +15,7 @@ $large_classes = ! $hide_sidebars ? " large-8 large-offset-2 " : "";
 
   <!--  -->
 
-  <a href="index.php" class="columns large-2 h-100 m-0 p-0">
+  <a href="index.php" class="columns large-2 h-100 m-0 p-1-2">
   <div id="logo-scroll" class="columns p-0 imgLiquid imgLiquidNoFill">
 
 

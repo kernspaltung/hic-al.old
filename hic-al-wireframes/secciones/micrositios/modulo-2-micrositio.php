@@ -13,9 +13,9 @@
     for ($i=1; $i < 5; $i++):
       ?>
       <!-- shareH shareW -->
-      <li class="columns text-center p-1 color-tertiary-<?php echo ($i % 2) + 1;?>-<?php echo floor($i/2)+1;?>-hover-bg color-neutral-<?php echo ($i) + 1;?>-bg">
+      <li class="columns text-center p-0-1 color-secondary-<?php echo ($i % 2) + 1;?>-<?php echo floor($i/2)+1;?>-hover-bg color-text-hover">
 
-        <a href="#" class=" color-accent-<?php echo (5 - $i);?>">
+        <a href="#" class=" color-black">
 
           <?php echo $i; ?> - Título de menú
 
@@ -34,6 +34,9 @@
 </nav>
 
 
+<div class="columns expanded p-1 m-t-1">
+   <hr class="row color-complement-3-bd m-t-2">
+</div>
 <section id="modulo2-contenido" class="contenido columns p-xs-2 p-md-5 p-lg-6">
 
 
@@ -50,7 +53,7 @@
       ?>
 
 
-      <div class="columns p-0-2 h-a end">
+      <div class="row p-0-2 h-a end">
 
         <article id="micrositio-modulo2-entrada" class="columns p-1-1 h-a">
 

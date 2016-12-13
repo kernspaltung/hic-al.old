@@ -13,7 +13,7 @@
 
   <title><?php bloginfo('name'); ?></title>
 
-  wp_head();
+  <?php wp_head(); ?>
 
 
 </head>

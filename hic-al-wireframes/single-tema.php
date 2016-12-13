@@ -9,13 +9,12 @@ if( have_posts() ) :
 
       get_template_part('secciones/temas/tema-portada');
 
-      // include_once "secciones/temas/tema-noticias.php";
+      get_template_part('secciones/temas/tema-contenido');
+
       get_template_part('secciones/temas/tema-noticias');
 
-      // include_once "secciones/temas/tema-documentos.php";
       get_template_part('secciones/temas/tema-documentos');
 
-      // include_once "secciones/temas/tema-actividades.php";
       get_template_part('secciones/temas/tema-actividades');
 
    endwhile;

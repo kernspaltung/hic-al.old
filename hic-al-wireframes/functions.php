@@ -100,3 +100,15 @@ function keep_excerpt_tags( $text = '' ) {
 
 remove_filter( 'get_the_excerpt', 'wp_trim_excerpt');
 add_filter( 'get_the_excerpt', 'keep_excerpt_tags' );
+
+
+
+
+function remove_empty_p( $content ) {
+    $content = force_balance_tags( $content );
+    $content = preg_replace( '#<p>\s*+(<br\s*/*>)?\s*</p>#i', '', $content );
+    $content = preg_replace( '~\s?<p>(\s|&nbsp;)+</p>\s?~', '', $content );
+    return $content;
+}
+add_filter('get_the_excerpt', 'remove_empty_p', 20, 1);
+add_filter('get_the_content', 'remove_empty_p', 20, 1);

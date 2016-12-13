@@ -23,11 +23,9 @@
 
       <div id="tema-portada-texto" class="columns small-12 medium-12 large-6 h-a p-1">
 
-         <div class="columns h-a text-left p-t-1">
+         <div class="columns h-a text-left p-t-1 font-m-s">
 
-            <p>
-               <?php echo wpautop(get_the_excerpt()); ?>
-            </p>
+            <?php echo wpautop( get_the_excerpt() ); ?>
 
             <div class="columns h-a p-1 text-center m-t-1">
                <button id="tema-ver-mas" class="button hollow">

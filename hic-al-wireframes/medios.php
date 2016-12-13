@@ -1,7 +1,11 @@
 <?php
+/*
+Template Name: Medios
+*/
 
-// include_once "secciones/header.php";
-wp_header();
+include_once "logica/hide_hero.php";
+
+get_header();
 //
 #include_once "secciones/sidebar-1.php";
 ?>
@@ -29,5 +33,5 @@ get_template_part('secciones/medios/medios-preview');
 //
 
 // include_once "secciones/footer.php";
-wp_footer();
+get_footer();
  ?>
