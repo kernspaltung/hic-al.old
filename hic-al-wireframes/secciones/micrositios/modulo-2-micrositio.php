@@ -17,7 +17,7 @@
 
         <a href="#" class=" color-black">
 
-          <?php echo $i; ?> - Título de menú
+          <?php echo $i; ?> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem?
 
         </a>
 
@@ -42,6 +42,9 @@
 
 
     <!-- elemento 2 -->
+      <div class="row p-0-2 h-a end">
+
+        <article id="micrositio-modulo2-entrada" class="columns p-1-1 h-a">
 
     <?php
 
@@ -53,39 +56,27 @@
       ?>
 
 
-      <div class="row p-0-2 h-a end">
-
-        <article id="micrositio-modulo2-entrada" class="columns p-1-1 h-a">
 
         <!-- titulo -->
-        <div id="micrositio-modulo2-titulo" class="columns medium-4 p-0 h-25 h-100-md v-center">
+          <h4>
 
-          <h4 class="columns h-a p-0 text-left bold">
-
-            <?php echo $i; ?> - Título del menú
+            <?php echo $i+1; ?> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem?
 
           </h4>
 
-        </div>
-
 
         <!-- texto -->
-        <div id="micrositio-modulo2-extracto" class="columns medium-8 p-0 h-75">
 
 
-          <p class="columns p-0 h-a font-xs-s font-sm-m font-md-l font-lg-l">
-
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate velit culpa corporis excepturi accusamus dolore, perspiciatis at aut, officiis odio accusantium repellendus.
-
-          </p>
-
-
-        </div>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolore nulla delectus expedita.</p>
+         <p>Sint repudiandae praesentium impedit rem quo. Consectetur, repudiandae, quae. Corporis laudantium, quia ea.</p>
+         <p>Sit at in molestiae quisquam inventore, cupiditate nesciunt ut nisi quaerat, a, illum.</p>
+         <p>Asperiores molestiae cum incidunt, officia, porro, perferendis expedita eaque numquam, voluptas quis rerum.</p>
 
 
-    </article>
 
-  </div>
+
+
   <!-- termina elemento -->
 
 
@@ -94,6 +85,11 @@
   endfor;
 
   ?>
+
+
+      </article>
+
+    </div>
 
 
 

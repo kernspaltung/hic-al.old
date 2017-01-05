@@ -17,9 +17,11 @@
 </div>
 
 
-        <div class="columns medium-9 large-7 h-30 p-0 color-blanco absDownR v-center cortinilla-micrositio">
+        <div class="columns medium-9 large-7 h-15 p-0 color-blanco absDownR v-center cortinilla-micrositio">
 
-          <div class="columns text-center font-xl h-a">Título de post completo </div>
+          <div class="columns h-a p-l-2 p-r-2 text-left font-xs-s font-md-m-s">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet doloribus voluptates earum explicabo fuga possimus nemo quae esse?
+          </div>
 
         </div>
 

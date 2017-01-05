@@ -13,7 +13,7 @@
 
 
 
-<footer id="footer-micrositio" class="header columns h-a color-secondary-1-4-bg p-1">
+<footer id="footer-micrositio" class="header columns h-a color-secondary-1-4-bg p-1 color-blanco">
   <!--  -->
   <div id="footer-widget" class="columns h-25-v small-12 medium-4 large-3 ">
 
@@ -22,7 +22,7 @@
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-50-2x-blanco.png" alt="" />
       </div>
       <div class="logo-text columns small-6 color-blanco v-center">
-        <h6 class="columns h-a m-0 font-s bold">Habitat International Coalition</h6>
+        <h6 class="columns h-a m-0 font-s">Habitat International Coalition</h6>
       </div>
     </div>
     <div id="footer-widget-txt-1" class="columns h-sm-50 h-md-30 m-t-1 text-center font-xs h-20">
@@ -35,7 +35,7 @@
   <div id="footer-widget" class="columns small-12 medium-6 large-2 large-offset-2 h-25-v p-1 text-center imgLiquid imgLiquidNoFill">
 
     <a href="mapa.php">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mapa-naranja-puntos.png" alt="" />
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mapa-naranja-puntos-blancos.png" alt="" />
     </a>
 
   </div>
